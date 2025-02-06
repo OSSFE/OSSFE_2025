@@ -169,3 +169,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+abstracts.csv
+template/template.pdf
+book/_build
+*.DS_Store
