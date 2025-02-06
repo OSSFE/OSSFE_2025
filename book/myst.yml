@@ -1,0 +1,22 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 46e959ad-b96f-4822-bf1f-b1221c59b10c
+  # title:
+  # description:
+  keywords: []
+  authors: []
+  # github:
+  resources:
+    - README.md
+    - abstracts
+  bibliography: []
+  venue:
+    title: Gather.town
+site:
+  template: book-theme
+  options:
+    logo: assets/OSSFE_logo.png
+  actions:
+    - title: OSSFE website
+      url: https://ossfe.github.io/
