@@ -87,7 +87,7 @@ class TimeSlot(NamedTuple):
         start_minute = str(self.start.minute).zfill(2)
         end_minute = str(self.end.minute).zfill(2)
         num_presentations = f"Number of presentations: {self.num_presentations()}"
-        return f"{self.start.hour}:{start_minute} - {self.end.hour}:{end_minute}\n{num_presentations}"
+        return f"{self.start.hour}:{start_minute} - {self.end.hour}:{end_minute} (EST) \n{num_presentations}"
 
 
 def session_to_time(session_id: str):

@@ -18,7 +18,7 @@ exports:
 Here you will find the abstracts for the OSSFE 2025 conference
 
 # Presentations
-## Opening: 7:00 - 7:10
+## Opening: 7:00 - 7:10 (EST) 
 Number of presentations: 1
 
 Chair: TBA
@@ -28,7 +28,7 @@ Chair: TBA
 | Opening1 | [Welcome to OSSFE 2025](abstracts/remi-welcome.md) | Remi Delaporte-Mathurin |
 
 
-## P1: 7:10 - 8:10
+## P1: 7:10 - 8:10 (EST) 
 Number of presentations: 2
 
 Chair: TBA
@@ -39,7 +39,7 @@ Chair: TBA
 | P12  | [TORAX: A Fast and Differentiable Tokamak Transport Simulator in JAX](abstracts/jonathan-torax.md) | Jonathan Citrin |
 
 
-## A: 8:30 - 9:30
+## A: 8:30 - 9:30 (EST) 
 Number of presentations: 3
 
 Chair: TBA
@@ -51,7 +51,7 @@ Chair: TBA
 | A3   | [Everyone in Europe should have access to fusion education](abstracts/alf-everyone.md)           | Alf Köhn-Seemann |
 
 
-## B: 8:30 - 9:30
+## B: 8:30 - 9:30 (EST) 
 Number of presentations: 3
 
 Chair: TBA
@@ -63,7 +63,7 @@ Chair: TBA
 | B3   | [Particle transport and radiation modeling by AURORA toolbox](abstracts/tomas-particle.md)                           | Tomas Odstrcil                    |
 
 
-## Panel: 10:40 - 11:20
+## Panel: 10:40 - 11:20 (EST) 
 Number of presentations: 1
 
 Chair: TBA
@@ -73,7 +73,7 @@ Chair: TBA
 | Panel1 | [Panel discussion](abstracts/tbd-panel.md) | Panel       |
 
 
-## P2: 11:20 - 11:50
+## P2: 11:20 - 11:50 (EST) 
 Number of presentations: 1
 
 Chair: TBA
@@ -83,7 +83,7 @@ Chair: TBA
 | P21  | [Struphy - solving plasma physics PDEs within the Python ecosystem](abstracts/stefan-struphy.md) | Stefan Possanner |
 
 
-## C: 12:50 - 13:50
+## C: 12:50 - 13:50 (EST) 
 Number of presentations: 3
 
 Chair: TBA
@@ -95,7 +95,7 @@ Chair: TBA
 | C3   | [Verification, Validation, and Demonstration of the MOOSE-based Tritium Migration Analysis Program, Version 8 (TMAP8) Application for Fusion Systems.](abstracts/pierre-clément-verification.md) | Pierre-Clément Simon |
 
 
-## D: 12:50 - 13:50
+## D: 12:50 - 13:50 (EST) 
 Number of presentations: 3
 
 Chair: TBA
@@ -107,7 +107,7 @@ Chair: TBA
 | D3   | [JADE v4, a more robust and expandable architecture for neutronics V&V](abstracts/davide-jade.md)                                           | Davide Laghi         |
 
 
-## E: 14:10 - 15:10
+## E: 14:10 - 15:10 (EST) 
 Number of presentations: 3
 
 Chair: TBA
@@ -119,7 +119,7 @@ Chair: TBA
 | E3   | [Plasma Applications](abstracts/mandeep-plasma.md)                                     | Mandeep Kaur |
 
 
-## F: 14:10 - 15:10
+## F: 14:10 - 15:10 (EST) 
 Number of presentations: 3
 
 Chair: TBA
@@ -131,7 +131,7 @@ Chair: TBA
 | F3   | [F4Enix, a new Python API for pre and post processing of MCNP inputs and outputs](abstracts/alberto-f4enix.md)              | Alberto Bittesnich |
 
 
-## Closing: 15:10 - 15:20
+## Closing: 15:10 - 15:20 (EST) 
 Number of presentations: 1
 
 Chair: TBA
@@ -141,7 +141,7 @@ Chair: TBA
 | Closing1 | [Closing remarks](abstracts/remi-closing.md) | Remi Delaporte-Mathurin |
 
 
-# Posters 9:30 - 10:40
+# Posters 9:30 - 10:40 (EST) 
 Number of presentations: 1
 |   ID | Title                                                                                                                   | Presenter        |
 |-----:|:------------------------------------------------------------------------------------------------------------------------|:-----------------|
