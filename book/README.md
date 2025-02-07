@@ -24,7 +24,7 @@ Here you will find the abstracts for the OSSFE 2025 conference
 ## Session Opening: 7:00 - 7:10 (EST) 
 Number of presentations: 1
 
-Room: TBD
+Room: MIT
 
 Chair: TBA
 
@@ -36,7 +36,7 @@ Chair: TBA
 ## Session P1: 7:10 - 8:10 (EST) 
 Number of presentations: 2
 
-Room: TBD
+Room: MIT
 
 Chair: TBA
 
@@ -50,7 +50,7 @@ Chair: TBA
 ## Session A: 8:30 - 9:30 (EST) 
 Number of presentations: 3
 
-Room: TBD
+Room: MIT
 
 Chair: TBA
 
@@ -64,7 +64,7 @@ Chair: TBA
 ## Session B: 8:30 - 9:30 (EST) 
 Number of presentations: 3
 
-Room: TBD
+Room: Apache
 
 Chair: TBA
 
@@ -78,7 +78,7 @@ Chair: TBA
 ## Session Panel: 10:40 - 11:20 (EST) 
 Number of presentations: 1
 
-Room: TBD
+Room: MIT
 
 Chair: TBA
 
@@ -90,7 +90,7 @@ Chair: TBA
 ## Session P2: 11:20 - 11:50 (EST) 
 Number of presentations: 1
 
-Room: TBD
+Room: MIT
 
 Chair: TBA
 
@@ -102,7 +102,7 @@ Chair: TBA
 ## Session C: 12:50 - 13:50 (EST) 
 Number of presentations: 3
 
-Room: TBD
+Room: MIT
 
 Chair: TBA
 
@@ -116,7 +116,7 @@ Chair: TBA
 ## Session D: 12:50 - 13:50 (EST) 
 Number of presentations: 3
 
-Room: TBD
+Room: Apache
 
 Chair: TBA
 
@@ -130,7 +130,7 @@ Chair: TBA
 ## Session E: 14:10 - 15:10 (EST) 
 Number of presentations: 3
 
-Room: TBD
+Room: MIT
 
 Chair: TBA
 
@@ -144,7 +144,7 @@ Chair: TBA
 ## Session F: 14:10 - 15:10 (EST) 
 Number of presentations: 3
 
-Room: TBD
+Room: Apache
 
 Chair: TBA
 
@@ -158,7 +158,7 @@ Chair: TBA
 ## Session Closing: 15:10 - 15:20 (EST) 
 Number of presentations: 1
 
-Room: TBD
+Room: MIT
 
 Chair: TBA
 
