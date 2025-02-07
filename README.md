@@ -2,6 +2,8 @@
 
 This repository contains the source code for generating the Book of Abstracts for the OSSFE conference 2025 March 18th online on Gather.town.
 
+⚠️This is still work in progress and random abstracts have been selected for the timetable for testing
+
 Presenters that submit abstracts to the OSSFE conference 2025 do this through a Google form which in turn can be downloaded as a `.csv` file. Here we take this `.csv` file and generate one individual MarkDown file as a [MyST Scientific PDF](https://mystmd.org/guide/creating-pdf-documents). Next, we generate PDFs from these markdown files using a [custom template](https://mystmd.org/jtex/create-a-latex-template) that is found in the [`template`](template) folder.
 
 ## Installation instructions
