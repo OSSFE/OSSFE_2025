@@ -33,10 +33,10 @@ Number of presentations: 2
 
 Chair: TBA
 
-| ID   | Title                                                                                               | Presenter       |
-|:-----|:----------------------------------------------------------------------------------------------------|:----------------|
-| P11  | [NeSST - Neutron Scattered Spectra Tool](abstracts/aidan-nesst.md)                                  | Aidan Crilly    |
-| P12  | [TORAX: A Fast and Differentiable Tokamak Transport Simulator in JAX](abstracts/jonathan-torax:.md) | Jonathan Citrin |
+| ID   | Title                                                                                              | Presenter       |
+|:-----|:---------------------------------------------------------------------------------------------------|:----------------|
+| P11  | [NeSST - Neutron Scattered Spectra Tool](abstracts/aidan-nesst.md)                                 | Aidan Crilly    |
+| P12  | [TORAX: A Fast and Differentiable Tokamak Transport Simulator in JAX](abstracts/jonathan-torax.md) | Jonathan Citrin |
 
 
 ## A: 8:30 - 9:30
@@ -88,11 +88,11 @@ Number of presentations: 3
 
 Chair: TBA
 
-| ID   | Title                                                                                                                                                                                             | Presenter            |
-|:-----|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------|
-| C1   | [Surrogate Modelling of Classical and Quantum Electrodynamic Laser Plasma Simulations at Intensities Above 10^22 Wcm^-2](abstracts/joel-surrogate.md)                                             | Joel Adams           |
-| C2   | [Hypnos: parametric geometry preparation for fusion-relevant applications](abstracts/siddharth-hypnos:.md)                                                                                        | Siddharth Mungale    |
-| C3   | [Verification, Validation, and Demonstration of the MOOSE-based Tritium Migration Analysis Program, Version 8 (TMAP8) Application for Fusion Systems.](abstracts/pierre-clément-verification,.md) | Pierre-Clément Simon |
+| ID   | Title                                                                                                                                                                                            | Presenter            |
+|:-----|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------|
+| C1   | [Surrogate Modelling of Classical and Quantum Electrodynamic Laser Plasma Simulations at Intensities Above 10^22 Wcm^-2](abstracts/joel-surrogate.md)                                            | Joel Adams           |
+| C2   | [Hypnos: parametric geometry preparation for fusion-relevant applications](abstracts/siddharth-hypnos.md)                                                                                        | Siddharth Mungale    |
+| C3   | [Verification, Validation, and Demonstration of the MOOSE-based Tritium Migration Analysis Program, Version 8 (TMAP8) Application for Fusion Systems.](abstracts/pierre-clément-verification.md) | Pierre-Clément Simon |
 
 
 ## D: 12:50 - 13:50
@@ -112,11 +112,11 @@ Number of presentations: 3
 
 Chair: TBA
 
-| ID   | Title                                                                                   | Presenter    |
-|:-----|:----------------------------------------------------------------------------------------|:-------------|
-| E1   | [GEOUNED: CSG geometry production for fusion applications](abstracts/aljaz-geouned:.md) | Aljaz Kolsek |
-| E2   | [PlasmaFAIR: Making Plasma Software Better](abstracts/peter-plasmafair:.md)             | Peter Hill   |
-| E3   | [Plasma Applications](abstracts/mandeep-plasma.md)                                      | Mandeep Kaur |
+| ID   | Title                                                                                  | Presenter    |
+|:-----|:---------------------------------------------------------------------------------------|:-------------|
+| E1   | [GEOUNED: CSG geometry production for fusion applications](abstracts/aljaz-geouned.md) | Aljaz Kolsek |
+| E2   | [PlasmaFAIR: Making Plasma Software Better](abstracts/peter-plasmafair.md)             | Peter Hill   |
+| E3   | [Plasma Applications](abstracts/mandeep-plasma.md)                                     | Mandeep Kaur |
 
 
 ## F: 14:10 - 15:10
@@ -128,7 +128,7 @@ Chair: TBA
 |:-----|:----------------------------------------------------------------------------------------------------------------------------|:-------------------|
 | F1   | [XMARTe - A graphical interface for designing Real Time Control Applications with MARTe2](abstracts/edward-xmarte.md)       | Edward Jones       |
 | F2   | [Modelling of deuterium release from tungsten co-deposited films induced by laser heating](abstracts/vladimir-modelling.md) | Vladimir Kulagin   |
-| F3   | [F4Enix, a new Python API for pre and post processing of MCNP inputs and outputs](abstracts/alberto-f4enix,.md)             | Alberto Bittesnich |
+| F3   | [F4Enix, a new Python API for pre and post processing of MCNP inputs and outputs](abstracts/alberto-f4enix.md)              | Alberto Bittesnich |
 
 
 ## Closing: 15:10 - 15:20
@@ -143,10 +143,10 @@ Chair: TBA
 
 # Posters 9:30 - 10:40
 Number of presentations: 1
-|   ID | Title                                                                                                                                                                                           | Presenter        |
-|-----:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------|
-|    1 | [TRIOMA: an open source application for fast outer fuel cycle tritium transport analysis](abstracts/trioma:-an-open-source-application-for-fast-outer-fuel-cycle-tritium-transport-analysis.md) | Gabriele Ferrero |
-|    2 | [IPS: an open-source framework for (loosely) coupled multiphsyics simulations](abstracts/ips:-an-open-source-framework-for-(loosely)-coupled-multiphsyics-simulations.md)                       | David Bernholdt  |
-|    3 | [Kinetic surface model in FESTIM: Verification and Validation](abstracts/kinetic-surface-model-in-festim:-verification-and-validation.md)                                                       | Vladimir Kulagin |
-|    4 | [NESO-Particles: A Performance Portable Particle Framework For The Fusion Use Case](abstracts/neso-particles:-a-performance-portable-particle-framework-for-the-fusion-use-case.md)             | Will Saunders    |
-|    5 | [Improving Reproducibility Through Better Software Practices](abstracts/improving-reproducibility-through-better-software-practices.md)                                                         | David Bernholdt  |
+|   ID | Title                                                                                                                   | Presenter        |
+|-----:|:------------------------------------------------------------------------------------------------------------------------|:-----------------|
+|    1 | [TRIOMA: an open source application for fast outer fuel cycle tritium transport analysis](abstracts/gabriele-trioma.md) | Gabriele Ferrero |
+|    2 | [IPS: an open-source framework for (loosely) coupled multiphsyics simulations](abstracts/david-ips.md)                  | David Bernholdt  |
+|    3 | [Kinetic surface model in FESTIM: Verification and Validation](abstracts/vladimir-kinetic.md)                           | Vladimir Kulagin |
+|    4 | [NESO-Particles: A Performance Portable Particle Framework For The Fusion Use Case](abstracts/will-neso.md)             | Will Saunders    |
+|    5 | [Improving Reproducibility Through Better Software Practices](abstracts/david-improving.md)                             | David Bernholdt  |
