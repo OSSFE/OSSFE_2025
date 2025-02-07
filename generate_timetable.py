@@ -43,7 +43,7 @@ Here you will find the abstracts for the OSSFE 2025 conference
 
 table_template = dedent(
     """\
-## {time_slot}
+## {session_id}: {time_slot}
 {table}
 """
 )
@@ -199,7 +199,7 @@ def main():
 
         df_table = pd.DataFrame(data)
         table = df_table.to_markdown(index=False)
-        tables.append(table_template.format(time_slot=time_slot, table=table))
+        tables.append(table_template.format(session_id=session.replace("S_", ""), time_slot=time_slot, table=table))
 
     data = []
     for _, item in df_poster.iterrows():

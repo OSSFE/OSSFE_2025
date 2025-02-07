@@ -18,7 +18,7 @@ exports:
 Here you will find the abstracts for the OSSFE 2025 conference
 
 # Presentations
-## 8:30 - 9:30
+## A: 8:30 - 9:30
 Number of presentations: 3
 | Title                                                                                            | Presenter        |
 |:-------------------------------------------------------------------------------------------------|:-----------------|
@@ -27,7 +27,7 @@ Number of presentations: 3
 | [Everyone in Europe should have access to fusion education](abstracts/alf-everyone.md)           | Alf Köhn-Seemann |
 
 
-## 8:30 - 9:30
+## B: 8:30 - 9:30
 Number of presentations: 3
 | Title                                                                                                                | Presenter                         |
 |:---------------------------------------------------------------------------------------------------------------------|:----------------------------------|
@@ -36,7 +36,7 @@ Number of presentations: 3
 | [Particle transport and radiation modeling by AURORA toolbox](abstracts/tomas-particle.md)                           | Tomas Odstrcil                    |
 
 
-## 12:50 - 13:50
+## C: 12:50 - 13:50
 Number of presentations: 3
 | Title                                                                                                                                                                                             | Presenter            |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------|
@@ -45,7 +45,7 @@ Number of presentations: 3
 | [Verification, Validation, and Demonstration of the MOOSE-based Tritium Migration Analysis Program, Version 8 (TMAP8) Application for Fusion Systems.](abstracts/pierre-clément-verification,.md) | Pierre-Clément Simon |
 
 
-## 12:50 - 13:50
+## D: 12:50 - 13:50
 Number of presentations: 3
 | Title                                                                                                                                       | Presenter            |
 |:--------------------------------------------------------------------------------------------------------------------------------------------|:---------------------|
@@ -54,7 +54,7 @@ Number of presentations: 3
 | [JADE v4, a more robust and expandable architecture for neutronics V&V](abstracts/davide-jade.md)                                           | Davide Laghi         |
 
 
-## 14:10 - 15:10
+## E: 14:10 - 15:10
 Number of presentations: 3
 | Title                                                                                   | Presenter    |
 |:----------------------------------------------------------------------------------------|:-------------|
@@ -63,7 +63,7 @@ Number of presentations: 3
 | [Plasma Applications](abstracts/mandeep-plasma.md)                                      | Mandeep Kaur |
 
 
-## 14:10 - 15:10
+## F: 14:10 - 15:10
 Number of presentations: 3
 | Title                                                                                                                       | Presenter          |
 |:----------------------------------------------------------------------------------------------------------------------------|:-------------------|
@@ -72,7 +72,7 @@ Number of presentations: 3
 | [F4Enix, a new Python API for pre and post processing of MCNP inputs and outputs](abstracts/alberto-f4enix,.md)             | Alberto Bittesnich |
 
 
-## 7:10 - 8:10
+## P1: 7:10 - 8:10
 Number of presentations: 3
 | Title                                                                                               | Presenter       |
 |:----------------------------------------------------------------------------------------------------|:----------------|
@@ -80,7 +80,7 @@ Number of presentations: 3
 | [TORAX: A Fast and Differentiable Tokamak Transport Simulator in JAX](abstracts/jonathan-torax:.md) | Jonathan Citrin |
 
 
-## 11:20 - 11:50
+## P2: 11:20 - 11:50
 Number of presentations: 1
 | Title                                                                                            | Presenter        |
 |:-------------------------------------------------------------------------------------------------|:-----------------|
