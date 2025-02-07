@@ -65,7 +65,7 @@ table_template = dedent(
 
 Room: {room}
 
-Chair: TBA
+Chair: {chair}
 
 {table}
 """
@@ -75,12 +75,14 @@ Chair: TBA
 class TimeSlot(NamedTuple):
     """
     Rooms: MIT, APACHE, GNU, BSD
+    types : plenary, oral, poster, opening, closing, panel
     """
 
     start: datetime.datetime
     end: datetime.datetime
     room: str
-    type: ["plenary", "oral", "poster", "opening", "closing", "panel"]
+    type: str
+    chair: str
 
     def num_presentations(self):
         if type_to_duration[self.type] is None:
@@ -102,6 +104,7 @@ def session_to_time(session_id: str):
             end=datetime.datetime(2025, 3, 18, 7, 10),
             room="MIT",
             type="opening",
+            chair="TBC",
         )
     elif session_id == "S_Closing":
         return TimeSlot(
@@ -109,6 +112,7 @@ def session_to_time(session_id: str):
             end=datetime.datetime(2025, 3, 18, 15, 20),
             room="MIT",
             type="closing",
+            chair="TBC",
         )
     elif session_id == "S_P1":
         return TimeSlot(
@@ -116,6 +120,7 @@ def session_to_time(session_id: str):
             end=datetime.datetime(2025, 3, 18, 8, 10),
             room="MIT",
             type="plenary",
+            chair="TBC",
         )
     elif session_id == "S_A":
         return TimeSlot(
@@ -123,6 +128,7 @@ def session_to_time(session_id: str):
             end=datetime.datetime(2025, 3, 18, 9, 30),
             room="MIT",
             type="oral",
+            chair="TBC",
         )
     elif session_id == "S_B":
         return TimeSlot(
@@ -130,6 +136,7 @@ def session_to_time(session_id: str):
             end=datetime.datetime(2025, 3, 18, 9, 30),
             room="Apache",
             type="oral",
+            chair="TBC",
         )
     elif session_id == "S_poster":
         return TimeSlot(
@@ -137,6 +144,7 @@ def session_to_time(session_id: str):
             end=datetime.datetime(2025, 3, 18, 10, 40),
             room="GNU",
             type="poster",
+            chair="TBC",
         )
     elif session_id == "S_demos":
         return TimeSlot(
@@ -144,6 +152,7 @@ def session_to_time(session_id: str):
             end=datetime.datetime(2025, 3, 18, 10, 40),
             room="GNU",
             type="poster",
+            chair="TBC",
         )
     elif session_id == "S_Panel":
         return TimeSlot(
@@ -151,6 +160,7 @@ def session_to_time(session_id: str):
             end=datetime.datetime(2025, 3, 18, 11, 20),
             room="MIT",
             type="panel",
+            chair="TBC",
         )
     elif session_id == "S_P2":
         return TimeSlot(
@@ -158,6 +168,7 @@ def session_to_time(session_id: str):
             end=datetime.datetime(2025, 3, 18, 11, 50),
             room="MIT",
             type="plenary",
+            chair="TBC",
         )
     elif session_id == "S_C":
         return TimeSlot(
@@ -165,6 +176,7 @@ def session_to_time(session_id: str):
             end=datetime.datetime(2025, 3, 18, 13, 50),
             room="MIT",
             type="oral",
+            chair="TBC",
         )
     elif session_id == "S_D":
         return TimeSlot(
@@ -172,6 +184,7 @@ def session_to_time(session_id: str):
             end=datetime.datetime(2025, 3, 18, 13, 50),
             room="Apache",
             type="oral",
+            chair="TBC",
         )
     elif session_id == "S_E":
         return TimeSlot(
@@ -179,6 +192,7 @@ def session_to_time(session_id: str):
             end=datetime.datetime(2025, 3, 18, 15, 10),
             room="MIT",
             type="oral",
+            chair="TBC",
         )
     elif session_id == "S_F":
         return TimeSlot(
@@ -186,6 +200,7 @@ def session_to_time(session_id: str):
             end=datetime.datetime(2025, 3, 18, 15, 10),
             room="Apache",
             type="oral",
+            chair="TBC",
         )
 
     raise ValueError(f"Unknown session {session_id}")
@@ -263,8 +278,6 @@ def main():
     # sort by time
     grouped = sorted(grouped, key=lambda x: session_to_time(x[0]).start)
 
-    grouped_dict = {session_id: group for session_id, group in grouped}
-
     # Create a table for each group
     tables = []
     for session, group in grouped:
@@ -300,6 +313,7 @@ def main():
                 session_id=session.replace("S_", ""),
                 time_slot=time_slot,
                 room=time_slot.room,
+                chair=time_slot.chair,
                 table=table,
             )
         )

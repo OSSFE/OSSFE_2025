@@ -26,7 +26,7 @@ Number of presentations: 1
 
 Room: MIT
 
-Chair: TBA
+Chair: TBC
 
 | ID       | Title                                              | Presenter               |
 |:---------|:---------------------------------------------------|:------------------------|
@@ -38,7 +38,7 @@ Number of presentations: 2
 
 Room: MIT
 
-Chair: TBA
+Chair: TBC
 
 | ID   | Title                                                                    | Presenter       |
 |:-----|:-------------------------------------------------------------------------|:----------------|
@@ -52,7 +52,7 @@ Number of presentations: 3
 
 Room: MIT
 
-Chair: TBA
+Chair: TBC
 
 | ID   | Title                                                                        | Presenter     |
 |:-----|:-----------------------------------------------------------------------------|:--------------|
@@ -66,7 +66,7 @@ Number of presentations: 3
 
 Room: Apache
 
-Chair: TBA
+Chair: TBC
 
 | ID   | Title                                                                    | Presenter    |
 |:-----|:-------------------------------------------------------------------------|:-------------|
@@ -80,7 +80,7 @@ Number of presentations: 1
 
 Room: MIT
 
-Chair: TBA
+Chair: TBC
 
 | ID     | Title                                      | Presenter   |
 |:-------|:-------------------------------------------|:------------|
@@ -92,7 +92,7 @@ Number of presentations: 1
 
 Room: MIT
 
-Chair: TBA
+Chair: TBC
 
 | ID   | Title                                                                             | Presenter     |
 |:-----|:----------------------------------------------------------------------------------|:--------------|
@@ -104,7 +104,7 @@ Number of presentations: 3
 
 Room: MIT
 
-Chair: TBA
+Chair: TBC
 
 | ID   | Title                                                                     | Presenter          |
 |:-----|:--------------------------------------------------------------------------|:-------------------|
@@ -118,7 +118,7 @@ Number of presentations: 3
 
 Room: Apache
 
-Chair: TBA
+Chair: TBC
 
 | ID   | Title                                                                   | Presenter     |
 |:-----|:------------------------------------------------------------------------|:--------------|
@@ -132,7 +132,7 @@ Number of presentations: 3
 
 Room: MIT
 
-Chair: TBA
+Chair: TBC
 
 | ID   | Title                                                                        | Presenter       |
 |:-----|:-----------------------------------------------------------------------------|:----------------|
@@ -146,7 +146,7 @@ Number of presentations: 3
 
 Room: Apache
 
-Chair: TBA
+Chair: TBC
 
 | ID   | Title                                                                    | Presenter       |
 |:-----|:-------------------------------------------------------------------------|:----------------|
@@ -160,7 +160,7 @@ Number of presentations: 1
 
 Room: MIT
 
-Chair: TBA
+Chair: TBC
 
 | ID       | Title                                        | Presenter               |
 |:---------|:---------------------------------------------|:------------------------|
