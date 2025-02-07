@@ -21,20 +21,20 @@ exports:
 Here you will find the abstracts for the OSSFE 2025 conference
 
 # Presentations
-## Welcome statement by the organising comittee: 7:00 - 7:10 (EST) 
-Number of presentations: 1
+## Welcome statement by the organising comittee: 7:00 - 7:10 (EST)
 
 Room: MIT
 
 Presenter: Remi Delaporte-Mathurin
 
 
-## Session P1: 7:10 - 8:10 (EST) 
-Number of presentations: 2
+## Session P1: 7:10 - 8:10 (EST)
 
 Room: MIT
 
-Chair: TBC
+*Chair*: TBC
+
+Number of presentations: 2
 
 | ID   | Title                                                                   | Presenter        |
 |:-----|:------------------------------------------------------------------------|:-----------------|
@@ -42,12 +42,13 @@ Chair: TBC
 | P2   | [Environmental support record value.](abstracts/cesar-environmental.md) | Ricardo Baker    |
 
 
-## Session A: 8:30 - 9:30 (EST) 
-Number of presentations: 3
+## Session A: 8:30 - 9:30 (EST)
 
 Room: MIT
 
-Chair: TBC
+*Chair*: TBC
+
+Number of presentations: 3
 
 | ID   | Title                                                                              | Presenter                 |
 |:-----|:-----------------------------------------------------------------------------------|:--------------------------|
@@ -56,12 +57,13 @@ Chair: TBC
 | A3   | [Speak determine result again hour step meet save.](abstracts/william-speak.md)    | Jessica Cook              |
 
 
-## Session B: 8:30 - 9:30 (EST) 
-Number of presentations: 3
+## Session B: 8:30 - 9:30 (EST)
 
 Room: Apache
 
-Chair: TBC
+*Chair*: TBC
+
+Number of presentations: 3
 
 | ID   | Title                                                                             | Presenter      |
 |:-----|:----------------------------------------------------------------------------------|:---------------|
@@ -70,24 +72,26 @@ Chair: TBC
 | B3   | [Station easy five majority other experience rise.](abstracts/michael-station.md) | Tina Murray    |
 
 
-## Session P2: 11:20 - 11:50 (EST) 
-Number of presentations: 1
+## Session P2: 11:20 - 11:50 (EST)
 
 Room: MIT
 
-Chair: TBC
+*Chair*: TBC
+
+Number of presentations: 1
 
 | ID   | Title                                                                     | Presenter       |
 |:-----|:--------------------------------------------------------------------------|:----------------|
 | P3   | [About high south personal candidate school.](abstracts/timothy-about.md) | Phillip Rodgers |
 
 
-## Session C: 12:50 - 13:50 (EST) 
-Number of presentations: 3
+## Session C: 12:50 - 13:50 (EST)
 
 Room: MIT
 
-Chair: TBC
+*Chair*: TBC
+
+Number of presentations: 3
 
 | ID   | Title                                                                  | Presenter          |
 |:-----|:-----------------------------------------------------------------------|:-------------------|
@@ -96,12 +100,13 @@ Chair: TBC
 | C3   | [Edge history only read so everything world.](abstracts/donna-edge.md) | Ashley Johnson     |
 
 
-## Session D: 12:50 - 13:50 (EST) 
-Number of presentations: 3
+## Session D: 12:50 - 13:50 (EST)
 
 Room: Apache
 
-Chair: TBC
+*Chair*: TBC
+
+Number of presentations: 3
 
 | ID   | Title                                                                  | Presenter         |
 |:-----|:-----------------------------------------------------------------------|:------------------|
@@ -110,12 +115,13 @@ Chair: TBC
 | D3   | [Open television agreement middle.](abstracts/timothy-open.md)         | Cynthia Hernandez |
 
 
-## Session E: 14:10 - 15:10 (EST) 
-Number of presentations: 3
+## Session E: 14:10 - 15:10 (EST)
 
 Room: MIT
 
-Chair: TBC
+*Chair*: TBC
+
+Number of presentations: 3
 
 | ID   | Title                                                                               | Presenter      |
 |:-----|:------------------------------------------------------------------------------------|:---------------|
@@ -124,12 +130,13 @@ Chair: TBC
 | E3   | [Late building unit around anyone performance.](abstracts/shelly-late.md)           | Jason Morgan   |
 
 
-## Session F: 14:10 - 15:10 (EST) 
-Number of presentations: 3
+## Session F: 14:10 - 15:10 (EST)
 
 Room: Apache
 
-Chair: TBC
+*Chair*: TBC
+
+Number of presentations: 3
 
 | ID   | Title                                                                               | Presenter      |
 |:-----|:------------------------------------------------------------------------------------|:---------------|
@@ -138,16 +145,14 @@ Chair: TBC
 | F3   | [Night let summer everybody white.](abstracts/travis-night.md)                      | Thomas Harris  |
 
 
-## Awards ceremony and closing remarks: 15:10 - 15:20 (EST) 
-Number of presentations: 1
+## Awards ceremony and closing remarks: 15:10 - 15:20 (EST)
 
 Room: MIT
 
 Presenter: Remi Delaporte-Mathurin
 
 
-# Posters 9:30 - 10:40 (EST) 
-Number of presentations: 1
+# Posters 9:30 - 10:40 (EST)
 |   ID | Title                                                                                          | Presenter            |
 |-----:|:-----------------------------------------------------------------------------------------------|:---------------------|
 |    1 | [Toward fall thank debate loss no woman.](abstracts/laura-toward.md)                           | David Allen          |
