@@ -52,8 +52,16 @@ Here you will find the abstracts for the OSSFE 2025 conference
 
 # Presentations
 {tables}
+"""
+)
+template_list_of_posters = dedent(
+    """---
+title: "List of posters"
+---
 
-# Posters {poster_time_slot}
+Here you will find the posters for the OSSFE 2025 conference
+
+The poster session will take place at {poster_time_slot}
 {posters}
 """
 )
@@ -160,7 +168,7 @@ def session_to_time(session_id: str):
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 9, 30),
             end=datetime.datetime(2025, 3, 18, 10, 40),
-            room="GNU",
+            room="BSD",
             type="poster",
             chair="TBC",
         )
@@ -345,6 +353,43 @@ def main():
         )
     )
 
+    # create item for poster session
+    poster_session = dedent(
+        """\
+    ## Poster Session: {time_slot}
+
+    Room: {room}
+
+    [List of posters](list_of_posters.md)
+    """
+    )
+    S_poster_time_slot = session_to_time("S_poster")
+    poster_session_str = poster_session.format(
+        time_slot=S_poster_time_slot,
+        room=S_poster_time_slot.room,
+    )
+    tables.insert(4, poster_session_str)
+
+    # create item for demos session
+    demo_session = dedent(
+        """\
+    ## Tutorial Session: {time_slot}
+
+    Room: {room}
+
+    A series of tutorials will be available to attend for the following packages:
+        - example 1
+        - example 2
+        - example 3
+    """
+    )
+    S_demos_time_slot = session_to_time("S_demos")
+    demo_session_str = demo_session.format(
+        time_slot=S_demos_time_slot,
+        room=S_demos_time_slot.room,
+    )
+    tables.insert(5, demo_session_str)
+
     data = []
     for index, (_, item) in enumerate(df_poster.iterrows(), start=1):
         # filename is last-name of author + first word of title
@@ -367,8 +412,12 @@ def main():
     (Path("book") / "README.md").write_text(
         template.format(
             tables="\n\n".join(tables),
-            posters=posters_md,
+        )
+    )
+    (Path("book") / "list_of_posters.md").write_text(
+        template_list_of_posters.format(
             poster_time_slot=session_to_time("S_poster"),
+            posters=posters_md,
         )
     )
 
