@@ -92,7 +92,10 @@ def main(argv: Sequence[str] | None = None) -> int:
         reader = csv.DictReader(f)
         rows = [row for row in reader if any(row.values())]
         for row in rows:
-            slug = row["Title"].replace(" ", "-").lower()
+            # filename is last-name of author + first word of title
+            last_name = row["List of authors and affiliation"].split(",")[0].split()[0]
+            first_word_title = row["Title"].replace("-", " ").split()[0]
+            slug = f"{last_name}-{first_word_title}".lower()
             output = read_paper(row)
             (outdir / f"{slug}.md").write_text(output)
 
