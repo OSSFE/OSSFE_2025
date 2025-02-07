@@ -87,7 +87,7 @@ def main(argv: Sequence[str] | None = None) -> int:
                 "Topic": fake.word(),
                 "Title": fake.sentence(),
                 "Abstract": fake.text(),
-                "List of authors and affiliation": authors(fake, num_authors) + ", " + affiliations(fake, num_authors),
+                "List of authors and affiliation": "; ".join([f"{fake.name()}, {fake.company()}" for _ in range(num_authors)]),
                 "How does this submission relate to open-source?": fake.text(),
                 "Link to open-source software repository (if applicable)": fake.url(),
                 "Do you agree to the following conditions to submit your abstract to the OSSFE 2025 Conference?": "Yes",
