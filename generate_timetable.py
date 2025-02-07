@@ -226,28 +226,6 @@ def main():
     df = pd.read_csv("abstract_testing.csv", usecols=columns_to_keep)
 
     # add opening and closing talk to the dataframe
-    opening_talk = {
-        "Abstract ID": "Opening",
-        "Name": "Remi Delaporte-Mathurin",
-        "Title": "Welcome to OSSFE 2025",
-        "Abstract": "Welcome to the 2025 edition of the Open Source Software for Fusion Energy conference",
-        "List of authors and affiliation": "Remi Delaporte-Mathurin, Plasma Science and Fusion Center, MIT",
-        "Recommendation": "oral",
-        "slot_id": "S_Opening",
-        "session_id": "S_Opening",
-    }
-
-    closing_talk = {
-        "Abstract ID": "Closing",
-        "Name": "Remi Delaporte-Mathurin",
-        "Title": "Closing remarks",
-        "Abstract": "Thank you for attending the 2025 edition of the Open Source Software for Fusion Energy conference",
-        "List of authors and affiliation": "Remi Delaporte-Mathurin, Plasma Science and Fusion Center, MIT",
-        "Recommendation": "oral",
-        "slot_id": "S_Closing",
-        "session_id": "S_Closing",
-    }
-
     panel_session = {
         "Abstract ID": "Panel",
         "Name": "Panel",
@@ -260,7 +238,7 @@ def main():
     }
 
     df = pd.concat(
-        [df, pd.DataFrame([opening_talk, closing_talk, panel_session])],
+        [df, pd.DataFrame([panel_session])],
         ignore_index=True,
     )
 
@@ -320,6 +298,41 @@ def main():
                 table=table,
             )
         )
+
+    # create item for opening session
+    opening_session = dedent(
+        """\
+    ## Welcome statement by the organising comittee: {time_slot}
+
+    Room: {room}
+
+    Presenter: Remi Delaporte-Mathurin
+    """
+    )
+    S_opening_time_slot = session_to_time("S_Opening")
+    opening_session_str = opening_session.format(
+        time_slot=S_opening_time_slot,
+        room=S_opening_time_slot.room,
+    )
+    tables.insert(0, opening_session_str)
+
+    # create item for closing session
+    closing_session = dedent(
+        """\
+    ## Awards ceremony and closing remarks: {time_slot}
+
+    Room: {room}
+
+    Presenter: Remi Delaporte-Mathurin
+    """
+    )
+    S_closing_time_slot = session_to_time("S_Closing")
+    tables.append(
+        closing_session.format(
+            time_slot=S_closing_time_slot,
+            room=S_closing_time_slot.room,
+        )
+    )
 
     data = []
     for index, (_, item) in enumerate(df_poster.iterrows(), start=1):

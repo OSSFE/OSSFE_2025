@@ -21,6 +21,14 @@ exports:
 Here you will find the abstracts for the OSSFE 2025 conference
 
 # Presentations
+## Welcome statement by the organising comittee: 7:00 - 7:10 (EST) 
+Number of presentations: 1
+
+Room: MIT
+
+Presenter: Remi Delaporte-Mathurin
+
+
 ## Session P1: 7:10 - 8:10 (EST) 
 Number of presentations: 2
 
@@ -128,6 +136,14 @@ Chair: TBC
 | F1   | [Stock art mention candidate interest last matter.](abstracts/christopher-stock.md) | Jasmine Taylor |
 | F2   | [Start society party art.](abstracts/holly-start.md)                                | Mary Sullivan  |
 | F3   | [Night let summer everybody white.](abstracts/travis-night.md)                      | Thomas Harris  |
+
+
+## Awards ceremony and closing remarks: 15:10 - 15:20 (EST) 
+Number of presentations: 1
+
+Room: MIT
+
+Presenter: Remi Delaporte-Mathurin
 
 
 # Posters 9:30 - 10:40 (EST) 
