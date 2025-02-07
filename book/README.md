@@ -19,7 +19,7 @@ Here you will find the abstracts for the OSSFE 2025 conference
 
 # Presentations
 ## Opening: 7:00 - 7:10
-Number of presentations: 0
+Number of presentations: 1
 
 Chair: TBA
 
@@ -29,7 +29,7 @@ Chair: TBA
 
 
 ## P1: 7:10 - 8:10
-Number of presentations: 3
+Number of presentations: 2
 
 Chair: TBA
 
@@ -64,7 +64,7 @@ Chair: TBA
 
 
 ## Panel: 10:40 - 11:20
-Number of presentations: 2
+Number of presentations: 1
 
 Chair: TBA
 
@@ -132,7 +132,7 @@ Chair: TBA
 
 
 ## Closing: 15:10 - 15:20
-Number of presentations: 0
+Number of presentations: 1
 
 Chair: TBA
 
@@ -142,7 +142,7 @@ Chair: TBA
 
 
 # Posters 9:30 - 10:40
-Number of presentations: 3
+Number of presentations: 1
 |   ID | Title                                                                                                                                                                                           | Presenter        |
 |-----:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------|
 |    1 | [TRIOMA: an open source application for fast outer fuel cycle tritium transport analysis](abstracts/trioma:-an-open-source-application-for-fast-outer-fuel-cycle-tritium-transport-analysis.md) | Gabriele Ferrero |

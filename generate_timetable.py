@@ -15,6 +15,19 @@ TALK_DURATION_SEC = TALK_DURATION_MIN * 60
 OPENING_TALK_DURATION_MIN = 10
 OPENING_TALK_DURATION_SEC = OPENING_TALK_DURATION_MIN * 60
 
+CLOSING_TALK_DURATION_MIN = 10
+CLOSING_TALK_DURATION_SEC = CLOSING_TALK_DURATION_MIN * 60
+
+
+type_to_duration = {
+    "plenary": PLENARY_TALK_DURATION_SEC,
+    "oral": TALK_DURATION_SEC,
+    "poster": None,
+    "opening": OPENING_TALK_DURATION_SEC,
+    "closing": CLOSING_TALK_DURATION_SEC,
+    "panel": None,  # only one panel discussion
+}
+
 template = dedent(
     """---
 title: "OSSFE conference 2025 - March 18th"
@@ -62,10 +75,13 @@ class TimeSlot(NamedTuple):
     start: datetime.datetime
     end: datetime.datetime
     room: str
+    type: ["plenary", "oral", "poster", "opening", "closing", "panel"]
 
     def num_presentations(self):
+        if type_to_duration[self.type] is None:
+            return 1
         duration = self.end - self.start
-        return int(duration.total_seconds() / TALK_DURATION_SEC)
+        return int(duration.total_seconds() / type_to_duration[self.type])
 
     def __str__(self):
         start_minute = str(self.start.minute).zfill(2)
@@ -80,78 +96,91 @@ def session_to_time(session_id: str):
             start=datetime.datetime(2025, 3, 18, 7, 00),
             end=datetime.datetime(2025, 3, 18, 7, 10),
             room="MIT",
+            type="opening",
         )
     elif session_id == "S_Closing":
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 15, 10),
             end=datetime.datetime(2025, 3, 18, 15, 20),
             room="MIT",
+            type="closing",
         )
     elif session_id == "S_P1":
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 7, 10),
             end=datetime.datetime(2025, 3, 18, 8, 10),
             room="MIT",
+            type="plenary",
         )
     elif session_id == "S_A":
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 8, 30),
             end=datetime.datetime(2025, 3, 18, 9, 30),
             room="MIT",
+            type="oral",
         )
     elif session_id == "S_B":
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 8, 30),
             end=datetime.datetime(2025, 3, 18, 9, 30),
             room="Apache",
+            type="oral",
         )
     elif session_id == "S_poster":
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 9, 30),
             end=datetime.datetime(2025, 3, 18, 10, 40),
             room="GNU",
+            type="poster",
         )
     elif session_id == "S_demos":
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 9, 30),
             end=datetime.datetime(2025, 3, 18, 10, 40),
             room="GNU",
+            type="poster",
         )
     elif session_id == "S_Panel":
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 10, 40),
             end=datetime.datetime(2025, 3, 18, 11, 20),
             room="MIT",
+            type="panel",
         )
     elif session_id == "S_P2":
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 11, 20),
             end=datetime.datetime(2025, 3, 18, 11, 50),
             room="MIT",
+            type="plenary",
         )
     elif session_id == "S_C":
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 12, 50),
             end=datetime.datetime(2025, 3, 18, 13, 50),
             room="MIT",
+            type="oral",
         )
     elif session_id == "S_D":
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 12, 50),
             end=datetime.datetime(2025, 3, 18, 13, 50),
             room="Apache",
+            type="oral",
         )
     elif session_id == "S_E":
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 14, 10),
             end=datetime.datetime(2025, 3, 18, 15, 10),
             room="MIT",
+            type="oral",
         )
     elif session_id == "S_F":
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 14, 10),
             end=datetime.datetime(2025, 3, 18, 15, 10),
             room="Apache",
+            type="oral",
         )
 
     raise ValueError(f"Unknown session {session_id}")
