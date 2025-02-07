@@ -63,7 +63,7 @@ table_template = dedent(
     """\
 ## Session {session_id}: {time_slot}
 
-Room: TBD
+Room: {room}
 
 Chair: TBA
 
@@ -243,7 +243,10 @@ def main():
         "session_id": "S_Panel",
     }
 
-    df = pd.concat([df, pd.DataFrame([opening_talk, closing_talk, panel_session])], ignore_index=True)
+    df = pd.concat(
+        [df, pd.DataFrame([opening_talk, closing_talk, panel_session])],
+        ignore_index=True,
+    )
 
     # remove all linebreaks that would cause the markdown to break
     df = df.replace(r"\n", " ", regex=True)
@@ -276,7 +279,12 @@ def main():
             filename = f"{last_name}-{first_word_title}.md".lower()
 
             # remove invalid characters
-            filename = filename.replace(" ", "").replace("/", "").replace(":", "").replace(",", "")
+            filename = (
+                filename.replace(" ", "")
+                .replace("/", "")
+                .replace(":", "")
+                .replace(",", "")
+            )
 
             title = f'[{item["Title"]}](abstracts/{filename})'
             presenter = item["Name"]
@@ -287,7 +295,14 @@ def main():
 
         df_table = pd.DataFrame(data)
         table = df_table.to_markdown(index=False)
-        tables.append(table_template.format(session_id=session.replace("S_", ""), time_slot=time_slot, table=table))
+        tables.append(
+            table_template.format(
+                session_id=session.replace("S_", ""),
+                time_slot=time_slot,
+                room=time_slot.room,
+                table=table,
+            )
+        )
 
     data = []
     for index, (_, item) in enumerate(df_poster.iterrows(), start=1):
@@ -297,7 +312,9 @@ def main():
         filename = f"{last_name}-{first_word_title}.md".lower()
 
         # remove invalid characters
-        filename = filename.replace(" ", "").replace("/", "").replace(":", "").replace(",", "")
+        filename = (
+            filename.replace(" ", "").replace("/", "").replace(":", "").replace(",", "")
+        )
 
         title = f'[{item["Title"]}](abstracts/{filename})'
         presenter = item["Name"]
@@ -307,7 +324,11 @@ def main():
     posters_md = df_posters_md.to_markdown(index=False)
 
     (Path("book") / "README.md").write_text(
-        template.format(tables="\n\n".join(tables), posters=posters_md, poster_time_slot=session_to_time("S_poster"))
+        template.format(
+            tables="\n\n".join(tables),
+            posters=posters_md,
+            poster_time_slot=session_to_time("S_poster"),
+        )
     )
 
 
