@@ -4,22 +4,10 @@ authors:
   - name: Tomas Odstrcil
     affiliations:
       - General Atomics
-  - name: Tomas Odstrcil
-    affiliations:
-      - General Atomics
-  - name: Francesco Sciortino
-    affiliations:
-      - Proxima Fusion
   - name: Francesco Sciortino
     affiliations:
       - Proxima Fusion
   - name: A. Zito
-    affiliations:
-      - MPI-IPP
-  - name: A. Zito
-    affiliations:
-      - MPI-IPP
-  - name: D. Fajardo
     affiliations:
       - MPI-IPP
   - name: D. Fajardo

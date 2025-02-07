@@ -4,22 +4,10 @@ authors:
   - name: Edward Jones
     affiliations:
       - UKAEA
-  - name: Edward Jones
-    affiliations:
-      - UKAEA
-  - name: Adam Stephen
-    affiliations:
-      - UKAEA
   - name: Adam Stephen
     affiliations:
       - UKAEA
   - name: Charlie Boswell
-    affiliations:
-      - UKAEA
-  - name: Charlie Boswell
-    affiliations:
-      - UKAEA
-  - name: Hudson Baker
     affiliations:
       - UKAEA
   - name: Hudson Baker

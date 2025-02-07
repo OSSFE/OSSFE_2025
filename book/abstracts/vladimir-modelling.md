@@ -4,30 +4,15 @@ authors:
   - name: Vladimir Kulagin
     affiliations:
       - National Research Nuclear University MEPhI
-  - name: Vladimir Kulagin
-    affiliations:
-      - National Research Nuclear University MEPhI
-  - name: Oleg Medvedev
-    affiliations:
-      - National Research Nuclear University MEPhI, Ioffe Institute of Russian Academy of Sciences
   - name: Oleg Medvedev
     affiliations:
       - National Research Nuclear University MEPhI, Ioffe Institute of Russian Academy of Sciences
   - name: Ekaterina Shubina
     affiliations:
       - Ioffe Institute of Russian Academy of Sciences
-  - name: Ekaterina Shubina
-    affiliations:
-      - Ioffe Institute of Russian Academy of Sciences
   - name: Igor Gabis
     affiliations:
       - Ioffe Institute of Russian Academy of Sciences
-  - name: Igor Gabis
-    affiliations:
-      - Ioffe Institute of Russian Academy of Sciences
-  - name: Vitaliy Efimov
-    affiliations:
-      - National Research Nuclear University MEPhI, Yury Gasparyan, National Research Nuclear University MEPhI
   - name: Vitaliy Efimov
     affiliations:
       - National Research Nuclear University MEPhI, Yury Gasparyan, National Research Nuclear University MEPhI

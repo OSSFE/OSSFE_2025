@@ -4,40 +4,19 @@ authors:
   - name: Henrik Järleblad
     affiliations:
       - Department of Applied Mathematics and Computer Science, Technical University of Denmark, DK-2800 Kgs. Lyngby, Denmark
-  - name: Henrik Järleblad
-    affiliations:
-      - Department of Applied Mathematics and Computer Science, Technical University of Denmark, DK-2800 Kgs. Lyngby, Denmark
-  - name: Luke Stagner
-    affiliations:
-      - General Atomics, P.O. Box 85608, San Diego, CA 92186-5608, USA
   - name: Luke Stagner
     affiliations:
       - General Atomics, P.O. Box 85608, San Diego, CA 92186-5608, USA
   - name: Jacob Eriksson
     affiliations:
       - Department of Physics and Astronomy, Uppsala University, 751 20 Uppsala, Sweden
-  - name: Jacob Eriksson
-    affiliations:
-      - Department of Physics and Astronomy, Uppsala University, 751 20 Uppsala, Sweden
-  - name: Andrea Valentini
-    affiliations:
-      - Department of Physics, Technical University of Denmark, DK-2800 Kgs. Lyngby, Denmark
   - name: Andrea Valentini
     affiliations:
       - Department of Physics, Technical University of Denmark, DK-2800 Kgs. Lyngby, Denmark
   - name: Massimo Nocente
     affiliations:
       - Department of Physics, University of Milano-Bicocca, 20126 Milano, Italy
-  - name: Massimo Nocente
-    affiliations:
-      - Department of Physics, University of Milano-Bicocca, 20126 Milano, Italy
   - name: Mads Rud
-    affiliations:
-      - Department of Physics, Technical University of Denmark, DK-2800 Kgs. Lyngby, Denmark
-  - name: Mads Rud
-    affiliations:
-      - Department of Physics, Technical University of Denmark, DK-2800 Kgs. Lyngby, Denmark
-  - name: Mirko Salewski
     affiliations:
       - Department of Physics, Technical University of Denmark, DK-2800 Kgs. Lyngby, Denmark
   - name: Mirko Salewski

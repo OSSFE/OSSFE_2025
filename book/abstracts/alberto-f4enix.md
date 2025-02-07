@@ -4,9 +4,6 @@ authors:
   - name: Alberto Bittesnich
     affiliations:
       - ATG Science and Engineering, Universitat Politecnica de Catalunya Davide Laghi, Fusion for Energy Alvaro Cubi, Fusion for Energy Aljaz Kolsek, Fusion for Energy Marco Fabbri, Fusion for Energy
-  - name: Alberto Bittesnich
-    affiliations:
-      - ATG Science and Engineering, Universitat Politecnica de Catalunya Davide Laghi, Fusion for Energy Alvaro Cubi, Fusion for Energy Aljaz Kolsek, Fusion for Energy Marco Fabbri, Fusion for Energy
 license: CC-BY-4.0
 exports:
   - format: pdf

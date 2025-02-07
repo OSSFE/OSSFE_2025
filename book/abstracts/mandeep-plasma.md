@@ -4,9 +4,6 @@ authors:
   - name: Mandeep Kaur
     affiliations:
       - Proxy Kad, Arvinder Singh
-  - name: Mandeep Kaur
-    affiliations:
-      - Proxy Kad, Arvinder Singh
 license: CC-BY-4.0
 exports:
   - format: pdf

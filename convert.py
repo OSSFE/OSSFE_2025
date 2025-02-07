@@ -51,8 +51,6 @@ def read_paper(row: dict[str, str]) -> str:
             author_name = parts[0].strip()
             affiliation = parts[1].strip()
 
-            authors.append(Author(name=author_name, affiliation=affiliation))
-
             authors.append(
                 Author(
                     name=author_name,

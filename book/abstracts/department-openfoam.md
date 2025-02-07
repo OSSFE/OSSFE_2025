@@ -4,9 +4,6 @@ authors:
   - name: Department of Nuclear Engineering
     affiliations:
       - Texas A&M University
-  - name: Department of Nuclear Engineering
-    affiliations:
-      - Texas A&M University
 license: CC-BY-4.0
 exports:
   - format: pdf

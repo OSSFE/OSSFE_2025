@@ -4,30 +4,15 @@ authors:
   - name: Davide Laghi
     affiliations:
       - Fusion For Energy
-  - name: Davide Laghi
-    affiliations:
-      - Fusion For Energy
-  - name: Alberto Bittesnich
-    affiliations:
-      - Fusion For Energy
   - name: Alberto Bittesnich
     affiliations:
       - Fusion For Energy
   - name: Alex Valentine
     affiliations:
       - United Kingdom Atomic Energy Authority
-  - name: Alex Valentine
-    affiliations:
-      - United Kingdom Atomic Energy Authority
   - name: Steve C. Bradnam
     affiliations:
       - United Kingdom Atomic Energy Authority
-  - name: Steve C. Bradnam
-    affiliations:
-      - United Kingdom Atomic Energy Authority
-  - name: Marco Fabbri
-    affiliations:
-      - Fusion For Energy
   - name: Marco Fabbri
     affiliations:
       - Fusion For Energy

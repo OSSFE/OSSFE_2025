@@ -4,24 +4,12 @@ authors:
   - name: Vladimir Kulagin
     affiliations:
       - National Research Nuclear University MEPhI
-  - name: Vladimir Kulagin
-    affiliations:
-      - National Research Nuclear University MEPhI
-  - name: Remi Delaporte-Mathurin
-    affiliations:
-      - Massachusetts Institute of Technology
   - name: Remi Delaporte-Mathurin
     affiliations:
       - Massachusetts Institute of Technology
   - name: Etienne Hodille
     affiliations:
       - CEA IRFM
-  - name: Etienne Hodille
-    affiliations:
-      - CEA IRFM
-  - name: Mikhail Zibrov
-    affiliations:
-      - Max Planck Institute for Plasma Physics
   - name: Mikhail Zibrov
     affiliations:
       - Max Planck Institute for Plasma Physics

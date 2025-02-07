@@ -4,12 +4,6 @@ authors:
   - name: Peter Hill
     affiliations:
       - York Plasma Institute, University of York
-  - name: Peter Hill
-    affiliations:
-      - York Plasma Institute, University of York
-  - name: Liam Pattinson
-    affiliations:
-      - York Plasma Institute, University of York
   - name: Liam Pattinson
     affiliations:
       - York Plasma Institute, University of York
