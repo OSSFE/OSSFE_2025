@@ -242,7 +242,7 @@ def main():
         "session_id",
     ]
 
-    df = pd.read_csv("abstract_testing.csv", usecols=columns_to_keep)
+    df = pd.read_csv("abstracts.csv", usecols=columns_to_keep)
 
     # remove all linebreaks that would cause the markdown to break
     df = df.replace(r"\n", " ", regex=True)
