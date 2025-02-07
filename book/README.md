@@ -63,6 +63,16 @@ Chair: TBA
 | B3   | [Particle transport and radiation modeling by AURORA toolbox](abstracts/tomas-particle.md)                           | Tomas Odstrcil                    |
 
 
+## Panel: 10:40 - 11:20
+Number of presentations: 2
+
+Chair: TBA
+
+| ID     | Title                                      | Presenter   |
+|:-------|:-------------------------------------------|:------------|
+| Panel1 | [Panel discussion](abstracts/tbd-panel.md) | Panel       |
+
+
 ## P2: 11:20 - 11:50
 Number of presentations: 1
 

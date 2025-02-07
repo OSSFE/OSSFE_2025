@@ -117,7 +117,7 @@ def session_to_time(session_id: str):
             end=datetime.datetime(2025, 3, 18, 10, 40),
             room="GNU",
         )
-    elif session_id == "S_panel":
+    elif session_id == "S_Panel":
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 10, 40),
             end=datetime.datetime(2025, 3, 18, 11, 20),
@@ -198,7 +198,18 @@ def main():
         "session_id": "S_Closing",
     }
 
-    df = pd.concat([df, pd.DataFrame([opening_talk, closing_talk])], ignore_index=True)
+    panel_session = {
+        "Abstract ID": "Panel",
+        "Name": "Panel",
+        "Title": "Panel discussion",
+        "Abstract": "Join us for a panel discussion",
+        "List of authors and affiliation": "TBD",
+        "Recommendation": "oral",
+        "slot_id": "S_Panel",
+        "session_id": "S_Panel",
+    }
+
+    df = pd.concat([df, pd.DataFrame([opening_talk, closing_talk, panel_session])], ignore_index=True)
 
     # remove all linebreaks that would cause the markdown to break
     df = df.replace(r"\n", " ", regex=True)
