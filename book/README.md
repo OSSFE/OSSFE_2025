@@ -18,7 +18,7 @@ exports:
 > [!WARNING]  
 > This is work in progress. This schedule contains fake abstracts for now. The abstracts are not yet reviewed.
 
-Here you will find the abstracts for the OSSFE 2025 conference
+Here you will find the schedule and abstracts for the OSSFE 2025 conference
 
 # Presentations
 ## Welcome statement by the organising comittee: 7:00 - 7:10 (EST)
@@ -81,12 +81,28 @@ Room: GNU
 
 ## Tutorial Session: 9:30 - 10:40 (EST)
 
-Room: GNU
+Room: BSD
 
 A series of tutorials will be available to attend for the following packages:
     - example 1
     - example 2
     - example 3
+
+
+## Panel Session: 10:40 - 11:20 (EST)
+
+Room: MIT
+
+*Chair*: TBC
+
+A panel session will be held with the folling members:
+| Presenter       | Affiliation                                         |
+|:----------------|:----------------------------------------------------|
+| Martin Yagi     | [First Light Fusion](https://firstlightfusion.com/) |
+| David Bernhodlt | [ORNL](https://www.ornl.gov/)                       |
+| Matt Vernicchia | [CFS](https://cfs.energy/)                          |
+| Aiden Fowler    | [MIT](https://www.mit.edu/)                         |
+| April Novak     | [University of Illinois](https://illinois.edu/)     |
 
 
 ## Session P2: 11:20 - 11:50 (EST)
