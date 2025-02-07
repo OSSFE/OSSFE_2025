@@ -244,23 +244,6 @@ def main():
 
     df = pd.read_csv("abstract_testing.csv", usecols=columns_to_keep)
 
-    # add opening and closing talk to the dataframe
-    panel_session = {
-        "Abstract ID": "Panel",
-        "Name": "Panel",
-        "Title": "Panel discussion",
-        "Abstract": "Join us for a panel discussion",
-        "List of authors and affiliation": "TBD",
-        "Recommendation": "oral",
-        "slot_id": "S_Panel",
-        "session_id": "S_Panel",
-    }
-
-    df = pd.concat(
-        [df, pd.DataFrame([panel_session])],
-        ignore_index=True,
-    )
-
     # remove all linebreaks that would cause the markdown to break
     df = df.replace(r"\n", " ", regex=True)
 
