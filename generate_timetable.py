@@ -31,6 +31,9 @@ exports:
     template: ../template
 ---
 
+> [!WARNING]  
+> This is work in progress. This schedule contains fake abstracts for now. The abstracts are not yet reviewed.
+
 Here you will find the abstracts for the OSSFE 2025 conference
 
 # Presentations
