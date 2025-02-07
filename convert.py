@@ -92,10 +92,19 @@ def main(argv: Sequence[str] | None = None) -> int:
         reader = csv.DictReader(f)
         rows = [row for row in reader if any(row.values())]
         for row in rows:
+            # remove all linebreaks that would cause the markdown to break unless it's in the abstract
+            for key, value in row.items():
+                if key != "Abstract":
+                    row[key] = value.replace("\n", " ")
+
             # filename is last-name of author + first word of title
             last_name = row["List of authors and affiliation"].split(",")[0].split()[0]
             first_word_title = row["Title"].replace("-", " ").split()[0]
             slug = f"{last_name}-{first_word_title}".lower()
+
+            # remove invalid characters
+            slug = slug.replace(" ", "").replace("/", "").replace(":", "").replace(",", "")
+
             output = read_paper(row)
             (outdir / f"{slug}.md").write_text(output)
 

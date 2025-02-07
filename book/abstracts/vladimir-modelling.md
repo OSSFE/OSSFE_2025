@@ -1,6 +1,5 @@
 ---
-title: 'Modelling of deuterium release from tungsten co-deposited films induced
-by laser heating'
+title: 'Modelling of deuterium release from tungsten co-deposited films induced by laser heating'
 authors:
   - name: Vladimir Kulagin
     affiliations:
