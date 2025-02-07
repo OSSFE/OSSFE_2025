@@ -4,9 +4,6 @@ authors:
   - name: Will Saunders
     affiliations:
       - UKAEA
-  - name: Will Saunders
-    affiliations:
-      - UKAEA
 license: CC-BY-4.0
 exports:
   - format: pdf

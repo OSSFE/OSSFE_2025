@@ -4,9 +4,6 @@ authors:
   - name: Stefan Possanner
     affiliations:
       - Max Planck Institute for Plasma Physics in Garching, Germany
-  - name: Stefan Possanner
-    affiliations:
-      - Max Planck Institute for Plasma Physics in Garching, Germany
 license: CC-BY-4.0
 exports:
   - format: pdf

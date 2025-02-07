@@ -4,22 +4,10 @@ authors:
   - name: Joel Adams
     affiliations:
       - University of York
-  - name: Joel Adams
-    affiliations:
-      - University of York
-  - name: Chris Ridgers
-    affiliations:
-      - University of York
   - name: Chris Ridgers
     affiliations:
       - University of York
   - name: Peter Hill
-    affiliations:
-      - University of York
-  - name: Peter Hill
-    affiliations:
-      - University of York
-  - name: Nathan Smith
     affiliations:
       - University of York
   - name: Nathan Smith

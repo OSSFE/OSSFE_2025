@@ -4,16 +4,7 @@ authors:
   - name: Jonathan Citrin
     affiliations:
       - Google Deepmind
-  - name: Jonathan Citrin
-    affiliations:
-      - Google Deepmind
   - name: Ian Goodfellow
-    affiliations:
-      - Google Deepmind
-  - name: Ian Goodfellow
-    affiliations:
-      - Google Deepmind
-  - name: Akhil Raju
     affiliations:
       - Google Deepmind
   - name: Akhil Raju
@@ -22,16 +13,7 @@ authors:
   - name: Sebastian Bodenstein
     affiliations:
       - Google Deepmind
-  - name: Sebastian Bodenstein
-    affiliations:
-      - Google Deepmind
   - name: Craig Donner
-    affiliations:
-      - Google Deepmind
-  - name: Craig Donner
-    affiliations:
-      - Google Deepmind
-  - name: Federico Felici
     affiliations:
       - Google Deepmind
   - name: Federico Felici
@@ -40,16 +22,7 @@ authors:
   - name: Anushan Fernando
     affiliations:
       - Google Deepmind
-  - name: Anushan Fernando
-    affiliations:
-      - Google Deepmind
   - name: Philippe Hamel
-    affiliations:
-      - Google Deepmind
-  - name: Philippe Hamel
-    affiliations:
-      - Google Deepmind
-  - name: Andrea Huber
     affiliations:
       - Google Deepmind
   - name: Andrea Huber
@@ -58,16 +31,7 @@ authors:
   - name: Tamara Norman
     affiliations:
       - Google Deepmind
-  - name: Tamara Norman
-    affiliations:
-      - Google Deepmind
   - name: David Pfau
-    affiliations:
-      - Google Deepmind
-  - name: David Pfau
-    affiliations:
-      - Google Deepmind
-  - name: Brendan Tracey
     affiliations:
       - Google Deepmind
   - name: Brendan Tracey
@@ -76,16 +40,7 @@ authors:
   - name: Devon Battaglia
     affiliations:
       - Commonwealth Fusion Systems
-  - name: Devon Battaglia
-    affiliations:
-      - Commonwealth Fusion Systems
   - name: Anna Teplukhina
-    affiliations:
-      - Commonwealth Fusion Systems
-  - name: Anna Teplukhina
-    affiliations:
-      - Commonwealth Fusion Systems
-  - name: Josiah Wai
     affiliations:
       - Commonwealth Fusion Systems
   - name: Josiah Wai

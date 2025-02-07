@@ -4,16 +4,7 @@ authors:
   - name: Moharam Mohamed
     affiliations:
       - Nuclear and Radiation Engineering /Alexandria University
-  - name: Moharam Mohamed
-    affiliations:
-      - Nuclear and Radiation Engineering /Alexandria University
   - name: Ahmed Soliman
-    affiliations:
-      - Nuclear and Radiation Engineering /Alexandria university
-  - name: Ahmed Soliman
-    affiliations:
-      - Nuclear and Radiation Engineering /Alexandria university
-  - name: Abdelrahman Barakat
     affiliations:
       - Nuclear and Radiation Engineering /Alexandria university
   - name: Abdelrahman Barakat

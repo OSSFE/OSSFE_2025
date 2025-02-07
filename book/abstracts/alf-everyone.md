@@ -4,9 +4,6 @@ authors:
   - name: Alf Köhn-Seemann
     affiliations:
       - FuseNet Association, Member of the Board of Governors
-  - name: Alf Köhn-Seemann
-    affiliations:
-      - FuseNet Association, Member of the Board of Governors
 license: CC-BY-4.0
 exports:
   - format: pdf
