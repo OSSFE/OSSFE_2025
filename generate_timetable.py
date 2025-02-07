@@ -12,6 +12,8 @@ PLENARY_TALK_DURATION_SEC = PLENARY_TALK_DURATION_MIN * 60
 TALK_DURATION_MIN = 20
 TALK_DURATION_SEC = TALK_DURATION_MIN * 60
 
+OPENING_TALK_DURATION_MIN = 10
+OPENING_TALK_DURATION_SEC = OPENING_TALK_DURATION_MIN * 60
 
 template = dedent(
     """---
@@ -73,10 +75,16 @@ class TimeSlot(NamedTuple):
 
 
 def session_to_time(session_id: str):
-    if session_id == "S_opening":
+    if session_id == "S_Opening":
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 7, 00),
             end=datetime.datetime(2025, 3, 18, 7, 10),
+            room="MIT",
+        )
+    elif session_id == "S_Closing":
+        return TimeSlot(
+            start=datetime.datetime(2025, 3, 18, 15, 10),
+            end=datetime.datetime(2025, 3, 18, 15, 20),
             room="MIT",
         )
     elif session_id == "S_P1":
@@ -166,6 +174,31 @@ def main():
     ]
 
     df = pd.read_csv("abstract_testing.csv", usecols=columns_to_keep)
+
+    # add opening and closing talk to the dataframe
+    opening_talk = {
+        "Abstract ID": "Opening",
+        "Name": "Remi Delaporte-Mathurin",
+        "Title": "Welcome to OSSFE 2025",
+        "Abstract": "Welcome to the 2025 edition of the Open Source Software for Fusion Energy conference",
+        "List of authors and affiliation": "Remi Delaporte-Mathurin, Plasma Science and Fusion Center, MIT",
+        "Recommendation": "oral",
+        "slot_id": "S_Opening",
+        "session_id": "S_Opening",
+    }
+
+    closing_talk = {
+        "Abstract ID": "Closing",
+        "Name": "Remi Delaporte-Mathurin",
+        "Title": "Closing remarks",
+        "Abstract": "Thank you for attending the 2025 edition of the Open Source Software for Fusion Energy conference",
+        "List of authors and affiliation": "Remi Delaporte-Mathurin, Plasma Science and Fusion Center, MIT",
+        "Recommendation": "oral",
+        "slot_id": "S_Closing",
+        "session_id": "S_Closing",
+    }
+
+    df = pd.concat([df, pd.DataFrame([opening_talk, closing_talk])], ignore_index=True)
 
     # remove all linebreaks that would cause the markdown to break
     df = df.replace(r"\n", " ", regex=True)

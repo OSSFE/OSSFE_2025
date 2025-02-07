@@ -18,6 +18,16 @@ exports:
 Here you will find the abstracts for the OSSFE 2025 conference
 
 # Presentations
+## Opening: 7:00 - 7:10
+Number of presentations: 0
+
+Chair: TBA
+
+| ID       | Title                                              | Presenter               |
+|:---------|:---------------------------------------------------|:------------------------|
+| Opening1 | [Welcome to OSSFE 2025](abstracts/remi-welcome.md) | Remi Delaporte-Mathurin |
+
+
 ## P1: 7:10 - 8:10
 Number of presentations: 3
 
@@ -109,6 +119,16 @@ Chair: TBA
 | F1   | [XMARTe - A graphical interface for designing Real Time Control Applications with MARTe2](abstracts/edward-xmarte.md)       | Edward Jones       |
 | F2   | [Modelling of deuterium release from tungsten co-deposited films induced by laser heating](abstracts/vladimir-modelling.md) | Vladimir Kulagin   |
 | F3   | [F4Enix, a new Python API for pre and post processing of MCNP inputs and outputs](abstracts/alberto-f4enix,.md)             | Alberto Bittesnich |
+
+
+## Closing: 15:10 - 15:20
+Number of presentations: 0
+
+Chair: TBA
+
+| ID       | Title                                        | Presenter               |
+|:---------|:---------------------------------------------|:------------------------|
+| Closing1 | [Closing remarks](abstracts/remi-closing.md) | Remi Delaporte-Mathurin |
 
 
 # Posters
