@@ -176,6 +176,9 @@ def main():
         sort=True,
     )
 
+    # sort by time
+    grouped = sorted(grouped, key=lambda x: session_to_time(x[0]).start)
+
     grouped_dict = {session_id: group for session_id, group in grouped}
 
     # Create a table for each group

@@ -18,6 +18,14 @@ exports:
 Here you will find the abstracts for the OSSFE 2025 conference
 
 # Presentations
+## P1: 7:10 - 8:10
+Number of presentations: 3
+| Title                                                                                               | Presenter       |
+|:----------------------------------------------------------------------------------------------------|:----------------|
+| [NeSST - Neutron Scattered Spectra Tool](abstracts/aidan-nesst.md)                                  | Aidan Crilly    |
+| [TORAX: A Fast and Differentiable Tokamak Transport Simulator in JAX](abstracts/jonathan-torax:.md) | Jonathan Citrin |
+
+
 ## A: 8:30 - 9:30
 Number of presentations: 3
 | Title                                                                                            | Presenter        |
@@ -34,6 +42,13 @@ Number of presentations: 3
 | [Enhancing Fusion Efficiency of Tokamak through Electromagnetic Field Manipulation](abstracts/moharam-enhancing.md)  | Moharam Abdelkhalek Ahmed Mohamed |
 | [An Updated Framework For Synthetic Diagnostics Using Energetic-particle Orbits in Tokamaks](abstracts/henrik-an.md) | Henrik Järleblad                  |
 | [Particle transport and radiation modeling by AURORA toolbox](abstracts/tomas-particle.md)                           | Tomas Odstrcil                    |
+
+
+## P2: 11:20 - 11:50
+Number of presentations: 1
+| Title                                                                                            | Presenter        |
+|:-------------------------------------------------------------------------------------------------|:-----------------|
+| [Struphy - solving plasma physics PDEs within the Python ecosystem](abstracts/stefan-struphy.md) | Stefan Possanner |
 
 
 ## C: 12:50 - 13:50
@@ -70,21 +85,6 @@ Number of presentations: 3
 | [XMARTe - A graphical interface for designing Real Time Control Applications with MARTe2](abstracts/edward-xmarte.md)       | Edward Jones       |
 | [Modelling of deuterium release from tungsten co-deposited films induced by laser heating](abstracts/vladimir-modelling.md) | Vladimir Kulagin   |
 | [F4Enix, a new Python API for pre and post processing of MCNP inputs and outputs](abstracts/alberto-f4enix,.md)             | Alberto Bittesnich |
-
-
-## P1: 7:10 - 8:10
-Number of presentations: 3
-| Title                                                                                               | Presenter       |
-|:----------------------------------------------------------------------------------------------------|:----------------|
-| [NeSST - Neutron Scattered Spectra Tool](abstracts/aidan-nesst.md)                                  | Aidan Crilly    |
-| [TORAX: A Fast and Differentiable Tokamak Transport Simulator in JAX](abstracts/jonathan-torax:.md) | Jonathan Citrin |
-
-
-## P2: 11:20 - 11:50
-Number of presentations: 1
-| Title                                                                                            | Presenter        |
-|:-------------------------------------------------------------------------------------------------|:-----------------|
-| [Struphy - solving plasma physics PDEs within the Python ecosystem](abstracts/stefan-struphy.md) | Stefan Possanner |
 
 
 # Posters
