@@ -131,7 +131,8 @@ Chair: TBA
 | Closing1 | [Closing remarks](abstracts/remi-closing.md) | Remi Delaporte-Mathurin |
 
 
-# Posters
+# Posters 9:30 - 10:40
+Number of presentations: 3
 |   ID | Title                                                                                                                                                                                           | Presenter        |
 |-----:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------|
 |    1 | [TRIOMA: an open source application for fast outer fuel cycle tritium transport analysis](abstracts/trioma:-an-open-source-application-for-fast-outer-fuel-cycle-tritium-transport-analysis.md) | Gabriele Ferrero |

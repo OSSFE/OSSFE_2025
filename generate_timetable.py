@@ -38,7 +38,7 @@ Here you will find the abstracts for the OSSFE 2025 conference
 # Presentations
 {tables}
 
-# Posters
+# Posters {poster_time_slot}
 {posters}
 """
 )
@@ -252,7 +252,7 @@ def main():
     posters_md = df_posters_md.to_markdown(index=False)
 
     (Path("book") / "README.md").write_text(
-        template.format(tables="\n\n".join(tables), posters=posters_md)
+        template.format(tables="\n\n".join(tables), posters=posters_md, poster_time_slot=session_to_time("S_poster"))
     )
 
 
