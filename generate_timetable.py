@@ -54,6 +54,7 @@ Here you will find the schedule and abstracts for the OSSFE 2025 conference
 {tables}
 """
 )
+
 template_list_of_posters = dedent(
     """---
 title: "List of posters"
@@ -389,6 +390,48 @@ def main():
         room=S_demos_time_slot.room,
     )
     tables.insert(5, demo_session_str)
+
+    # create item for panel session
+    panel_session = dedent(
+        """\
+    ## Panel Session: {time_slot}
+
+    Room: {room}
+
+    *Chair*: {chair}
+
+    A panel session will be held with the folling members:
+    {table}
+    """
+    )
+    S_panel_time_slot = session_to_time("S_Panel")
+    presenters = [
+        "Martin Yagi",
+        "David Bernhodlt",
+        "Matt Vernicchia",
+        "Aiden Fowler",
+        "April Novak",
+    ]
+    affiliations = [
+        "[First Light Fusion](https://firstlightfusion.com/)",
+        "[ORNL](https://www.ornl.gov/)",
+        "[CFS](https://cfs.energy/)",
+        "[MIT](https://www.mit.edu/)",
+        "[University of Illinois](https://illinois.edu/)",
+    ]
+    panel_data = []
+    for presenter, affiliation in zip(presenters, affiliations):
+        panel_data.append({"Presenter": presenter, "Affiliation": affiliation})
+
+    panel_df_table = pd.DataFrame(panel_data)
+    panel_table = panel_df_table.to_markdown(index=False)
+    panel_session_str = panel_session.format(
+        time_slot=S_panel_time_slot,
+        room=S_panel_time_slot.room,
+        chair=S_panel_time_slot.chair,
+        table=panel_table,
+    )
+    tables.insert(6, panel_session_str)
 
     data = []
     for index, (_, item) in enumerate(df_poster.iterrows(), start=1):
