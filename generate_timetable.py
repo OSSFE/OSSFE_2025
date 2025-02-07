@@ -267,13 +267,16 @@ def main():
     # remove all linebreaks that would cause the markdown to break
     df = df.replace(r"\n", " ", regex=True)
 
-    df_presentation = df[df["Decision"] == "oral"]
-    df_poster = df[df["Decision"] == "poster"]
+    df_presentation = df[df["Decision"] == "oral"].copy()
+    df_poster = df[df["Decision"] == "poster"].copy()
+
+    df_presentation.loc[:, "slot_number"] = (
+        df_presentation["slot_id"].str.extract(r"(\d+)").astype(int)
+    )
 
     # Group by day and session
-    grouped = df_presentation.groupby(
-        "session_id",
-        sort=True,
+    grouped = df_presentation.sort_values(by=["session_id", "slot_number"]).groupby(
+        "session_id", sort=True
     )
 
     # sort by time
