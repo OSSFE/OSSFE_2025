@@ -4,16 +4,7 @@ authors:
   - name: Pierre-Clément A. Simon
     affiliations:
       - Idaho National Laboratory
-  - name: Pierre-Clément A. Simon
-    affiliations:
-      - Idaho National Laboratory
   - name: Casey T. Icenhour
-    affiliations:
-      - Idaho National Laboratory
-  - name: Casey T. Icenhour
-    affiliations:
-      - Idaho National Laboratory
-  - name: Masashi Shimada
     affiliations:
       - Idaho National Laboratory
   - name: Masashi Shimada
@@ -22,16 +13,7 @@ authors:
   - name: Guillaume Giudicelli
     affiliations:
       - Idaho National Laboratory
-  - name: Guillaume Giudicelli
-    affiliations:
-      - Idaho National Laboratory
   - name: Logan H. Harbour
-    affiliations:
-      - Idaho National Laboratory
-  - name: Logan H. Harbour
-    affiliations:
-      - Idaho National Laboratory
-  - name: Derek Gaston
     affiliations:
       - Idaho National Laboratory
   - name: Derek Gaston
@@ -40,22 +22,10 @@ authors:
   - name: Lin Yang
     affiliations:
       - Idaho National Laboratory
-  - name: Lin Yang
-    affiliations:
-      - Idaho National Laboratory
-  - name: Helen Brooks
-    affiliations:
-      - United Kingdom Atomic Energy Agency
   - name: Helen Brooks
     affiliations:
       - United Kingdom Atomic Energy Agency
   - name: Mahmoud Eltawila
-    affiliations:
-      - University of Illinois Urbana-Champaign
-  - name: Mahmoud Eltawila
-    affiliations:
-      - University of Illinois Urbana-Champaign
-  - name: April J. Novak
     affiliations:
       - University of Illinois Urbana-Champaign
   - name: April J. Novak
@@ -64,22 +34,10 @@ authors:
   - name: Grayson Gall
     affiliations:
       - North Carolina State University
-  - name: Grayson Gall
-    affiliations:
-      - North Carolina State University
-  - name: Amanda M. Lietz
-    affiliations:
-      - North Carolina State University
   - name: Amanda M. Lietz
     affiliations:
       - North Carolina State University
   - name: Trevor Franklin
-    affiliations:
-      - Virginia Commonwealth University
-  - name: Trevor Franklin
-    affiliations:
-      - Virginia Commonwealth University
-  - name: Lane B. Carasik
     affiliations:
       - Virginia Commonwealth University
   - name: Lane B. Carasik

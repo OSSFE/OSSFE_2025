@@ -4,9 +4,6 @@ authors:
   - name: Siddharth Mungale
     affiliations:
       - Helen Brooks, Luke Humphrey
-  - name: Siddharth Mungale
-    affiliations:
-      - Helen Brooks, Luke Humphrey
 license: CC-BY-4.0
 exports:
   - format: pdf

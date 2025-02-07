@@ -4,12 +4,6 @@ authors:
   - name: David E. Bernholdt
     affiliations:
       - Oak Ridge National Laboratory
-  - name: David E. Bernholdt
-    affiliations:
-      - Oak Ridge National Laboratory
-  - name: Wael R
-    affiliations:
-      - Elwasif, Oak Ridge National Laboratory
   - name: Wael R
     affiliations:
       - Elwasif, Oak Ridge National Laboratory

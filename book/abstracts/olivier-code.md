@@ -4,9 +4,6 @@ authors:
   - name: Olivier Sauter for the Swiss Plasma Center (SPC)
     affiliations:
       - EPFL, Lausanne, Switzerland
-  - name: Olivier Sauter for the Swiss Plasma Center (SPC)
-    affiliations:
-      - EPFL, Lausanne, Switzerland
 license: CC-BY-4.0
 exports:
   - format: pdf

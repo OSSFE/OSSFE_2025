@@ -4,16 +4,7 @@ authors:
   - name: Gabriele Ferrero
     affiliations:
       - Politecnico di Torino
-  - name: Gabriele Ferrero
-    affiliations:
-      - Politecnico di Torino
   - name: Samuele Meschini
-    affiliations:
-      - Politecnico di Torino
-  - name: Samuele Meschini
-    affiliations:
-      - Politecnico di Torino
-  - name: Raffaella Testoni
     affiliations:
       - Politecnico di Torino
   - name: Raffaella Testoni

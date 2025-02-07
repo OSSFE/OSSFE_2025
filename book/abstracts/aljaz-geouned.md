@@ -4,24 +4,12 @@ authors:
   - name: Aljaz Kolsek
     affiliations:
       - Fusion for Energy
-  - name: Aljaz Kolsek
-    affiliations:
-      - Fusion for Energy
-  - name: Juan Pablo Catalan
-    affiliations:
-      - UNED
   - name: Juan Pablo Catalan
     affiliations:
       - UNED
   - name: Patrick Sauvan
     affiliations:
       - UNED
-  - name: Patrick Sauvan
-    affiliations:
-      - UNED
-  - name: Jonathan Shimwell
-    affiliations:
-      - Proxima Fusion
   - name: Jonathan Shimwell
     affiliations:
       - Proxima Fusion

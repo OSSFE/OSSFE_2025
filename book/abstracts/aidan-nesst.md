@@ -4,9 +4,6 @@ authors:
   - name: Aidan Crilly
     affiliations:
       - Imperial College London
-  - name: Aidan Crilly
-    affiliations:
-      - Imperial College London
 license: CC-BY-4.0
 exports:
   - format: pdf

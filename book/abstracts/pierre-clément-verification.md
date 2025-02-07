@@ -4,16 +4,7 @@ authors:
   - name: Pierre-Clément A. Simon
     affiliations:
       - Idaho National Laboratory
-  - name: Pierre-Clément A. Simon
-    affiliations:
-      - Idaho National Laboratory
   - name: Casey T. Icenhour
-    affiliations:
-      - Idaho National Laboratory
-  - name: Casey T. Icenhour
-    affiliations:
-      - Idaho National Laboratory
-  - name: Alexander Lindsay
     affiliations:
       - Idaho National Laboratory
   - name: Alexander Lindsay
@@ -22,16 +13,7 @@ authors:
   - name: Gyanender Singh
     affiliations:
       - Idaho National Laboratory
-  - name: Gyanender Singh
-    affiliations:
-      - Idaho National Laboratory
   - name: Chaitanya Bhave
-    affiliations:
-      - Idaho National Laboratory
-  - name: Chaitanya Bhave
-    affiliations:
-      - Idaho National Laboratory
-  - name: Lin Yang
     affiliations:
       - Idaho National Laboratory
   - name: Lin Yang
@@ -40,18 +22,9 @@ authors:
   - name: Adriaan Riet
     affiliations:
       - Idaho National Laboratory
-  - name: Adriaan Riet
-    affiliations:
-      - Idaho National Laboratory
   - name: Paul Humrickhouse
     affiliations:
       - Oak Ridge National Laboratory
-  - name: Paul Humrickhouse
-    affiliations:
-      - Oak Ridge National Laboratory
-  - name: Masashi Shimada
-    affiliations:
-      - Idaho National Laboratory
   - name: Masashi Shimada
     affiliations:
       - Idaho National Laboratory

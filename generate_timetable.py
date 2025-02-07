@@ -164,6 +164,9 @@ def main():
 
     df = pd.read_csv("abstract_testing.csv", usecols=columns_to_keep)
 
+    # remove all linebreaks that would cause the markdown to break
+    df = df.replace(r"\n", " ", regex=True)
+
     df_presentation = df[df["Recommendation"] == "oral"]
     df_poster = df[df["Recommendation"] == "poster"]
 
@@ -183,9 +186,12 @@ def main():
         time_slot = session_to_time(session)
 
         for _, item in group.iterrows():
-            filename = f"{item["Title"].replace(" ", "-").lower()}.md"
+            # filename is last-name of author + first word of title
+            last_name = item["List of authors and affiliation"].split(",")[0].split()[0]
+            first_word_title = item["Title"].replace("-", " ").split()[0]
+            filename = f"{last_name}-{first_word_title}.md".lower()
+    
             title = f'[{item["Title"]}](abstracts/{filename})'
-            # title = f'[{item["Title"]}](abstracts/{item["Filename"]}.md)'
             presenter = item["Name"]
 
             # breakpoint()
