@@ -1,5 +1,4 @@
 from typing import NamedTuple
-from enum import IntEnum, auto
 from textwrap import dedent
 import pandas as pd
 import datetime
@@ -65,14 +64,16 @@ table_template = dedent(
 
 Room: {room}
 
-Chair: {chair}
+*Chair*: {chair}
+
+Number of presentations: {num_presentations}
 
 {table}
 """
 )
 
 
-class TimeSlot(NamedTuple):
+class TimeSlot:
     """
     Rooms: MIT, APACHE, GNU, BSD
     types : plenary, oral, poster, opening, closing, panel
@@ -84,17 +85,26 @@ class TimeSlot(NamedTuple):
     type: str
     chair: str
 
+    num_presentations: int
+
+    @property
     def num_presentations(self):
         if type_to_duration[self.type] is None:
             return 1
         duration = self.end - self.start
         return int(duration.total_seconds() / type_to_duration[self.type])
 
+    def __init__(self, start, end, room, type, chair=None):
+        self.start = start
+        self.end = end
+        self.room = room
+        self.type = type
+        self.chair = chair
+
     def __str__(self):
         start_minute = str(self.start.minute).zfill(2)
         end_minute = str(self.end.minute).zfill(2)
-        num_presentations = f"Number of presentations: {self.num_presentations()}"
-        return f"{self.start.hour}:{start_minute} - {self.end.hour}:{end_minute} (EST) \n{num_presentations}"
+        return f"{self.start.hour}:{start_minute} - {self.end.hour}:{end_minute} (EST)"
 
 
 def session_to_time(session_id: str):
@@ -295,6 +305,7 @@ def main():
                 time_slot=time_slot,
                 room=time_slot.room,
                 chair=time_slot.chair,
+                num_presentations=time_slot.num_presentations,
                 table=table,
             )
         )
