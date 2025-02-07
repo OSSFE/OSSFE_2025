@@ -218,6 +218,7 @@ def main():
         "List of authors and affiliation",
         "Link to open-source software repository (if applicable)",
         "Recommendation",
+        "Decision",
         "slot_id",
         "session_id",
     ]
@@ -266,13 +267,16 @@ def main():
     # remove all linebreaks that would cause the markdown to break
     df = df.replace(r"\n", " ", regex=True)
 
-    df_presentation = df[df["Recommendation"] == "oral"]
-    df_poster = df[df["Recommendation"] == "poster"]
+    df_presentation = df[df["Decision"] == "oral"].copy()
+    df_poster = df[df["Decision"] == "poster"].copy()
+
+    df_presentation.loc[:, "slot_number"] = (
+        df_presentation["slot_id"].str.extract(r"(\d+)").astype(int)
+    )
 
     # Group by day and session
-    grouped = df_presentation.groupby(
-        "session_id",
-        sort=True,
+    grouped = df_presentation.sort_values(by=["session_id", "slot_number"]).groupby(
+        "session_id", sort=True
     )
 
     # sort by time
@@ -281,7 +285,6 @@ def main():
     # Create a table for each group
     tables = []
     for session, group in grouped:
-        print(session)
         data = []
         time_slot = session_to_time(session)
 
@@ -303,7 +306,7 @@ def main():
             presenter = item["Name"]
 
             # breakpoint()
-            talk_id = f"{session.replace('S_', '')}{idx}"
+            talk_id = item["slot_id"]
             data.append({"ID": talk_id, "Title": title, "Presenter": presenter})
 
         df_table = pd.DataFrame(data)

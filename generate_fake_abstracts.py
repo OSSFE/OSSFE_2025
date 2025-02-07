@@ -4,6 +4,30 @@ from pathlib import Path
 from faker import Faker
 import csv
 
+slot_ids = [
+    "P1",
+    "P2",
+    "P3",
+    "A1",
+    "A2",
+    "A3",
+    "B1",
+    "B2",
+    "B3",
+    "C1",
+    "C2",
+    "C3",
+    "D1",
+    "D2",
+    "D3",
+    "E1",
+    "E2",
+    "E3",
+    "F1",
+    "F2",
+    "F3",
+]
+
 
 def authors(fake: Faker, n: int) -> str:
     authors = []
@@ -18,6 +42,7 @@ def affiliations(fake: Faker, n: int) -> str:
         affiliations.append(fake.company())
     return ", ".join(affiliations)
 
+
 def abstract_id_to_session_id(abstract_id: int) -> str:
     if abstract_id <= 2:
         return "S_P1"
@@ -29,7 +54,17 @@ def abstract_id_to_session_id(abstract_id: int) -> str:
         if session_index < len(session_ids):
             return session_ids[session_index]
         else:
-            return "S_poster"  # Handle cases where there are more abstracts than expected
+            return (
+                "S_poster"  # Handle cases where there are more abstracts than expected
+            )
+
+
+def abstract_id_to_slot_id(abstract_id: int) -> str:
+    if abstract_id <= 20:
+        return slot_ids[abstract_id]
+    else:
+        return "poster"
+
 
 def main(argv: Sequence[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="")
@@ -41,7 +76,6 @@ def main(argv: Sequence[str] | None = None) -> int:
     fake.seed_instance(4321)
 
     path = Path(args["path"]).with_suffix(".csv")
-
 
     fieldnames = [
         "Abstract ID",
@@ -67,8 +101,9 @@ def main(argv: Sequence[str] | None = None) -> int:
         "Scientific and technical relevant (?/3)",
         "Total score",
         "Recommendation",
+        "Decision",
         "slot_id",
-        "session_id"
+        "session_id",
     ]
     with path.open("w") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
@@ -78,7 +113,7 @@ def main(argv: Sequence[str] | None = None) -> int:
             num_authors = fake.random_int(1, 5)
             empty_ref_list = fake.random_int(0, 1)
             data = {
-                "Abstract ID": fake.uuid4(),
+                "Abstract ID": int(i + 1),
                 "Horodateur": fake.date_time(),
                 "Name": fake.name(),
                 "Email": fake.email(),
@@ -87,7 +122,9 @@ def main(argv: Sequence[str] | None = None) -> int:
                 "Topic": fake.word(),
                 "Title": fake.sentence(),
                 "Abstract": fake.text(),
-                "List of authors and affiliation": "; ".join([f"{fake.name()}, {fake.company()}" for _ in range(num_authors)]),
+                "List of authors and affiliation": "; ".join(
+                    [f"{fake.name()}, {fake.company()}" for _ in range(num_authors)]
+                ),
                 "How does this submission relate to open-source?": fake.text(),
                 "Link to open-source software repository (if applicable)": fake.url(),
                 "Do you agree to the following conditions to submit your abstract to the OSSFE 2025 Conference?": "Yes",
@@ -98,11 +135,22 @@ def main(argv: Sequence[str] | None = None) -> int:
                 "Permissive license (1 or 0)": fake.random_element(elements=[0, 1]),
                 "Open-source stack (1 or 0)": fake.random_element(elements=[0, 1]),
                 "Documentation (0 to 1)": fake.random_element(elements=[0, 1]),
-                "Scientific and technical relevant (?/3)": fake.random_int(min=0, max=3),
+                "Scientific and technical relevant (?/3)": fake.random_int(
+                    min=0, max=3
+                ),
                 "Total score": fake.random_int(min=0, max=10),
-                "Recommendation": "oral" if abstract_id_to_session_id(i) != "S_poster" else "poster",
-                "slot_id": fake.word(),
-                "session_id": abstract_id_to_session_id(i)
+                "Recommendation": (
+                    "oral"
+                    if abstract_id_to_session_id(i + 1) != "S_poster"
+                    else "poster"
+                ),
+                "Decision": (
+                    "oral"
+                    if abstract_id_to_session_id(i + 1) != "S_poster"
+                    else "poster"
+                ),
+                "slot_id": abstract_id_to_slot_id(i),
+                "session_id": abstract_id_to_session_id(i + 1),
             }
             writer.writerow(data)
 
