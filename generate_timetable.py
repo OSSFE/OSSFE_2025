@@ -190,7 +190,10 @@ def main():
             last_name = item["List of authors and affiliation"].split(",")[0].split()[0]
             first_word_title = item["Title"].replace("-", " ").split()[0]
             filename = f"{last_name}-{first_word_title}.md".lower()
-    
+
+            # remove invalid characters
+            filename = filename.replace(" ", "").replace("/", "").replace(":", "").replace(",", "")
+
             title = f'[{item["Title"]}](abstracts/{filename})'
             presenter = item["Name"]
 
@@ -203,7 +206,14 @@ def main():
 
     data = []
     for _, item in df_poster.iterrows():
-        filename = f"{item["Title"].replace(" ", "-").lower()}.md"
+        # filename is last-name of author + first word of title
+        last_name = item["List of authors and affiliation"].split(",")[0].split()[0]
+        first_word_title = item["Title"].replace("-", " ").split()[0]
+        filename = f"{last_name}-{first_word_title}.md".lower()
+
+        # remove invalid characters
+        filename = filename.replace(" ", "").replace("/", "").replace(":", "").replace(",", "")
+
         title = f'[{item["Title"]}](abstracts/{filename})'
         presenter = item["Name"]
         data.append({"Title": title, "Presenter": presenter})

@@ -38,11 +38,11 @@ Number of presentations: 3
 
 ## 12:50 - 13:50
 Number of presentations: 3
-| Title                                                                                                                                                                                             | Presenter            |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------|
-| [Surrogate Modelling of Classical and Quantum Electrodynamic Laser Plasma Simulations at Intensities Above 10^22 Wcm^-2](abstracts/joel-surrogate.md)                                             | Joel Adams           |
-| [Hypnos: parametric geometry preparation for fusion-relevant applications](abstracts/siddharth-hypnos:.md)                                                                                        | Siddharth Mungale    |
-| [Verification, Validation, and Demonstration of the MOOSE-based Tritium Migration Analysis Program, Version 8 (TMAP8) Application for Fusion Systems.](abstracts/pierre-clément-verification,.md) | Pierre-Clément Simon |
+| Title                                                                                                                                                                                            | Presenter            |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------|
+| [Surrogate Modelling of Classical and Quantum Electrodynamic Laser Plasma Simulations at Intensities Above 10^22 Wcm^-2](abstracts/joel-surrogate.md)                                            | Joel Adams           |
+| [Hypnos: parametric geometry preparation for fusion-relevant applications](abstracts/siddharth-hypnos.md)                                                                                        | Siddharth Mungale    |
+| [Verification, Validation, and Demonstration of the MOOSE-based Tritium Migration Analysis Program, Version 8 (TMAP8) Application for Fusion Systems.](abstracts/pierre-clément-verification.md) | Pierre-Clément Simon |
 
 
 ## 12:50 - 13:50
@@ -56,11 +56,11 @@ Number of presentations: 3
 
 ## 14:10 - 15:10
 Number of presentations: 3
-| Title                                                                                   | Presenter    |
-|:----------------------------------------------------------------------------------------|:-------------|
-| [GEOUNED: CSG geometry production for fusion applications](abstracts/aljaz-geouned:.md) | Aljaz Kolsek |
-| [PlasmaFAIR: Making Plasma Software Better](abstracts/peter-plasmafair:.md)             | Peter Hill   |
-| [Plasma Applications](abstracts/mandeep-plasma.md)                                      | Mandeep Kaur |
+| Title                                                                                  | Presenter    |
+|:---------------------------------------------------------------------------------------|:-------------|
+| [GEOUNED: CSG geometry production for fusion applications](abstracts/aljaz-geouned.md) | Aljaz Kolsek |
+| [PlasmaFAIR: Making Plasma Software Better](abstracts/peter-plasmafair.md)             | Peter Hill   |
+| [Plasma Applications](abstracts/mandeep-plasma.md)                                     | Mandeep Kaur |
 
 
 ## 14:10 - 15:10
@@ -69,15 +69,15 @@ Number of presentations: 3
 |:----------------------------------------------------------------------------------------------------------------------------|:-------------------|
 | [XMARTe - A graphical interface for designing Real Time Control Applications with MARTe2](abstracts/edward-xmarte.md)       | Edward Jones       |
 | [Modelling of deuterium release from tungsten co-deposited films induced by laser heating](abstracts/vladimir-modelling.md) | Vladimir Kulagin   |
-| [F4Enix, a new Python API for pre and post processing of MCNP inputs and outputs](abstracts/alberto-f4enix,.md)             | Alberto Bittesnich |
+| [F4Enix, a new Python API for pre and post processing of MCNP inputs and outputs](abstracts/alberto-f4enix.md)              | Alberto Bittesnich |
 
 
 ## 7:10 - 8:10
 Number of presentations: 3
-| Title                                                                                               | Presenter       |
-|:----------------------------------------------------------------------------------------------------|:----------------|
-| [NeSST - Neutron Scattered Spectra Tool](abstracts/aidan-nesst.md)                                  | Aidan Crilly    |
-| [TORAX: A Fast and Differentiable Tokamak Transport Simulator in JAX](abstracts/jonathan-torax:.md) | Jonathan Citrin |
+| Title                                                                                              | Presenter       |
+|:---------------------------------------------------------------------------------------------------|:----------------|
+| [NeSST - Neutron Scattered Spectra Tool](abstracts/aidan-nesst.md)                                 | Aidan Crilly    |
+| [TORAX: A Fast and Differentiable Tokamak Transport Simulator in JAX](abstracts/jonathan-torax.md) | Jonathan Citrin |
 
 
 ## 11:20 - 11:50
@@ -88,10 +88,10 @@ Number of presentations: 1
 
 
 # Posters
-| Title                                                                                                                                                                                           | Presenter        |
-|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------|
-| [TRIOMA: an open source application for fast outer fuel cycle tritium transport analysis](abstracts/trioma:-an-open-source-application-for-fast-outer-fuel-cycle-tritium-transport-analysis.md) | Gabriele Ferrero |
-| [IPS: an open-source framework for (loosely) coupled multiphsyics simulations](abstracts/ips:-an-open-source-framework-for-(loosely)-coupled-multiphsyics-simulations.md)                       | David Bernholdt  |
-| [Kinetic surface model in FESTIM: Verification and Validation](abstracts/kinetic-surface-model-in-festim:-verification-and-validation.md)                                                       | Vladimir Kulagin |
-| [NESO-Particles: A Performance Portable Particle Framework For The Fusion Use Case](abstracts/neso-particles:-a-performance-portable-particle-framework-for-the-fusion-use-case.md)             | Will Saunders    |
-| [Improving Reproducibility Through Better Software Practices](abstracts/improving-reproducibility-through-better-software-practices.md)                                                         | David Bernholdt  |
+| Title                                                                                                                   | Presenter        |
+|:------------------------------------------------------------------------------------------------------------------------|:-----------------|
+| [TRIOMA: an open source application for fast outer fuel cycle tritium transport analysis](abstracts/gabriele-trioma.md) | Gabriele Ferrero |
+| [IPS: an open-source framework for (loosely) coupled multiphsyics simulations](abstracts/david-ips.md)                  | David Bernholdt  |
+| [Kinetic surface model in FESTIM: Verification and Validation](abstracts/vladimir-kinetic.md)                           | Vladimir Kulagin |
+| [NESO-Particles: A Performance Portable Particle Framework For The Fusion Use Case](abstracts/will-neso.md)             | Will Saunders    |
+| [Improving Reproducibility Through Better Software Practices](abstracts/david-improving.md)                             | David Bernholdt  |
