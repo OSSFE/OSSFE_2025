@@ -79,27 +79,14 @@ def main(argv: Sequence[str] | None = None) -> int:
 
     fieldnames = [
         "Abstract ID",
-        "Horodateur",
         "Name",
         "Email",
-        "Are you a student and if so would you like to enter the best student poster/presentation competition?",
         "Type of submission",
         "Topic",
         "Title",
         "Abstract",
         "List of authors and affiliation",
-        "How does this submission relate to open-source?",
         "Link to open-source software repository (if applicable)",
-        "Do you agree to the following conditions to submit your abstract to the OSSFE 2025 Conference?",
-        "Notes",
-        "Name of reviewer",
-        "Open source (1 or 0)",
-        "Fusion relevant? (1 or 0)",
-        "Permissive license (1 or 0)",
-        "Open-source stack (1 or 0)",
-        "Documentation (0 to 1)",
-        "Scientific and technical relevant (?/3)",
-        "Total score",
         "Recommendation",
         "Decision",
         "slot_id",
@@ -111,13 +98,10 @@ def main(argv: Sequence[str] | None = None) -> int:
 
         for i in range(args["N"]):
             num_authors = fake.random_int(1, 5)
-            empty_ref_list = fake.random_int(0, 1)
             data = {
                 "Abstract ID": int(i + 1),
-                "Horodateur": fake.date_time(),
                 "Name": fake.name(),
                 "Email": fake.email(),
-                "Are you a student and if so would you like to enter the best student poster/presentation competition?": fake.boolean(),
                 "Type of submission": fake.word(),
                 "Topic": fake.word(),
                 "Title": fake.sentence(),
@@ -125,20 +109,7 @@ def main(argv: Sequence[str] | None = None) -> int:
                 "List of authors and affiliation": "; ".join(
                     [f"{fake.name()}, {fake.company()}" for _ in range(num_authors)]
                 ),
-                "How does this submission relate to open-source?": fake.text(),
                 "Link to open-source software repository (if applicable)": fake.url(),
-                "Do you agree to the following conditions to submit your abstract to the OSSFE 2025 Conference?": "Yes",
-                "Notes": fake.sentence(),
-                "Name of reviewer": fake.name(),
-                "Open source (1 or 0)": fake.random_element(elements=[0, 1]),
-                "Fusion relevant? (1 or 0)": fake.random_element(elements=[0, 1]),
-                "Permissive license (1 or 0)": fake.random_element(elements=[0, 1]),
-                "Open-source stack (1 or 0)": fake.random_element(elements=[0, 1]),
-                "Documentation (0 to 1)": fake.random_element(elements=[0, 1]),
-                "Scientific and technical relevant (?/3)": fake.random_int(
-                    min=0, max=3
-                ),
-                "Total score": fake.random_int(min=0, max=10),
                 "Recommendation": (
                     "oral"
                     if abstract_id_to_session_id(i + 1) != "S_poster"

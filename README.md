@@ -43,18 +43,25 @@ python3 generate_fake_abstracts.py <file> <N>
 e.g
 
 ```
-python3 generate_fake_abstracts.py abstracts.csv 10
+python3 generate_fake_abstracts.py abstracts.csv 100
 ```
 
-which will create 10 fake abstracts in the file `abstract.csv`. Note that the `csv` file has the following fieldnames
+which will create 100 fake abstracts in the file `abstract.csv`. Note that the `csv` file has the following fieldnames
 
 ```
-"Username",
-"Abstract title",
-"Abstract text",
-"Name of authors (including presenter, comma-separated list)",
-"Affiliation of co-authors (including presenter, comma-separated list)",
-"Reference list"
+"Abstract ID",
+"Name",
+"Email",
+"Type of submission",
+"Topic",
+"Title",
+"Abstract",
+"List of authors and affiliation",
+"Link to open-source software repository (if applicable)",
+"Recommendation",
+"Decision",
+"slot_id",
+"session_id",
 ```
 
 ## Converting `csv` file to MarkDown
@@ -113,7 +120,7 @@ After retarting the `myst` server (`myst start`) you should now be able to also 
 
 Please checkout out the workflows in [`.github/workflows`](.github/workflows) folder to learn how this can be deployed to GitHub pages.
 
-## Organizing committee
+## Organising committee
 
 - Rémi Delaporte-Mathurin (MIT)
 - Jon Shimwell (Proxima Fusion)
