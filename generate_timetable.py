@@ -58,7 +58,9 @@ Here you will find the abstracts for the OSSFE 2025 conference
 
 table_template = dedent(
     """\
-## {session_id}: {time_slot}
+## Session {session_id}: {time_slot}
+
+Room: TBD
 
 Chair: TBA
 
