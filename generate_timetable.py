@@ -191,7 +191,7 @@ def main():
         data = []
         time_slot = session_to_time(session)
 
-        for _, item in group.iterrows():
+        for idx, (_, item) in enumerate(group.iterrows(), start=1):
             # filename is last-name of author + first word of title
             last_name = item["List of authors and affiliation"].split(",")[0].split()[0]
             first_word_title = item["Title"].replace("-", " ").split()[0]
@@ -201,7 +201,8 @@ def main():
             presenter = item["Name"]
 
             # breakpoint()
-            data.append({"Title": title, "Presenter": presenter})
+            talk_id = f"{session.replace('S_', '')}{idx}"
+            data.append({"ID": talk_id, "Title": title, "Presenter": presenter})
 
         df_table = pd.DataFrame(data)
         table = df_table.to_markdown(index=False)
