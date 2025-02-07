@@ -208,11 +208,11 @@ def main():
         tables.append(table_template.format(session_id=session.replace("S_", ""), time_slot=time_slot, table=table))
 
     data = []
-    for _, item in df_poster.iterrows():
+    for index, (_, item) in enumerate(df_poster.iterrows(), start=1):
         filename = f"{item["Title"].replace(" ", "-").lower()}.md"
         title = f'[{item["Title"]}](abstracts/{filename})'
         presenter = item["Name"]
-        data.append({"Title": title, "Presenter": presenter})
+        data.append({"ID": index, "Title": title, "Presenter": presenter})
 
     df_posters_md = pd.DataFrame(data)
     posters_md = df_posters_md.to_markdown(index=False)
