@@ -11,20 +11,9 @@ PLENARY_TALK_DURATION_SEC = PLENARY_TALK_DURATION_MIN * 60
 TALK_DURATION_MIN = 20
 TALK_DURATION_SEC = TALK_DURATION_MIN * 60
 
-OPENING_TALK_DURATION_MIN = 10
-OPENING_TALK_DURATION_SEC = OPENING_TALK_DURATION_MIN * 60
-
-CLOSING_TALK_DURATION_MIN = 10
-CLOSING_TALK_DURATION_SEC = CLOSING_TALK_DURATION_MIN * 60
-
-
 type_to_duration = {
     "plenary": PLENARY_TALK_DURATION_SEC,
     "oral": TALK_DURATION_SEC,
-    "poster": None,
-    "opening": OPENING_TALK_DURATION_SEC,
-    "closing": CLOSING_TALK_DURATION_SEC,
-    "panel": None,  # only one panel discussion
 }
 
 template = dedent(
@@ -50,7 +39,7 @@ exports:
 
 Here you will find the schedule and abstracts for the OSSFE 2025 conference
 
-# Presentations
+# Schedule
 {tables}
 """
 )
@@ -81,6 +70,78 @@ Number of presentations: {num_presentations}
 """
 )
 
+opening_session = dedent(
+    """\
+## Welcome statement by the organising comittee: {time_slot}
+
+Room: {room}
+
+Presenter: Remi Delaporte-Mathurin
+"""
+)
+
+closing_session = dedent(
+    """\
+## Awards ceremony and closing remarks: {time_slot}
+
+Room: {room}
+
+Presenter: Remi Delaporte-Mathurin
+"""
+)
+
+poster_session = dedent(
+    """\
+## Poster Session: {time_slot}
+
+Room: {room}
+
+[List of posters](list_of_posters.md)
+"""
+)
+
+demo_session = dedent(
+    """\
+## Tutorial Session: {time_slot}
+
+Room: {room}
+
+A series of tutorials will be available to attend for the following packages:
+    - example 1
+    - example 2
+    - example 3
+"""
+)
+
+panel_session = dedent(
+    """\
+## Panel Session: {time_slot}
+
+Room: {room}
+
+*Chair*: {chair}
+
+A panel session will be held with the folling members:
+{table}
+"""
+)
+
+break_template = dedent(
+    """\
+## Break: {time_slot}
+
+Take the oppertunity to make yourself tea or coffee
+"""
+)
+
+lunch_template = dedent(
+    """\
+## Lunch break: {time_slot}
+
+Or dinner break if in the EU
+"""
+)
+
 
 class TimeSlot:
     """
@@ -103,7 +164,7 @@ class TimeSlot:
         duration = self.end - self.start
         return int(duration.total_seconds() / type_to_duration[self.type])
 
-    def __init__(self, start, end, room, type, chair=None):
+    def __init__(self, start, end, room=None, type=None, chair=None):
         self.start = start
         self.end = end
         self.room = room
@@ -303,15 +364,6 @@ def main():
         )
 
     # create item for opening session
-    opening_session = dedent(
-        """\
-    ## Welcome statement by the organising comittee: {time_slot}
-
-    Room: {room}
-
-    Presenter: Remi Delaporte-Mathurin
-    """
-    )
     S_opening_time_slot = session_to_time("S_Opening")
     opening_session_str = opening_session.format(
         time_slot=S_opening_time_slot,
@@ -320,15 +372,6 @@ def main():
     tables.insert(0, opening_session_str)
 
     # create item for closing session
-    closing_session = dedent(
-        """\
-    ## Awards ceremony and closing remarks: {time_slot}
-
-    Room: {room}
-
-    Presenter: Remi Delaporte-Mathurin
-    """
-    )
     S_closing_time_slot = session_to_time("S_Closing")
     tables.append(
         closing_session.format(
@@ -338,15 +381,6 @@ def main():
     )
 
     # create item for poster session
-    poster_session = dedent(
-        """\
-    ## Poster Session: {time_slot}
-
-    Room: {room}
-
-    [List of posters](list_of_posters.md)
-    """
-    )
     S_poster_time_slot = session_to_time("S_poster")
     poster_session_str = poster_session.format(
         time_slot=S_poster_time_slot,
@@ -355,18 +389,6 @@ def main():
     tables.insert(4, poster_session_str)
 
     # create item for demos session
-    demo_session = dedent(
-        """\
-    ## Tutorial Session: {time_slot}
-
-    Room: {room}
-
-    A series of tutorials will be available to attend for the following packages:
-        - example 1
-        - example 2
-        - example 3
-    """
-    )
     S_demos_time_slot = session_to_time("S_demos")
     demo_session_str = demo_session.format(
         time_slot=S_demos_time_slot,
@@ -375,32 +397,18 @@ def main():
     tables.insert(5, demo_session_str)
 
     # create item for panel session
-    panel_session = dedent(
-        """\
-    ## Panel Session: {time_slot}
-
-    Room: {room}
-
-    *Chair*: {chair}
-
-    A panel session will be held with the folling members:
-    {table}
-    """
-    )
     S_panel_time_slot = session_to_time("S_Panel")
     presenters = [
         "Martin Yagi",
         "David Bernhodlt",
         "Matt Vernicchia",
         "Aiden Fowler",
-        "April Novak",
     ]
     affiliations = [
         "[First Light Fusion](https://firstlightfusion.com/)",
         "[ORNL](https://www.ornl.gov/)",
         "[CFS](https://cfs.energy/)",
         "[MIT](https://www.mit.edu/)",
-        "[University of Illinois](https://illinois.edu/)",
     ]
     panel_data = []
     for presenter, affiliation in zip(presenters, affiliations):
@@ -415,6 +423,25 @@ def main():
         table=panel_table,
     )
     tables.insert(6, panel_session_str)
+
+    # create items for breaks
+    break_1_time_slot = TimeSlot(
+        start=datetime.datetime(2025, 3, 18, 8, 10),
+        end=datetime.datetime(2025, 3, 18, 8, 30),
+    )
+    break_2_time_slot = TimeSlot(
+        start=datetime.datetime(2025, 3, 18, 13, 50),
+        end=datetime.datetime(2025, 3, 18, 14, 10),
+    )
+    tables.insert(2, break_template.format(time_slot=break_1_time_slot))
+    tables.insert(11, break_template.format(time_slot=break_2_time_slot))
+
+    # create item for lunch
+    lunch_time_slot = TimeSlot(
+        start=datetime.datetime(2025, 3, 18, 11, 50),
+        end=datetime.datetime(2025, 3, 18, 12, 50),
+    )
+    tables.insert(9, lunch_template.format(time_slot=lunch_time_slot))
 
     data = []
     for index, (_, item) in enumerate(df_poster.iterrows(), start=1):
