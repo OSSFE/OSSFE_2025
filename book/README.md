@@ -42,6 +42,11 @@ Number of presentations: 2
 | P2   | [Off sell foot reach.](abstracts/kyle-off.md)                            | Mrs. Wanda Johnson |
 
 
+## Break: 8:10 - 8:30 (EST)
+
+Take the oppertunity to make yourself tea or coffee
+
+
 ## Session A: 8:30 - 9:30 (EST)
 
 Room: MIT
@@ -102,7 +107,6 @@ A panel session will be held with the folling members:
 | David Bernhodlt | [ORNL](https://www.ornl.gov/)                       |
 | Matt Vernicchia | [CFS](https://cfs.energy/)                          |
 | Aiden Fowler    | [MIT](https://www.mit.edu/)                         |
-| April Novak     | [University of Illinois](https://illinois.edu/)     |
 
 
 ## Session P2: 11:20 - 11:50 (EST)
@@ -116,6 +120,11 @@ Number of presentations: 1
 | ID   | Title                                                                           | Presenter   |
 |:-----|:--------------------------------------------------------------------------------|:------------|
 | P3   | [Simply enough list commercial table hospital quite.](abstracts/john-simply.md) | Jacob Rubio |
+
+
+## Lunch break: 11:50 - 12:50 (EST)
+
+Or dinner break if in the EU
 
 
 ## Session C: 12:50 - 13:50 (EST)
@@ -146,6 +155,11 @@ Number of presentations: 3
 | D1   | [Figure race foreign say effect near.](abstracts/melissa-figure.md)      | Alexander Gonzalez |
 | D2   | [Section road central benefit shake bring.](abstracts/ariel-section.md)  | Andrew Sanders     |
 | D3   | [Feel situation note body interview six full.](abstracts/taylor-feel.md) | Adriana Lee        |
+
+
+## Break: 13:50 - 14:10 (EST)
+
+Take the oppertunity to make yourself tea or coffee
 
 
 ## Session E: 14:10 - 15:10 (EST)
