@@ -1,31 +1,34 @@
 jtex: v1
-title: 'FEniCS conf 2024'
-description: 'Template for book of abstracts for FEniCS 2024'
+title: 'OSSFE conf 2025'
+description: 'Template for book of abstracts for OSSFE 2025'
 version: 1.0.0
 license: CC-BY-4.0
-source: 'https://github.com/scientificcomputing/fenics_conf2024'
+source: 'https://github.com/OSSFE/OSSFE_2025'
 thumbnail: ./thumbnail.png
 authors:
-  - name: 'Henrik Finsberg'
-    website: 'https://scientificcomputing.github.io/fenics_conf2024'
+  - name: 'James Dark'
+    website: 'https://ossfe.github.io/OSSFE_2025/'
     affiliations:
-      - 'Simula Research Laboratory'
+      - 'MIT'
+  - name: 'Rémi Delaporte-Mathurin'
+    website: 'https://ossfe.github.io/OSSFE_2025/'
+    affiliations:
+      - 'MIT'
 tags:
   - paper
 options:
   - id: logo
     type: boolean
     default: true
-    title: FEniCS Logo
+    title: OSSFE Logo
     description: >
-      This will add a clickable FEniCS logo after the abstract with a link
-      to the FEniCS conference website.
+      This will add a clickable OSSFE logo after the abstract with a link
+      to the OSSFE conference website.
 files:
   - template.tex
-  - fenics-logo.png
-  - simula.png
   - fenicsconf.def
   - fenicsconf.sty
+  - OSSFE_banner.png
 packages:
   - datetime
   - graphicx
