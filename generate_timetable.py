@@ -52,7 +52,13 @@ title: "List of posters"
 Here you will find the posters for the OSSFE 2025 conference
 
 The poster session will take place at {poster_time_slot}
-{posters}
+
+In Poster room 1 (Abstract ID's 1-32):
+{posters_1}
+
+In Poster room 2 (Abstract ID's 32-64):
+{posters_2}
+
 """
 )
 
@@ -94,9 +100,15 @@ poster_session = dedent(
     """\
 ## 🖼️  Poster Session: {time_slot}
 
-Room: {room}
+The poster session will be split between two rooms with:
 
-[List of posters](list_of_posters.md)
+### Abstract ID's 1-32 in room: 
+{room_1}
+
+### Abstract ID's 33-64 in room: 
+{room_2}
+
+A full list of the posters and their abstracts can be found in the [List of posters](list_of_posters.md)
 """
 )
 
@@ -147,8 +159,8 @@ The Gather Town will remain open for networking during the break!
 
 class TimeSlot:
     """
-    Rooms: MIT, APACHE, GNU, BSD
-    types : plenary, oral, poster, opening, closing, panel
+    Rooms: Talk room 1, Talk room 2, breakout room, Poster room 1, Poster room 2
+    types : plenary, oral
     """
 
     start: datetime.datetime
@@ -184,7 +196,7 @@ def session_to_time(session_id: str):
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 7, 00),
             end=datetime.datetime(2025, 3, 18, 7, 10),
-            room="MIT",
+            room="Talk room 1",
             type="opening",
             chair="TBC",
         )
@@ -192,7 +204,7 @@ def session_to_time(session_id: str):
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 15, 10),
             end=datetime.datetime(2025, 3, 18, 15, 20),
-            room="MIT",
+            room="Talk room 1",
             type="closing",
             chair="TBC",
         )
@@ -200,7 +212,7 @@ def session_to_time(session_id: str):
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 7, 10),
             end=datetime.datetime(2025, 3, 18, 8, 10),
-            room="MIT",
+            room="Talk room 1",
             type="plenary",
             chair="TBC",
         )
@@ -208,7 +220,7 @@ def session_to_time(session_id: str):
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 8, 30),
             end=datetime.datetime(2025, 3, 18, 9, 30),
-            room="MIT",
+            room="Talk room 1",
             type="oral",
             chair="TBC",
         )
@@ -216,23 +228,27 @@ def session_to_time(session_id: str):
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 8, 30),
             end=datetime.datetime(2025, 3, 18, 9, 30),
-            room="Apache",
+            room="Talk room 2",
             type="oral",
             chair="TBC",
         )
-    elif session_id == "S_poster":
+    elif session_id == "S_poster_1":
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 9, 30),
             end=datetime.datetime(2025, 3, 18, 10, 40),
-            room="GNU",
-            type="poster",
-            chair="TBC",
+            room="Poster room 1",
+        )
+    elif session_id == "S_poster_2":
+        return TimeSlot(
+            start=datetime.datetime(2025, 3, 18, 9, 30),
+            end=datetime.datetime(2025, 3, 18, 10, 40),
+            room="Poster room 2",
         )
     elif session_id == "S_demos":
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 9, 30),
             end=datetime.datetime(2025, 3, 18, 10, 40),
-            room="BSD",
+            room="Breakout room",
             type="poster",
             chair="TBC",
         )
@@ -240,7 +256,7 @@ def session_to_time(session_id: str):
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 10, 40),
             end=datetime.datetime(2025, 3, 18, 11, 20),
-            room="MIT",
+            room="Talk room 1",
             type="panel",
             chair="Jonathan Shimwell, Proxima Fusion",
         )
@@ -248,7 +264,7 @@ def session_to_time(session_id: str):
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 11, 20),
             end=datetime.datetime(2025, 3, 18, 11, 50),
-            room="MIT",
+            room="Talk room 1",
             type="plenary",
             chair="TBC",
         )
@@ -256,7 +272,7 @@ def session_to_time(session_id: str):
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 12, 50),
             end=datetime.datetime(2025, 3, 18, 13, 50),
-            room="MIT",
+            room="Talk room 1",
             type="oral",
             chair="TBC",
         )
@@ -264,7 +280,7 @@ def session_to_time(session_id: str):
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 12, 50),
             end=datetime.datetime(2025, 3, 18, 13, 50),
-            room="Apache",
+            room="Talk room 2",
             type="oral",
             chair="TBC",
         )
@@ -272,7 +288,7 @@ def session_to_time(session_id: str):
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 14, 10),
             end=datetime.datetime(2025, 3, 18, 15, 10),
-            room="MIT",
+            room="Talk room 1",
             type="oral",
             chair="TBC",
         )
@@ -280,7 +296,7 @@ def session_to_time(session_id: str):
         return TimeSlot(
             start=datetime.datetime(2025, 3, 18, 14, 10),
             end=datetime.datetime(2025, 3, 18, 15, 10),
-            room="Apache",
+            room="Talk room 2",
             type="oral",
             chair="TBC",
         )
@@ -318,20 +334,22 @@ def main():
     )
 
     # extract session from slot_id (e.g. S_A, S_P1)
-    df_presentation.loc[:, "session_id"] = "S_" + df_presentation["slot_id"].str.extract(r"(\D+)")
+    df_presentation.loc[:, "session_id"] = "S_" + df_presentation[
+        "slot_id"
+    ].str.extract(r"(\D+)")
 
     # where slot_id is P1 or P2, change session_id to S_P1
     # where slot_id is P3 change session_id to S_P2
 
-    df_presentation.loc[
-        df_presentation["slot_id"].str.contains("P1"), "session_id"
-    ] = "S_P1"
-    df_presentation.loc[
-        df_presentation["slot_id"].str.contains("P2"), "session_id"
-    ] = "S_P1"
-    df_presentation.loc[
-        df_presentation["slot_id"].str.contains("P3"), "session_id"
-    ] = "S_P2"
+    df_presentation.loc[df_presentation["slot_id"].str.contains("P1"), "session_id"] = (
+        "S_P1"
+    )
+    df_presentation.loc[df_presentation["slot_id"].str.contains("P2"), "session_id"] = (
+        "S_P1"
+    )
+    df_presentation.loc[df_presentation["slot_id"].str.contains("P3"), "session_id"] = (
+        "S_P2"
+    )
 
     # Group by day and session
     grouped = df_presentation.sort_values(by=["session_id", "slot_number"]).groupby(
@@ -368,10 +386,19 @@ def main():
             talk_id = item["slot_id"]
 
             author_affiliation_list = item["List of authors and affiliation"].split(";")
-            parts = author_affiliation_list[0].strip().split(",", 1)  # Split only at the first comma
+            parts = (
+                author_affiliation_list[0].strip().split(",", 1)
+            )  # Split only at the first comma
             institution_of_first_author = parts[1].strip()
 
-            data.append({"ID": talk_id, "Title": title, "Presenter": presenter, "Institution": institution_of_first_author})
+            data.append(
+                {
+                    "ID": talk_id,
+                    "Title": title,
+                    "Presenter": presenter,
+                    "Institution": institution_of_first_author,
+                }
+            )
 
         df_table = pd.DataFrame(data)
         table = df_table.to_markdown(index=False)
@@ -404,10 +431,12 @@ def main():
     )
 
     # create item for poster session
-    S_poster_time_slot = session_to_time("S_poster")
+    S_poster_1_time_slot = session_to_time("S_poster_1")
+    S_poster_2_time_slot = session_to_time("S_poster_2")
     poster_session_str = poster_session.format(
-        time_slot=S_poster_time_slot,
-        room=S_poster_time_slot.room,
+        time_slot=S_poster_1_time_slot,
+        room_1=S_poster_1_time_slot.room,
+        room_2=S_poster_2_time_slot.room,
     )
     tables.insert(4, poster_session_str)
 
@@ -423,10 +452,7 @@ def main():
 
         # remove invalid characters
         filename = (
-            filename.replace(" ", "")
-            .replace("/", "")
-            .replace(":", "")
-            .replace(",", "")
+            filename.replace(" ", "").replace("/", "").replace(":", "").replace(",", "")
         )
 
         title = f'[{item["Title"]}](abstracts/{filename})'
@@ -435,11 +461,20 @@ def main():
         institution_of_first_author = ""
         try:
             author_affiliation_list = item["List of authors and affiliation"].split(";")
-            parts = author_affiliation_list[0].strip().split(",", 1)  # Split only at the first comma
+            parts = (
+                author_affiliation_list[0].strip().split(",", 1)
+            )  # Split only at the first comma
             institution_of_first_author = parts[1].strip()
         except:
             pass
-        data.append({"ID": f"T{index}", "Title": title, "Presenter": presenter, "Institution": institution_of_first_author})
+        data.append(
+            {
+                "ID": f"T{index}",
+                "Title": title,
+                "Presenter": presenter,
+                "Institution": institution_of_first_author,
+            }
+        )
     df_table = pd.DataFrame(data)
     table = df_table.to_markdown(index=False)
     demo_session_str = demo_session.format(
@@ -496,24 +531,58 @@ def main():
     )
     tables.insert(9, lunch_template.format(time_slot=lunch_time_slot))
 
-    data = []
-    for index, (_, item) in enumerate(df_poster.iterrows(), start=1):
-        # filename is last-name of author + first word of title
-        last_name = item["List of authors and affiliation"].split(",")[0].split()[0]
-        first_word_title = item["Title"].replace("-", " ").split()[0]
-        filename = f"{last_name}-{first_word_title}.md".lower()
+    # Handle posters
 
-        # remove invalid characters
-        filename = (
-            filename.replace(" ", "").replace("/", "").replace(":", "").replace(",", "")
-        )
+    # Separate into two groups based on 'slot_id'
+    df_poster_1 = df_poster[df_poster["slot_id"] == "poster_1"]
+    df_poster_2 = df_poster[df_poster["slot_id"] == "poster_2"]
 
-        title = f'[{item["Title"]}](abstracts/{filename})'
-        presenter = item["Name"]
-        data.append({"ID": index, "Title": title, "Presenter": presenter})
+    # Function to create markdown table
+    def create_markdown_table(df_poster):
+        data = []
+        for index, (_, item) in enumerate(df_poster.iterrows(), start=1):
+            # Extract last name and first word of title
+            last_name = item["List of authors and affiliation"].split(",")[0].split()[0]
+            first_word_title = item["Title"].replace("-", " ").split()[0]
+            filename = f"{last_name}-{first_word_title}.md".lower()
 
-    df_posters_md = pd.DataFrame(data)
-    posters_md = df_posters_md.to_markdown(index=False)
+            # Remove invalid characters
+            filename = (
+                filename.replace(" ", "")
+                .replace("/", "")
+                .replace(":", "")
+                .replace(",", "")
+            )
+
+            title = f'[{item["Title"]}](abstracts/{filename})'
+            presenter = item["Name"]
+            institution_of_first_author = ""
+            try:
+                author_affiliation_list = item["List of authors and affiliation"].split(
+                    ";"
+                )
+                parts = (
+                    author_affiliation_list[0].strip().split(",", 1)
+                )  # Split only at the first comma
+                institution_of_first_author = parts[1].strip()
+            except:
+                pass
+            data.append(
+                {
+                    "ID": index,
+                    "Title": title,
+                    "Presenter": presenter,
+                    "Affilaition": institution_of_first_author,
+                }
+            )
+        df_posters_md = pd.DataFrame(data)
+        posters_md = df_posters_md.to_markdown(index=False)
+
+        return posters_md
+
+    # Generate markdown tables
+    posters_md_1 = create_markdown_table(df_poster_1)
+    posters_md_2 = create_markdown_table(df_poster_2)
 
     (Path("book") / "README.md").write_text(
         template.format(
@@ -522,8 +591,9 @@ def main():
     )
     (Path("book") / "list_of_posters.md").write_text(
         template_list_of_posters.format(
-            poster_time_slot=session_to_time("S_poster"),
-            posters=posters_md,
+            poster_time_slot=session_to_time("S_poster_1"),
+            posters_1=posters_md_1,
+            posters_2=posters_md_2,
         )
     )
 
