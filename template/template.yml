@@ -1,0 +1,33 @@
+jtex: v1
+title: 'FEniCS conf 2024'
+description: 'Template for book of abstracts for FEniCS 2024'
+version: 1.0.0
+license: CC-BY-4.0
+source: 'https://github.com/scientificcomputing/fenics_conf2024'
+thumbnail: ./thumbnail.png
+authors:
+  - name: 'Henrik Finsberg'
+    website: 'https://scientificcomputing.github.io/fenics_conf2024'
+    affiliations:
+      - 'Simula Research Laboratory'
+tags:
+  - paper
+options:
+  - id: logo
+    type: boolean
+    default: true
+    title: FEniCS Logo
+    description: >
+      This will add a clickable FEniCS logo after the abstract with a link
+      to the FEniCS conference website.
+files:
+  - template.tex
+  - fenics-logo.png
+  - simula.png
+  - fenicsconf.def
+  - fenicsconf.sty
+packages:
+  - datetime
+  - graphicx
+  - hyperref
+  - natbib
