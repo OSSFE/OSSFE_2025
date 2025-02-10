@@ -104,7 +104,10 @@ def main(argv: Sequence[str] | None = None) -> int:
             slug = slug.replace(" ", "").replace("/", "").replace(":", "").replace(",", "")
 
             output = read_paper(row)
-            (outdir / f"{slug}.md").write_text(output)
+            if row["Decision"] in ["poster", "oral", "demo"]:
+                (outdir / f"{slug}.md").write_text(output)
+            else:
+                print(f"Skipping {slug} due to decision {row['Decision']}")
 
     return 0
 
