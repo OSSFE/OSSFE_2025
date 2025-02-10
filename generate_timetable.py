@@ -72,7 +72,7 @@ Number of presentations: {num_presentations}
 
 opening_session = dedent(
     """\
-## Welcome statement by the organising comittee: {time_slot}
+## 🎉 Welcome statement by the organising committee: {time_slot}
 
 Room: {room}
 
@@ -82,7 +82,7 @@ Presenter: Remi Delaporte-Mathurin
 
 closing_session = dedent(
     """\
-## Awards ceremony and closing remarks: {time_slot}
+## 🏆 Awards ceremony and closing remarks: {time_slot}
 
 Room: {room}
 
@@ -92,7 +92,7 @@ Presenter: Remi Delaporte-Mathurin
 
 poster_session = dedent(
     """\
-## Poster Session: {time_slot}
+## 🖼️  Poster Session: {time_slot}
 
 Room: {room}
 
@@ -102,41 +102,42 @@ Room: {room}
 
 demo_session = dedent(
     """\
-## Tutorial Session: {time_slot}
+## 🛠️ Tutorial Session: {time_slot}
 
 Room: {room}
 
 A series of tutorials will be available to attend for the following packages:
-    - example 1
-    - example 2
-    - example 3
+
+- 📦 example 1
+- 📦 example 2
+- 📦 example 3
 """
 )
 
 panel_session = dedent(
     """\
-## Panel Session: {time_slot}
+## 🗣️ Panel Session: {time_slot}
 
 Room: {room}
 
 *Chair*: {chair}
 
-A panel session will be held with the folling members:
+A panel session will be held with the following members:
 {table}
 """
 )
 
 break_template = dedent(
     """\
-## Break: {time_slot}
+## ☕ Break: {time_slot}
 
-Take the oppertunity to make yourself tea or coffee
+Take the opportunity to make yourself tea or coffee
 """
 )
 
 lunch_template = dedent(
     """\
-## Lunch break: {time_slot}
+## 🍽️ Lunch break: {time_slot}
 
 Or dinner break if in the EU
 """
@@ -363,7 +364,12 @@ def main():
 
             # breakpoint()
             talk_id = item["slot_id"]
-            data.append({"ID": talk_id, "Title": title, "Presenter": presenter})
+
+            author_affiliation_list = item["List of authors and affiliation"].split(";")
+            parts = author_affiliation_list[0].strip().split(",", 1)  # Split only at the first comma
+            institution_of_first_author = parts[1].strip()
+
+            data.append({"ID": talk_id, "Title": title, "Presenter": presenter, "Institution": institution_of_first_author})
 
         df_table = pd.DataFrame(data)
         table = df_table.to_markdown(index=False)
