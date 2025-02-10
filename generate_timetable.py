@@ -131,7 +131,7 @@ break_template = dedent(
     """\
 ## ☕ Break: {time_slot}
 
-Take the opportunity to make yourself tea or coffee
+Take the opportunity to make yourself tea or coffee and network with other attendees in the lobby!
 """
 )
 
@@ -139,7 +139,10 @@ lunch_template = dedent(
     """\
 ## 🍽️ Lunch break: {time_slot}
 
-Or dinner break if in the EU
+Or dinner break for Europeans!
+
+The Gather Town will remain open for networking during the break!
+
 """
 )
 
