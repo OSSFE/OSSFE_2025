@@ -48,6 +48,8 @@ def abstract_id_to_session_id(abstract_id: int) -> str:
         return "S_P1"
     elif abstract_id == 3:
         return "S_P2"
+    elif 4 <= abstract_id <= 7:
+        return "S_demo"
     else:
         session_index = (abstract_id - 4) // 3
         session_ids = ["S_A", "S_B", "S_C", "S_D", "S_E", "S_F"]
@@ -97,6 +99,12 @@ def main(argv: Sequence[str] | None = None) -> int:
 
         for i in range(args["N"]):
             num_authors = fake.random_int(1, 5)
+            if abstract_id_to_session_id(i + 1) == "S_poster":
+                decision = "poster"
+            elif abstract_id_to_session_id(i + 1) == "S_demo":
+                decision = "demo"
+            else:
+                decision = "oral"
             data = {
                 "Abstract ID": int(i + 1),
                 "Name": fake.name(),
@@ -109,16 +117,8 @@ def main(argv: Sequence[str] | None = None) -> int:
                     [f"{fake.name()}, {fake.company()}" for _ in range(num_authors)]
                 ),
                 "Link to open-source software repository (if applicable)": fake.url(),
-                "Recommendation": (
-                    "oral"
-                    if abstract_id_to_session_id(i + 1) != "S_poster"
-                    else "poster"
-                ),
-                "Decision": (
-                    "oral"
-                    if abstract_id_to_session_id(i + 1) != "S_poster"
-                    else "poster"
-                ),
+                "Recommendation": decision,
+                "Decision": decision,
                 "slot_id": abstract_id_to_slot_id(i),
             }
             writer.writerow(data)

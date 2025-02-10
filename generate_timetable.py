@@ -439,7 +439,7 @@ def main():
             institution_of_first_author = parts[1].strip()
         except:
             pass
-        data.append({"ID": index, "Title": title, "Presenter": presenter, "Institution": institution_of_first_author})
+        data.append({"ID": f"T{index}", "Title": title, "Presenter": presenter, "Institution": institution_of_first_author})
     df_table = pd.DataFrame(data)
     table = df_table.to_markdown(index=False)
     demo_session_str = demo_session.format(
