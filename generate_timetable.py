@@ -108,9 +108,7 @@ Room: {room}
 
 A series of tutorials will be available to attend for the following packages:
 
-- 📦 example 1
-- 📦 example 2
-- 📦 example 3
+{demos}
 """
 )
 
@@ -131,7 +129,7 @@ break_template = dedent(
     """\
 ## ☕ Break: {time_slot}
 
-Take the opportunity to make yourself tea or coffee
+Take the opportunity to make yourself tea or coffee and network with other attendees in the lobby!
 """
 )
 
@@ -139,7 +137,10 @@ lunch_template = dedent(
     """\
 ## 🍽️ Lunch break: {time_slot}
 
-Or dinner break if in the EU
+Or dinner break for Europe! Or breakfast for the West Coast!
+
+The Gather Town will remain open for networking during the break!
+
 """
 )
 
@@ -310,6 +311,7 @@ def main():
 
     df_presentation = df[df["Decision"] == "oral"].copy()
     df_poster = df[df["Decision"] == "poster"].copy()
+    df_demo = df[df["Decision"] == "demo"].copy()
 
     df_presentation.loc[:, "slot_number"] = (
         df_presentation["slot_id"].str.extract(r"(\d+)").astype(int)
@@ -411,9 +413,39 @@ def main():
 
     # create item for demos session
     S_demos_time_slot = session_to_time("S_demos")
+
+    data = []
+    for index, (_, item) in enumerate(df_demo.iterrows(), start=1):
+        # filename is last-name of author + first word of title
+        last_name = item["List of authors and affiliation"].split(",")[0].split()[0]
+        first_word_title = item["Title"].replace("-", " ").split()[0]
+        filename = f"{last_name}-{first_word_title}.md".lower()
+
+        # remove invalid characters
+        filename = (
+            filename.replace(" ", "")
+            .replace("/", "")
+            .replace(":", "")
+            .replace(",", "")
+        )
+
+        title = f'[{item["Title"]}](abstracts/{filename})'
+        presenter = item["Name"]
+
+        institution_of_first_author = ""
+        try:
+            author_affiliation_list = item["List of authors and affiliation"].split(";")
+            parts = author_affiliation_list[0].strip().split(",", 1)  # Split only at the first comma
+            institution_of_first_author = parts[1].strip()
+        except:
+            pass
+        data.append({"ID": f"T{index}", "Title": title, "Presenter": presenter, "Institution": institution_of_first_author})
+    df_table = pd.DataFrame(data)
+    table = df_table.to_markdown(index=False)
     demo_session_str = demo_session.format(
         time_slot=S_demos_time_slot,
         room=S_demos_time_slot.room,
+        demos=table,
     )
     tables.insert(5, demo_session_str)
 
