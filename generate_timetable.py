@@ -242,7 +242,7 @@ def session_to_time(session_id: str):
             end=datetime.datetime(2025, 3, 18, 11, 20),
             room="MIT",
             type="panel",
-            chair="TBC",
+            chair="Jonathan Shimwell, Proxima Fusion",
         )
     elif session_id == "S_P2":
         return TimeSlot(
