@@ -43,29 +43,32 @@ def affiliations(fake: Faker, n: int) -> str:
     return ", ".join(affiliations)
 
 
-def abstract_id_to_session_id(abstract_id: int) -> str:
-    if abstract_id <= 2:
-        return "S_P1"
-    elif abstract_id == 3:
-        return "S_P2"
-    elif 4 <= abstract_id <= 7:
-        return "S_demo"
+def abstract_id_to_decision(abstract_id: int) -> str:
+    if abstract_id <= 21:
+        return "oral"
+    elif abstract_id <= 32:
+        return "demo"
+    elif abstract_id <= 96:
+        return "poster"
     else:
-        session_index = (abstract_id - 4) // 3
-        session_ids = ["S_A", "S_B", "S_C", "S_D", "S_E", "S_F"]
-        if session_index < len(session_ids):
-            return session_ids[session_index]
-        else:
-            return (
-                "S_poster"  # Handle cases where there are more abstracts than expected
-            )
+        raise ValueError(
+            "More abstracts requested than slots available. Max of 96 abstracts"
+        )
 
 
 def abstract_id_to_slot_id(abstract_id: int) -> str:
-    if abstract_id <= 20:
-        return slot_ids[abstract_id]
+    if abstract_id <= 21:
+        return slot_ids[abstract_id - 1]
+    elif abstract_id <= 32:
+        return "demo"
+    elif abstract_id <= 64:
+        return "poster_1"
+    elif abstract_id <= 96:
+        return "poster_2"
     else:
-        return "poster"
+        raise ValueError(
+            "More abstracts requested than slots available. Max of 96 abstracts"
+        )
 
 
 def main(argv: Sequence[str] | None = None) -> int:
@@ -99,12 +102,11 @@ def main(argv: Sequence[str] | None = None) -> int:
 
         for i in range(args["N"]):
             num_authors = fake.random_int(1, 5)
-            if abstract_id_to_session_id(i + 1) == "S_poster":
-                decision = "poster"
-            elif abstract_id_to_session_id(i + 1) == "S_demo":
-                decision = "demo"
-            else:
-                decision = "oral"
+            id = i + 1
+
+            decision = abstract_id_to_decision(id)
+            slot_id = abstract_id_to_slot_id(id)
+
             data = {
                 "Abstract ID": int(i + 1),
                 "Name": fake.name(),
@@ -119,7 +121,7 @@ def main(argv: Sequence[str] | None = None) -> int:
                 "Link to open-source software repository (if applicable)": fake.url(),
                 "Recommendation": decision,
                 "Decision": decision,
-                "slot_id": abstract_id_to_slot_id(i),
+                "slot_id": slot_id,
             }
             writer.writerow(data)
 
