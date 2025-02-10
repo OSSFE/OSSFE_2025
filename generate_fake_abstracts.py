@@ -120,7 +120,6 @@ def main(argv: Sequence[str] | None = None) -> int:
                     else "poster"
                 ),
                 "slot_id": abstract_id_to_slot_id(i),
-                # "session_id": abstract_id_to_session_id(i + 1),
             }
             writer.writerow(data)
 
