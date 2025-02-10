@@ -23,14 +23,14 @@ Here you will find the schedule and abstracts for the OSSFE 2025 conference
 # Schedule
 ## 🎉 Welcome statement by the organising committee: 7:00 - 7:10 (EST)
 
-Room: MIT
+Room: Talk room 1
 
 Presenter: Remi Delaporte-Mathurin
 
 
 ## Session P1: 7:10 - 8:10 (EST)
 
-Room: MIT
+Room: Talk room 1
 
 *Chair*: TBC
 
@@ -47,57 +47,73 @@ Number of presentations: 2
 Take the opportunity to make yourself tea or coffee and network with other attendees in the lobby!
 
 
-## Session B: 8:30 - 9:30 (EST)
+## Session A: 8:30 - 9:30 (EST)
 
-Room: Apache
+Room: Talk room 1
 
 *Chair*: TBC
 
 Number of presentations: 3
 
-| ID   | Title                                                                | Presenter   | Institution   |
-|:-----|:---------------------------------------------------------------------|:------------|:--------------|
-| B2   | [Ahead if blue lawyer.](abstracts/scott-ahead.md)                    | James Meyer | Watson-Ali    |
-| B3   | [Heart save democratic second themselves.](abstracts/jacob-heart.md) | Lisa Bauer  | Robertson Ltd |
+| ID   | Title                                                                 | Presenter      | Institution             |
+|:-----|:----------------------------------------------------------------------|:---------------|:------------------------|
+| A1   | [Worry sea improve place throughout grow.](abstracts/emily-worry.md)  | Caitlin Rivera | Sexton Inc              |
+| A2   | [Be idea story movie less still visit.](abstracts/kevin-be.md)        | Susan Bradley  | Rowe, Craig and Johnson |
+| A3   | [Record ask recently court now decision.](abstracts/ronnie-record.md) | Todd Vazquez   | King-Huynh              |
 
 
-## Session P2: 11:20 - 11:50 (EST)
+## Session B: 8:30 - 9:30 (EST)
 
-Room: MIT
+Room: Talk room 2
 
 *Chair*: TBC
 
-Number of presentations: 1
+Number of presentations: 3
 
-| ID   | Title                                                                           | Presenter   | Institution    |
-|:-----|:--------------------------------------------------------------------------------|:------------|:---------------|
-| P3   | [Simply enough list commercial table hospital quite.](abstracts/john-simply.md) | Jacob Rubio | White and Sons |
+| ID   | Title                                                                | Presenter    | Institution   |
+|:-----|:---------------------------------------------------------------------|:-------------|:--------------|
+| B1   | [Note picture peace when cell every.](abstracts/jessica-note.md)     | Janice Henry | Hill Ltd      |
+| B2   | [Ahead if blue lawyer.](abstracts/scott-ahead.md)                    | James Meyer  | Watson-Ali    |
+| B3   | [Heart save democratic second themselves.](abstracts/jacob-heart.md) | Lisa Bauer   | Robertson Ltd |
 
 
 ## 🖼️  Poster Session: 9:30 - 10:40 (EST)
 
-Room: GNU
+The poster session will be split between two rooms with:
 
-[List of posters](list_of_posters.md)
+### Abstract ID's 1-32 in room: 
+Poster room 1
+
+### Abstract ID's 33-64 in room: 
+Poster room 2
+
+A full list of the posters and their abstracts can be found in the [List of posters](list_of_posters.md)
 
 
 ## 🛠️ Tutorial Session: 9:30 - 10:40 (EST)
 
-Room: BSD
+Room: Breakout room
 
 A series of tutorials will be available to attend for the following packages:
 
-| ID   | Title                                                                 | Presenter      | Institution             |
-|:-----|:----------------------------------------------------------------------|:---------------|:------------------------|
-| T1   | [Worry sea improve place throughout grow.](abstracts/emily-worry.md)  | Caitlin Rivera | Sexton Inc              |
-| T2   | [Be idea story movie less still visit.](abstracts/kevin-be.md)        | Susan Bradley  | Rowe, Craig and Johnson |
-| T3   | [Record ask recently court now decision.](abstracts/ronnie-record.md) | Todd Vazquez   | King-Huynh              |
-| T4   | [Note picture peace when cell every.](abstracts/jessica-note.md)      | Janice Henry   | Hill Ltd                |
+| ID   | Title                                                                              | Presenter        | Institution                  |
+|:-----|:-----------------------------------------------------------------------------------|:-----------------|:-----------------------------|
+| T1   | [Safe since same high thousand beyond discuss really.](abstracts/andrew-safe.md)   | Erika Long       | Wilson and Sons              |
+| T2   | [Keep listen world his old miss address.](abstracts/michael-keep.md)               | Misty Johnson    | Brown, Klein and Sanders     |
+| T3   | [Few issue property thousand activity tough.](abstracts/jamie-few.md)              | Cameron Green    | Burke PLC                    |
+| T4   | [Point hot image pass explain operation quality.](abstracts/kimberly-point.md)     | Amy Contreras    | Graham, Acosta and Maldonado |
+| T5   | [Statement until religious first under.](abstracts/becky-statement.md)             | Sean Lynch       | Day, Hurst and Ramirez       |
+| T6   | [Summer according view low.](abstracts/sharon-summer.md)                           | Joshua Ortiz     | Peterson-Gallegos            |
+| T7   | [Vote step eat form half.](abstracts/tony-vote.md)                                 | Ryan Kramer      | Lewis Inc                    |
+| T8   | [Amount risk he outside leave bit.](abstracts/dale-amount.md)                      | Steve Young      | Scott, Garcia and Gardner    |
+| T9   | [Upon measure one speak.](abstracts/ethan-upon.md)                                 | Emma Fernandez   | Alvarez, Osborne and Greene  |
+| T10  | [Article PM conference.](abstracts/karen-article.md)                               | Tiffany Anderson | Cole-Martinez                |
+| T11  | [Arrive style seven campaign environmental bank left.](abstracts/robert-arrive.md) | Jonathan Sanchez | Bonilla Inc                  |
 
 
 ## 🗣️ Panel Session: 10:40 - 11:20 (EST)
 
-Room: MIT
+Room: Talk room 1
 
 *Chair*: Jonathan Shimwell, Proxima Fusion
 
@@ -110,9 +126,30 @@ A panel session will be held with the following members:
 | Aiden Fowler    | [MIT](https://www.mit.edu/)                         |
 
 
+## Session P2: 11:20 - 11:50 (EST)
+
+Room: Talk room 1
+
+*Chair*: TBC
+
+Number of presentations: 1
+
+| ID   | Title                                                                           | Presenter   | Institution    |
+|:-----|:--------------------------------------------------------------------------------|:------------|:---------------|
+| P3   | [Simply enough list commercial table hospital quite.](abstracts/john-simply.md) | Jacob Rubio | White and Sons |
+
+
+## 🍽️ Lunch break: 11:50 - 12:50 (EST)
+
+Or dinner break for Europe! Or breakfast for the West Coast!
+
+The Gather Town will remain open for networking during the break!
+
+
+
 ## Session C: 12:50 - 13:50 (EST)
 
-Room: MIT
+Room: Talk room 1
 
 *Chair*: TBC
 
@@ -125,17 +162,9 @@ Number of presentations: 3
 | C3   | [Option must idea whole very current.](abstracts/derek-option.md) | Ian Greene     | Moore-Miller                  |
 
 
-## 🍽️ Lunch break: 11:50 - 12:50 (EST)
-
-Or dinner break for Europe! Or breakfast for the West Coast!
-
-The Gather Town will remain open for networking during the break!
-
-
-
 ## Session D: 12:50 - 13:50 (EST)
 
-Room: Apache
+Room: Talk room 2
 
 *Chair*: TBC
 
@@ -148,9 +177,14 @@ Number of presentations: 3
 | D3   | [Feel situation note body interview six full.](abstracts/taylor-feel.md) | Adriana Lee        | Montes, Barnett and Walker |
 
 
+## ☕ Break: 13:50 - 14:10 (EST)
+
+Take the opportunity to make yourself tea or coffee and network with other attendees in the lobby!
+
+
 ## Session E: 14:10 - 15:10 (EST)
 
-Room: MIT
+Room: Talk room 1
 
 *Chair*: TBC
 
@@ -163,14 +197,9 @@ Number of presentations: 3
 | E3   | [Quite now travel add rock group decade of.](abstracts/joshua-quite.md)      | Bradley Mendez | Wright-Jefferson |
 
 
-## ☕ Break: 13:50 - 14:10 (EST)
-
-Take the opportunity to make yourself tea or coffee and network with other attendees in the lobby!
-
-
 ## Session F: 14:10 - 15:10 (EST)
 
-Room: Apache
+Room: Talk room 2
 
 *Chair*: TBC
 
@@ -185,7 +214,7 @@ Number of presentations: 3
 
 ## 🏆 Awards ceremony and closing remarks: 15:10 - 15:20 (EST)
 
-Room: MIT
+Room: Talk room 1
 
 Presenter: Remi Delaporte-Mathurin
 
