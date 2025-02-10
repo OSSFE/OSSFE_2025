@@ -99,7 +99,7 @@ A series of tutorials will be available to attend for the following packages:
 
 Room: MIT
 
-*Chair*: TBC
+*Chair*: Jonathan Shimwell, Proxima Fusion
 
 A panel session will be held with the following members:
 | Presenter       | Affiliation                                         |
