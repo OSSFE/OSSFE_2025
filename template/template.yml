@@ -26,8 +26,8 @@ options:
       to the OSSFE conference website.
 files:
   - template.tex
-  - fenicsconf.def
-  - fenicsconf.sty
+  - ossfeconf.def
+  - ossfeconf.sty
   - OSSFE_banner.png
 packages:
   - datetime
