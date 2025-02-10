@@ -300,7 +300,6 @@ def main():
         "Recommendation",
         "Decision",
         "slot_id",
-        "session_id",
     ]
 
     df = pd.read_csv("abstracts.csv", usecols=columns_to_keep)
@@ -314,6 +313,22 @@ def main():
     df_presentation.loc[:, "slot_number"] = (
         df_presentation["slot_id"].str.extract(r"(\d+)").astype(int)
     )
+
+    # extract session from slot_id (e.g. S_A, S_P1)
+    df_presentation.loc[:, "session_id"] = "S_" + df_presentation["slot_id"].str.extract(r"(\D+)")
+
+    # where slot_id is P1 or P2, change session_id to S_P1
+    # where slot_id is P3 change session_id to S_P2
+
+    df_presentation.loc[
+        df_presentation["slot_id"].str.contains("P1"), "session_id"
+    ] = "S_P1"
+    df_presentation.loc[
+        df_presentation["slot_id"].str.contains("P2"), "session_id"
+    ] = "S_P1"
+    df_presentation.loc[
+        df_presentation["slot_id"].str.contains("P3"), "session_id"
+    ] = "S_P2"
 
     # Group by day and session
     grouped = df_presentation.sort_values(by=["session_id", "slot_number"]).groupby(

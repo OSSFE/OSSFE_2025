@@ -20,7 +20,7 @@ exports:
 
 Here you will find the schedule and abstracts for the OSSFE 2025 conference
 
-# Presentations
+# Schedule
 ## Welcome statement by the organising comittee: 7:00 - 7:10 (EST)
 
 Room: MIT
