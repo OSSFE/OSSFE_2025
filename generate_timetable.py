@@ -139,7 +139,7 @@ lunch_template = dedent(
     """\
 ## 🍽️ Lunch break: {time_slot}
 
-Or dinner break for Europeans!
+Or dinner break for Europe! Or breakfast for the West Coast!
 
 The Gather Town will remain open for networking during the break!
 
