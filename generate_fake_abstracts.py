@@ -90,7 +90,6 @@ def main(argv: Sequence[str] | None = None) -> int:
         "Recommendation",
         "Decision",
         "slot_id",
-        "session_id",
     ]
     with path.open("w") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
@@ -121,7 +120,7 @@ def main(argv: Sequence[str] | None = None) -> int:
                     else "poster"
                 ),
                 "slot_id": abstract_id_to_slot_id(i),
-                "session_id": abstract_id_to_session_id(i + 1),
+                # "session_id": abstract_id_to_session_id(i + 1),
             }
             writer.writerow(data)
 
