@@ -364,7 +364,12 @@ def main():
 
             # breakpoint()
             talk_id = item["slot_id"]
-            data.append({"ID": talk_id, "Title": title, "Presenter": presenter})
+
+            author_affiliation_list = item["List of authors and affiliation"].split(";")
+            parts = author_affiliation_list[0].strip().split(",", 1)  # Split only at the first comma
+            institution_of_first_author = parts[1].strip()
+
+            data.append({"ID": talk_id, "Title": title, "Presenter": presenter, "Institution": institution_of_first_author})
 
         df_table = pd.DataFrame(data)
         table = df_table.to_markdown(index=False)
