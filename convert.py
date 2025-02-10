@@ -65,7 +65,7 @@ def read_paper(row: dict[str, str]) -> str:
         link_to_repo = f"\n# Repository\n{link_to_repo}\n"
 
     return TEMPLATE.format(
-        title=row["Title"],
+        title=row["Title"].replace("'", "''"),
         authors=authors,
         text=row["Abstract"],
         references=link_to_repo,
