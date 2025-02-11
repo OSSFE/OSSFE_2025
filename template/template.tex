@@ -24,18 +24,13 @@ pdfkeywords={[-doc.tags-]}
 
 \title{[-doc.title-]}
 
-\author{[# for author in doc.authors -#]
-\bfseries [-author.name-]\mdseries\\
-[#- if author.affiliations #]
-[# for affiliation in author.affiliations #]
-[-affiliation.value.name-][# if not loop.last #], [# endif #]
-[# endfor #]\\
-[#- endif -#]
-[#- if not loop.last -#]
-\AND
-[#- endif -#]
-[#- endfor -#]
-}
+[# for author in doc.authors #]
+    \author[[-- author.affiliations|join(",", "index") --]]{[-author.name-]}
+[# endfor #]
+
+[# for affiliation in doc.affiliations #]
+    \affil[[-affiliation.index-]]{[-affiliation.value.name-]}
+[# endfor #]
 
 \date{18th March 2025}
 
