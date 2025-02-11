@@ -15,9 +15,9 @@ env:
 
 jobs:
   build-docs:
-    runs-on: ubuntu-latest
-    # container:
-    #   image: ghcr.io/scientificcomputing/latex-full:2023-11-07a
+    runs-on: ubuntu-22.04
+    container:
+      image: ghcr.io/scientificcomputing/latex-full:2023-11-07a
     env:
       PUBLISH_DIR: ./book/_build/html
 
@@ -37,11 +37,11 @@ jobs:
       - name: Install dependencies
         run: python3 -m pip install .
 
-      # - name: Build pdfs
-      #   run: cd book && myst build --pdf
+      - name: Build pdfs
+        run: cd book && myst build --pdf
 
-      # - name: Merge pdfs
-      #   run: python3 merge-abstracts.py
+      - name: Merge pdfs
+        run: python3 merge-abstracts.py
 
       - name: Build HTML
         run: cd book && myst build --html

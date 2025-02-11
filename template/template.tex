@@ -1,0 +1,47 @@
+\documentclass{article}
+\PassOptionsToPackage{short, nodayofweek}{datetime}
+
+\input{ossfeconf.def}
+\makeatletter
+\let\@seccntformat\@gobble
+\makeatother
+
+[-IMPORTS-]
+
+% colors for hyperlinks
+\hypersetup{colorlinks=true, allcolors=blue}
+\hypersetup{
+pdftitle={\@title},
+pdfsubject={[-doc.description-]},
+pdfauthor={\@author},
+pdfkeywords={[-doc.tags-]}
+}
+
+\usepackage{ossfeconf}
+% You should have an imports section
+[- IMPORTS -]
+
+
+\title{[-doc.title-]}
+
+\author{[# for author in doc.authors -#]
+\bfseries [-author.name-]\mdseries\\
+[#- if author.affiliations #]
+[# for affiliation in author.affiliations #]
+[-affiliation.value.name-][# if not loop.last #], [# endif #]
+[# endfor #]\\
+[#- endif -#]
+[#- if not loop.last -#]
+\AND
+[#- endif -#]
+[#- endfor -#]
+}
+
+\date{18th March 2025}
+
+\begin{document}
+\maketitle
+
+[-CONTENT-]
+
+\end{document}
