@@ -3,7 +3,13 @@ title: 'Hypnos: parametric geometry preparation for fusion-relevant applications
 authors:
   - name: Siddharth Mungale
     affiliations:
-      - Helen Brooks, Luke Humphrey
+      - UKAEA
+  - name: Helen Brooks
+    affiliations:
+      - UKAEA
+  - name: Luke Humphrey
+    affiliations:
+      - UKAEA
 license: CC-BY-4.0
 exports:
   - format: pdf

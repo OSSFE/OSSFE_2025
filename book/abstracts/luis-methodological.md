@@ -3,7 +3,34 @@ title: 'Methodological Advancements in Open-Source Fusion Energy Simulations usi
 authors:
   - name: Luis Garcia
     affiliations:
-      - Noe Adepoju, Megan Crocker, Dominic Longhorn, Abinash Manikandan, Max Moreland, Omer Muhammad, Frank Schoofs, Sophie Sharpe, Simon Woodruff, nTtau Digital Ltd
+      - nTtauDigital
+  - name: Noe Adepoju
+    affiliations:
+      - nTtauDigital
+  - name: Megan Crocker
+    affiliations:
+      - nTtauDigital
+  - name: Dominic Longhorn
+    affiliations:
+      - nTtauDigital
+  - name: Abinash Manikandan
+    affiliations:
+      - nTtauDigital
+  - name: Max Moreland
+    affiliations:
+      - nTtauDigital
+  - name: Omer Muhammad
+    affiliations:
+      - nTtauDigital
+  - name: Frank Schoofs
+    affiliations:
+      - nTtauDigital
+  - name: Sophie Sharpe
+    affiliations:
+      - nTtauDigital
+  - name: Simon Woodruff
+    affiliations:
+      - nTtauDigital
 license: CC-BY-4.0
 exports:
   - format: pdf

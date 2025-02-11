@@ -3,7 +3,19 @@ title: 'An open-source python package for atomic kinetics studies in tokamak pla
 authors:
   - name: Dominic Power
     affiliations:
-      - LLNL Stefan Mijin, UKAEA Kevin Verhaegh, TUV Fulvio Militello, UKAEA Robert J. Kingham, Imperial College London
+      - LLNL
+  - name: Stefan Mijin
+    affiliations:
+      - UKAEA
+  - name: Kevin Verhaegh
+    affiliations:
+      - TUV
+  - name: Fulvio Militello
+    affiliations:
+      - UKAEA
+  - name: Robert J. Kingham
+    affiliations:
+      - Imperial College London
 license: CC-BY-4.0
 exports:
   - format: pdf

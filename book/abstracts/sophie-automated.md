@@ -3,7 +3,34 @@ title: 'Automated Stellarator Design Using Open-Source Magnet Codes and AI Optim
 authors:
   - name: Sophie Sharpe
     affiliations:
-      - Noe Adepoju, Megan Crocker, Dominic Longhorn, Luis Garcia, Abinash Manikandan, Max Moreland, Omer Muhammad, Frank Schoofs, Simon Woodruff
+      - nTtauDigital
+  - name: Noe Adepoju
+    affiliations:
+      - nTtauDigital
+  - name: Megan Crocker
+    affiliations:
+      - nTtauDigital
+  - name: Dominic Longhorn
+    affiliations:
+      - nTtauDigital
+  - name: Luis Garcia
+    affiliations:
+      - nTtauDigital
+  - name: Abinash Manikandan
+    affiliations:
+      - nTtauDigital
+  - name: Max Moreland
+    affiliations:
+      - nTtauDigital
+  - name: Omer Muhammad
+    affiliations:
+      - nTtauDigital
+  - name: Frank Schoofs
+    affiliations:
+      - nTtauDigital
+  - name: Simon Woodruff
+    affiliations:
+      - nTtauDigital
 license: CC-BY-4.0
 exports:
   - format: pdf

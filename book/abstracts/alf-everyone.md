@@ -3,7 +3,7 @@ title: 'Everyone in Europe should have access to fusion education'
 authors:
   - name: Alf Köhn-Seemann
     affiliations:
-      - FuseNet Association, Member of the Board of Governors
+      - FuseNet Association
 license: CC-BY-4.0
 exports:
   - format: pdf

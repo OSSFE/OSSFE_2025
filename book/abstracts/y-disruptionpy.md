@@ -1,9 +1,30 @@
 ---
 title: 'DisruptionPy: an open-source Python library for disruption study.'
 authors:
-  - name: Y Wei1
+  - name: Y Wei
     affiliations:
-      - GL Trevisan1, C Rea1, J Lorincz1, AR Saperstein1, A Decker1, RS Granetz1, and the MIT PSFC Disruption Studies Group1  1 Massachusetts Institute of Technology, Plasma Science and Fusion Center, Cambridge MA
+      - Massachusetts Institute of Technology, Plasma Science and Fusion Center, Cambridge MA
+  - name: GL Trevisan
+    affiliations:
+      - Massachusetts Institute of Technology, Plasma Science and Fusion Center, Cambridge MA
+  - name: C Rea
+    affiliations:
+      - Massachusetts Institute of Technology, Plasma Science and Fusion Center, Cambridge MA
+  - name: J Lorincz
+    affiliations:
+      - Massachusetts Institute of Technology, Plasma Science and Fusion Center, Cambridge MA
+  - name: AR Saperstein
+    affiliations:
+      - Massachusetts Institute of Technology, Plasma Science and Fusion Center, Cambridge MA
+  - name: A Decker
+    affiliations:
+      - Massachusetts Institute of Technology, Plasma Science and Fusion Center, Cambridge MA
+  - name: RS Granetz
+    affiliations:
+      - Massachusetts Institute of Technology, Plasma Science and Fusion Center, Cambridge MA
+  - name: MIT PSFC Disruption Studies Group
+    affiliations:
+      - Massachusetts Institute of Technology, Plasma Science and Fusion Center, Cambridge MA
 license: CC-BY-4.0
 exports:
   - format: pdf

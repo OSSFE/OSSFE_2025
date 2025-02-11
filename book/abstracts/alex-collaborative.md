@@ -3,7 +3,16 @@ title: 'Collaborative Cost Modeling for Fusion Power Plants Using Open-Source To
 authors:
   - name: Alex Higginbottom
     affiliations:
-      - Alicia Durham, Sam Ward, Simon Woodruff, Woodruff Scientific Ltd
+      - Woodruff Scientific Ltd
+  - name: Alicia Durham
+    affiliations:
+      - Woodruff Scientific Ltd
+  - name: Sam Ward
+    affiliations:
+      - Woodruff Scientific Ltd
+  - name: Simon Woodruff
+    affiliations:
+      - Woodruff Scientific Ltd
 license: CC-BY-4.0
 exports:
   - format: pdf

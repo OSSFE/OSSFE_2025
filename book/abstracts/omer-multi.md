@@ -3,7 +3,34 @@ title: 'Multi-Objective Design Optimization for Fusion Energy Systems'
 authors:
   - name: Omer Muhammad
     affiliations:
-      - Noe Adepoju, Megan Crocker, Luis Garcia, Dominic Longhorn, Abinash Manikandan, Max Moreland, Frank Schoofs, Sophie Sharpe, Simon Woodruff, nTtau Digital Ltd.
+      - nTtau Digital Ltd
+  - name: Noe Adepoju
+    affiliations:
+      - nTtau Digital Ltd
+  - name: Megan Crocker
+    affiliations:
+      - nTtau Digital Ltd
+  - name: Luis Garcia
+    affiliations:
+      - nTtau Digital Ltd
+  - name: Dominic Longhorn
+    affiliations:
+      - nTtau Digital Ltd
+  - name: Abinash Manikandan
+    affiliations:
+      - nTtau Digital Ltd
+  - name: Max Moreland
+    affiliations:
+      - nTtau Digital Ltd
+  - name: Frank Schoofs
+    affiliations:
+      - nTtau Digital Ltd
+  - name: Sophie Sharpe
+    affiliations:
+      - nTtau Digital Ltd
+  - name: Simon Woodruff
+    affiliations:
+      - nTtau Digital Ltd.
 license: CC-BY-4.0
 exports:
   - format: pdf
