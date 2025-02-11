@@ -3,7 +3,22 @@ title: 'Automated Testing and Continuous Integration for the KORC Codebase'
 authors:
   - name: Ian Gibbs
     affiliations:
-      - Steven Hahn, Mark Cianciosa, Matthew Beidler, Omar Lopez, Rinkle Juneja, ORNL
+      - ORNL
+  - name: Steven Hahn
+    affiliations:
+      - ORNL
+  - name: Mark Cianciosa
+    affiliations:
+      - ORNL
+  - name: Matthew Beidler
+    affiliations:
+      - ORNL
+  - name: Omar Lopez
+    affiliations:
+      - ORNL
+  - name: Rinkle Juneja
+    affiliations:
+      - ORNL
 license: CC-BY-4.0
 exports:
   - format: pdf

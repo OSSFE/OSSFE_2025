@@ -101,7 +101,9 @@ def main(argv: Sequence[str] | None = None) -> int:
             slug = f"{last_name}-{first_word_title}".lower()
 
             # remove invalid characters
-            slug = slug.replace(" ", "").replace("/", "").replace(":", "").replace(",", "")
+            slug = (
+                slug.replace(" ", "").replace("/", "").replace(":", "").replace(",", "")
+            )
 
             output = read_paper(row)
             if row["Decision"] in ["poster", "oral", "demo"]:

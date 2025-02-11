@@ -3,7 +3,31 @@ title: 'TMExtractor： A software toolkit to extract Tearing Modes features'
 authors:
   - name: Luo Runyu
     affiliations:
-      - Zheng Wei*, Shen Chengshuo, Xue Fengming, Ai Xinkun, Zhong Yu, Ren Zhengkang, Ding Yonghua, Wang Nengchao
+      - Huazhong University of Science and Technology
+  - name: Zheng Wei
+    affiliations:
+      - Huazhong University of Science and Technology
+  - name: Shen Chengshuo
+    affiliations:
+      - Huazhong University of Science and Technology
+  - name: Xue Fengming
+    affiliations:
+      - Huazhong University of Science and Technology
+  - name: Ai Xinkun
+    affiliations:
+      - Huazhong University of Science and Technology
+  - name: Zhong Yu
+    affiliations:
+      - Huazhong University of Science and Technology
+  - name: Ren Zhengkang
+    affiliations:
+      - Huazhong University of Science and Technology
+  - name: Ding Yonghua
+    affiliations:
+      - Huazhong University of Science and Technology
+  - name: Wang Nengchao
+    affiliations:
+      - Huazhong University of Science and Technology
 license: CC-BY-4.0
 exports:
   - format: pdf

@@ -3,7 +3,7 @@ title: 'The PlasmaPy project'
 authors:
   - name: Nick Murphy
     affiliations:
-      - Center for Astrophysics | Harvard & Smithsonian
+      - Center for Astrophysics - Harvard & Smithsonian
   - name: Erik Everson
     affiliations:
       - UCLA

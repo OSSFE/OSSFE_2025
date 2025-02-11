@@ -33,10 +33,10 @@ Room: Talk room 1
 
 Number of presentations: 2
 
-| ID   | Title                                                                                  | Presenter        | Institution                                           |
-|:-----|:---------------------------------------------------------------------------------------|:-----------------|:------------------------------------------------------|
-| P1   | [Everyone in Europe should have access to fusion education](abstracts/alf-everyone.md) | Alf Köhn-Seemann | FuseNet Association, Member of the Board of Governors |
-| P2   | [Open-sourcing IMAS: status, opportunities and challenges](abstracts/olivier-open.md)  | Olivier Hoenen   | ITER Organization                                     |
+| ID   | Title                                                                                  | Presenter        | Institution         |
+|:-----|:---------------------------------------------------------------------------------------|:-----------------|:--------------------|
+| P1   | [Everyone in Europe should have access to fusion education](abstracts/alf-everyone.md) | Alf Köhn-Seemann | FuseNet Association |
+| P2   | [Open-sourcing IMAS: status, opportunities and challenges](abstracts/olivier-open.md)  | Olivier Hoenen   | ITER Organization   |
 
 
 ## ☕ Break: 8:10 - 8:30 (EST)
@@ -97,7 +97,7 @@ A series of tutorials will be available to attend for the following packages:
 |:-----|:-----------------------------------------------------------------------------------------------------------------------------------------------|:-------------------|:------------------------------------------------------------------|
 | T1   | [FAIR data management for physics and engineering simulation with open-source and commercial codes relevant to Fusion](abstracts/mark-fair.md) | Mark Norris        | openSPDM Ltd                                                      |
 | T2   | [F4Enix, a new Python API for pre and post processing of MCNP inputs and outputs](abstracts/alberto-f4enix.md)                                 | Alberto Bittesnich | ATG Science and Engineering, Universitat Politecnica de Catalunya |
-| T3   | [Using WarpX, a general purpose particle-in-cell code  ](abstracts/arianna-using.md)                                                           | Arianna Formenti   |                                                                   |
+| T3   | [Using WarpX, a general purpose particle-in-cell code  ](abstracts/arianna-using.md)                                                           | Arianna Formenti   | Lawrence Berkeley National Laboratory                             |
 | T4   | [How Software Quality Assurance Standards Can Drive Industry Adoption of Open-Source Codes in Fusion Energy](abstracts/casey-how.md)           | Casey Icenhour     | Idaho National Laboratory                                         |
 | T5   | [Particle transport and radiation modeling by AURORA toolbox](abstracts/tomas-particle.md)                                                     | Tomas Odstrcil     | General Atomics                                                   |
 | T6   | [Accelerating Plasma Physics Simulations with Pyccel: A PyGyro Case Study.](abstracts/jalal-accelerating.md)                                   | jalal maaouni      | The UM6P Vanguard Center, Morocco                                 |
@@ -133,7 +133,7 @@ Number of presentations: 1
 
 | ID   | Title                                         | Presenter   | Institution                                     |
 |:-----|:----------------------------------------------|:------------|:------------------------------------------------|
-| P3   | [The PlasmaPy project](abstracts/nick-the.md) | Nick Murphy | Center for Astrophysics | Harvard & Smithsonian |
+| P3   | [The PlasmaPy project](abstracts/nick-the.md) | Nick Murphy | Center for Astrophysics - Harvard & Smithsonian |
 
 
 ## 🍽️ Lunch break: 11:50 - 12:50 (EST)
@@ -155,7 +155,7 @@ Number of presentations: 3
 | ID   | Title                                                                                            | Presenter        | Institution                                      |
 |:-----|:-------------------------------------------------------------------------------------------------|:-----------------|:-------------------------------------------------|
 | C1   | [Kinetic surface model in FESTIM: Verification and Validation](abstracts/vladimir-kinetic.md)    | Vladimir Kulagin | National Research Nuclear University MEPhI       |
-| C2   | [VMEC++: a Python-friendly VMEC reimplementation in C++](abstracts/enrico-vmec++.md)             | Enrico Guiraud   | Proxima Fusion GmbH                              |
+| C2   | [VMEC++: a Python-friendly VMEC reimplementation in C++](abstracts/enrico-vmec++.md)             | Enrico Guiraud   | Proxima Fusion                                   |
 | C3   | [Struphy - Solving plasma physics PDEs within the Python ecosystem](abstracts/stefan-struphy.md) | Stefan Possanner | Max Planck Institute for Plasma Physics, Germany |
 
 
@@ -167,11 +167,11 @@ Room: Talk room 2
 
 Number of presentations: 3
 
-| ID   | Title                                                                                                                              | Presenter               | Institution                                                         |
-|:-----|:-----------------------------------------------------------------------------------------------------------------------------------|:------------------------|:--------------------------------------------------------------------|
-| D1   | [Applying the Bluemira Fusion Power Plant Framework to Poloidal Field Coilset and Divertor Design](abstracts/georgina-applying.md) | Georgina Graham         | UKAEA                                                               |
-| D2   | [DESC: An Open-Source, High-Accuracy Pseudo-Spectral Optimization Code for Stellarators](abstracts/yigit-desc.md)                  | Yigit Gunsur Elmacioglu | Princeton University                                                |
-| D3   | [Simulating diverse fusion concepts with the open-source Particle-In-Cell code WarpX](abstracts/remi-simulating.md)                | Remi Lehe               | Lawrence Berkeley National Laboratory (on behalf of the WarpX team) |
+| ID   | Title                                                                                                                              | Presenter               | Institution                           |
+|:-----|:-----------------------------------------------------------------------------------------------------------------------------------|:------------------------|:--------------------------------------|
+| D1   | [Applying the Bluemira Fusion Power Plant Framework to Poloidal Field Coilset and Divertor Design](abstracts/georgina-applying.md) | Georgina Graham         | UKAEA                                 |
+| D2   | [DESC: An Open-Source, High-Accuracy Pseudo-Spectral Optimization Code for Stellarators](abstracts/yigit-desc.md)                  | Yigit Gunsur Elmacioglu | Princeton University                  |
+| D3   | [Simulating diverse fusion concepts with the open-source Particle-In-Cell code WarpX](abstracts/remi-simulating.md)                | Remi Lehe               | Lawrence Berkeley National Laboratory |
 
 
 ## ☕ Break: 13:50 - 14:10 (EST)

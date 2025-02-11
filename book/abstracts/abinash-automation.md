@@ -3,7 +3,34 @@ title: 'Automation of Multi-Physics Simulations: Coupling OpenFOAM and OpenMC fo
 authors:
   - name: Abinash Manikandan
     affiliations:
-      - Noe Adepoju, Megan Crocker, Dominic Longhorn, Luis Garcia, Max Moreland, Omer Muhammad, Frank Schoofs, Sophie Sharpe, Simon Woodruff, nTtau Digital Ltd
+      - nTtauDigital
+  - name: Noe Adepoju
+    affiliations:
+      - nTtauDigital
+  - name: Megan Crocker
+    affiliations:
+      - nTtauDigital
+  - name: Dominic Longhorn
+    affiliations:
+      - nTtauDigital
+  - name: Luis Garcia
+    affiliations:
+      - nTtauDigital
+  - name: Max Moreland
+    affiliations:
+      - nTtauDigital
+  - name: Omer Muhammad
+    affiliations:
+      - nTtauDigital
+  - name: Frank Schoofs
+    affiliations:
+      - nTtauDigital
+  - name: Sophie Sharpe
+    affiliations:
+      - nTtauDigital
+  - name: Simon Woodruff
+    affiliations:
+      - nTtau Digital Ltd
 license: CC-BY-4.0
 exports:
   - format: pdf

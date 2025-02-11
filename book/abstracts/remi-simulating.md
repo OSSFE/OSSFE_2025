@@ -3,7 +3,7 @@ title: 'Simulating diverse fusion concepts with the open-source Particle-In-Cell
 authors:
   - name: Remi Lehe
     affiliations:
-      - Lawrence Berkeley National Laboratory (on behalf of the WarpX team)
+      - Lawrence Berkeley National Laboratory
 license: CC-BY-4.0
 exports:
   - format: pdf

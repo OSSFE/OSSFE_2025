@@ -3,10 +3,10 @@ title: 'VMEC++: a Python-friendly VMEC reimplementation in C++'
 authors:
   - name: Enrico Guiraud
     affiliations:
-      - Proxima Fusion GmbH
+      - Proxima Fusion
   - name: Jonathan Schilling
     affiliations:
-      - Proxima Fusion GmbH
+      - Proxima Fusion
 license: CC-BY-4.0
 exports:
   - format: pdf
