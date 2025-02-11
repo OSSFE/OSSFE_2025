@@ -3,7 +3,25 @@ title: 'MGKDB: an open-source MongoDB for nuclear fusion simulations'
 authors:
   - name: Venkitesh Ayyar
     affiliations:
-      - Sapientai LLC Craig Michoski, Sapientai LLC David Hatch, UT Austin  Joseph Schmidt, UT Austin  Chris Holland, UCSD, General Atomics Joseph McClenagham, General Atomics Aaron Ho, MIT
+      - Sapientai LLC
+  - name: Craig Michoski
+    affiliations:
+      - Sapientai LLC
+  - name: David Hatch
+    affiliations:
+      - UT Austin
+  - name: Joseph Schmidt
+    affiliations:
+      - UT Austin
+  - name: Chris Holland
+    affiliations:
+      - UCSD, General Atomics
+  - name: Joseph McClenagham
+    affiliations:
+      - General Atomics
+  - name: Aaron Ho
+    affiliations:
+      - MIT
 license: CC-BY-4.0
 exports:
   - format: pdf

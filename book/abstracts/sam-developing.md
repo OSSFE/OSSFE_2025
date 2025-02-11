@@ -3,7 +3,16 @@ title: 'Developing an Open-Source Framework for Fusion Power Plant Cost Estimati
 authors:
   - name: Sam Ward
     affiliations:
-      - Alex Higginbottom, Alicia Durham, Simon Woodruff, Woodruff Scientific Ltd
+      - Woodruff Scientific Ltd
+  - name: Alex Higginbottom
+    affiliations:
+      - Woodruff Scientific Ltd
+  - name: Alicia Durham
+    affiliations:
+      - Woodruff Scientific Ltd
+  - name: Simon Woodruff
+    affiliations:
+      - Woodruff Scientific Ltd
 license: CC-BY-4.0
 exports:
   - format: pdf

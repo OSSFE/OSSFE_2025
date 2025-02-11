@@ -1,7 +1,9 @@
 ---
 title: 'Using WarpX, a general purpose particle-in-cell code  '
 authors:
-
+  - name: Arianna Formenti
+    affiliations:
+      - Lawrence Berkeley National Laboratory
 license: CC-BY-4.0
 exports:
   - format: pdf

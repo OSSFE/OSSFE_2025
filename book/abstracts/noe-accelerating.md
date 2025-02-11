@@ -3,10 +3,34 @@ title: 'Accelerating Fusion Materials Development Through Multi-Scale Simulation
 authors:
   - name: Noe Adepoju
     affiliations:
-      - Abhijeet Gangan, Extreme Materials Inc
+      - Extreme Materials Inc
+  - name: Abhijeet Gangan
+    affiliations:
+      - Extreme Materials Inc
   - name: Megan Crocker
     affiliations:
-      - Dominic Longhorn, Luis Garcia, Abinash Manikandan, Max Moreland, Omer Muhammad, Frank Schoofs, Simon Woodruff, nTtau Digital Inc
+      - nTtau Digital Inc
+  - name: Dominic Longhorn
+    affiliations:
+      - nTtau Digital Inc
+  - name: Luis Garcia
+    affiliations:
+      - nTtau Digital Inc
+  - name: Abinash Manikandan
+    affiliations:
+      - nTtau Digital Inc
+  - name: Max Moreland
+    affiliations:
+      - nTtau Digital Inc
+  - name: Omer Muhammad
+    affiliations:
+      - nTtau Digital Inc
+  - name: Frank Schoofs
+    affiliations:
+      - nTtau Digital Inc
+  - name: Simon Woodruff
+    affiliations:
+      - nTtau Digital Inc
 license: CC-BY-4.0
 exports:
   - format: pdf
