@@ -6,7 +6,7 @@ project:
   # description:
   keywords: []
   authors: []
-  # github:
+  github: https://github.com/OSSFE/OSSFE_2025
   resources:
     - README.md
     - abstracts
@@ -20,3 +20,5 @@ site:
   actions:
     - title: OSSFE website
       url: https://ossfe.github.io/
+    - title: Suggest Edits on GitHub
+      url: https://github.com/OSSFE/OSSFE_2025

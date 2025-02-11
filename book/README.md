@@ -23,14 +23,14 @@ Here you will find the schedule and abstracts for the OSSFE 2025 conference
 # Schedule
 ## 🎉 Welcome statement by the organising committee: 7:00 - 7:10 (EST)
 
-Room: MIT
+Room: Talk room 1
 
 Presenter: Remi Delaporte-Mathurin
 
 
 ## Session P1: 7:10 - 8:10 (EST)
 
-Room: MIT
+Room: Talk room 1
 
 *Chair*: TBC
 
@@ -49,7 +49,7 @@ Take the opportunity to make yourself tea or coffee and network with other atten
 
 ## Session A: 8:30 - 9:30 (EST)
 
-Room: MIT
+Room: Talk room 1
 
 *Chair*: TBC
 
@@ -64,7 +64,7 @@ Number of presentations: 3
 
 ## Session B: 8:30 - 9:30 (EST)
 
-Room: Apache
+Room: Talk room 2
 
 *Chair*: TBC
 
@@ -79,14 +79,20 @@ Number of presentations: 3
 
 ## 🖼️  Poster Session: 9:30 - 10:40 (EST)
 
-Room: GNU
+The poster session will be split between two rooms with:
 
-[List of posters](list_of_posters.md)
+### Abstract ID's 1-32 in room: 
+Poster room 1
+
+### Abstract ID's 33-64 in room: 
+Poster room 2
+
+A full list of the posters and their abstracts can be found in the [List of posters](list_of_posters.md)
 
 
 ## 🛠️ Tutorial Session: 9:30 - 10:40 (EST)
 
-Room: BSD
+Room: Breakout room
 
 A series of tutorials will be available to attend for the following packages:
 
@@ -107,7 +113,7 @@ A series of tutorials will be available to attend for the following packages:
 
 ## 🗣️ Panel Session: 10:40 - 11:20 (EST)
 
-Room: MIT
+Room: Talk room 1
 
 *Chair*: Jonathan Shimwell, Proxima Fusion
 
@@ -122,7 +128,7 @@ A panel session will be held with the following members:
 
 ## Session P2: 11:20 - 11:50 (EST)
 
-Room: MIT
+Room: Talk room 1
 
 *Chair*: TBC
 
@@ -143,7 +149,7 @@ The Gather Town will remain open for networking during the break!
 
 ## Session C: 12:50 - 13:50 (EST)
 
-Room: MIT
+Room: Talk room 1
 
 *Chair*: TBC
 
@@ -158,7 +164,7 @@ Number of presentations: 3
 
 ## Session D: 12:50 - 13:50 (EST)
 
-Room: Apache
+Room: Talk room 2
 
 *Chair*: TBC
 
@@ -178,7 +184,7 @@ Take the opportunity to make yourself tea or coffee and network with other atten
 
 ## Session E: 14:10 - 15:10 (EST)
 
-Room: MIT
+Room: Talk room 1
 
 *Chair*: TBC
 
@@ -193,7 +199,7 @@ Number of presentations: 3
 
 ## Session F: 14:10 - 15:10 (EST)
 
-Room: Apache
+Room: Talk room 2
 
 *Chair*: TBC
 
@@ -208,7 +214,7 @@ Number of presentations: 3
 
 ## 🏆 Awards ceremony and closing remarks: 15:10 - 15:20 (EST)
 
-Room: MIT
+Room: Talk room 1
 
 Presenter: Remi Delaporte-Mathurin
 
