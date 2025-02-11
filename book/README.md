@@ -155,7 +155,7 @@ Number of presentations: 3
 | ID   | Title                                                                                            | Presenter        | Institution                                      |
 |:-----|:-------------------------------------------------------------------------------------------------|:-----------------|:-------------------------------------------------|
 | C1   | [Kinetic surface model in FESTIM: Verification and Validation](abstracts/vladimir-kinetic.md)    | Vladimir Kulagin | National Research Nuclear University MEPhI       |
-| C2   | [VMEC++: a Python-friendly VMEC reimplementation in C++](abstracts/enrico-vmec++.md)             | Enrico Guiraud   | Proxima Fusion GmbH                              |
+| C2   | [VMEC++: a Python-friendly VMEC reimplementation in C++](abstracts/enrico-vmec++.md)             | Enrico Guiraud   | Proxima Fusion                                   |
 | C3   | [Struphy - Solving plasma physics PDEs within the Python ecosystem](abstracts/stefan-struphy.md) | Stefan Possanner | Max Planck Institute for Plasma Physics, Germany |
 
 
