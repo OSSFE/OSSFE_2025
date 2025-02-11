@@ -53,10 +53,10 @@ Here you will find the posters for the OSSFE 2025 conference
 
 The poster session will take place at {poster_time_slot}
 
-In Poster room 1 (Abstract ID's 1-32):
+In Poster room 1 (Abstract ID's POS-1-31):
 {posters_1}
 
-In Poster room 2 (Abstract ID's 32-64):
+In Poster room 2 (Abstract ID's POS-32-62):
 {posters_2}
 
 """
@@ -102,11 +102,13 @@ poster_session = dedent(
 
 The poster session will be split between two rooms with:
 
-### Abstract ID's 1-32 in room: 
-{room_1}
+### Abstract ID's POS-1-31:
 
-### Abstract ID's 33-64 in room: 
-{room_2}
+Room: {room_1}
+
+### Abstract ID's POS-32-62:
+
+Room: {room_2}
 
 A full list of the posters and their abstracts can be found in the [List of posters](list_of_posters.md)
 """
