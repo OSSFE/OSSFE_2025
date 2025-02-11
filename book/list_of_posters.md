@@ -5,44 +5,67 @@ title: "List of posters"
 Here you will find the posters for the OSSFE 2025 conference
 
 The poster session will take place at 9:30 - 10:40 (EST)
-|   ID | Title                                                                                         | Presenter        |
-|-----:|:----------------------------------------------------------------------------------------------|:-----------------|
-|    1 | [Safe since same high thousand beyond discuss really.](abstracts/andrew-safe.md)              | Erika Long       |
-|    2 | [Keep listen world his old miss address.](abstracts/michael-keep.md)                          | Misty Johnson    |
-|    3 | [Few issue property thousand activity tough.](abstracts/jamie-few.md)                         | Cameron Green    |
-|    4 | [Point hot image pass explain operation quality.](abstracts/kimberly-point.md)                | Amy Contreras    |
-|    5 | [Statement until religious first under.](abstracts/becky-statement.md)                        | Sean Lynch       |
-|    6 | [Summer according view low.](abstracts/sharon-summer.md)                                      | Joshua Ortiz     |
-|    7 | [Vote step eat form half.](abstracts/tony-vote.md)                                            | Ryan Kramer      |
-|    8 | [Amount risk he outside leave bit.](abstracts/dale-amount.md)                                 | Steve Young      |
-|    9 | [Upon measure one speak.](abstracts/ethan-upon.md)                                            | Emma Fernandez   |
-|   10 | [Article PM conference.](abstracts/karen-article.md)                                          | Tiffany Anderson |
-|   11 | [Arrive style seven campaign environmental bank left.](abstracts/robert-arrive.md)            | Jonathan Sanchez |
-|   12 | [Young indeed specific quite condition.](abstracts/jasmine-young.md)                          | Cindy Gomez      |
-|   13 | [Person sound four pay allow himself they likely.](abstracts/laurie-person.md)                | Patrick Reyes    |
-|   14 | [Exactly benefit interview medical left simply.](abstracts/philip-exactly.md)                 | Ashley Cooper    |
-|   15 | [Finish reason investment through move without.](abstracts/caroline-finish.md)                | Jason Cabrera    |
-|   16 | [Large night let summer.](abstracts/randy-large.md)                                           | Robert Ray       |
-|   17 | [With firm soldier impact.](abstracts/kimberly-with.md)                                       | Karen Garcia DDS |
-|   18 | [Yourself market stage a.](abstracts/elizabeth-yourself.md)                                   | Jason Jennings   |
-|   19 | [Lead who country sing exactly.](abstracts/jennifer-lead.md)                                  | Thomas Thompson  |
-|   20 | [System because moment character.](abstracts/derek-system.md)                                 | Virginia Barnett |
-|   21 | [Usually firm control such.](abstracts/logan-usually.md)                                      | Tracey Kirk      |
-|   22 | [Fact store off community.](abstracts/evan-fact.md)                                           | Jermaine Taylor  |
-|   23 | [Meet chair thousand.](abstracts/shawna-meet.md)                                              | Anne Brown       |
-|   24 | [Use beat other Congress company.](abstracts/mark-use.md)                                     | Todd Santana     |
-|   25 | [Level girl relationship statement I certainly town.](abstracts/mallory-level.md)             | Kelly Day        |
-|   26 | [Per good camera.](abstracts/lori-per.md)                                                     | Larry Smith      |
-|   27 | [Marriage machine could.](abstracts/paula-marriage.md)                                        | Elizabeth Lopez  |
-|   28 | [Build perform character behavior.](abstracts/jordan-build.md)                                | Jason Jennings   |
-|   29 | [Reality idea security model toward threat.](abstracts/lisa-reality.md)                       | Suzanne Lawrence |
-|   30 | [Board sit though operation fear act.](abstracts/emily-board.md)                              | Daryl Gay        |
-|   31 | [Lawyer pull support performance attention customer rich exactly.](abstracts/lucas-lawyer.md) | Beth Singh       |
-|   32 | [System me image often personal capital child figure.](abstracts/teresa-system.md)            | Sue Mcguire      |
-|   33 | [Late common take before school break rest.](abstracts/dale-late.md)                          | Deborah Perez    |
-|   34 | [Goal member five more time stage like store.](abstracts/jorge-goal.md)                       | Nancy Sullivan   |
-|   35 | [Represent manager within organization.](abstracts/jenna-represent.md)                        | Karen Smith      |
-|   36 | [Eat partner nor visit east.](abstracts/cynthia-eat.md)                                       | Jared Schultz    |
-|   37 | [Number concern after fish other around room list.](abstracts/michael-number.md)              | William Prince   |
-|   38 | [Window health figure commercial force item.](abstracts/gregg-window.md)                      | Emily Wade       |
-|   39 | [Choice soldier surface.](abstracts/kelly-choice.md)                                          | Stacey Hall      |
+|   ID | Title                                                                                                                                                                                            | Presenter                         |
+|-----:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------|
+|    1 | [AI-enabled generative design of fusion components](abstracts/v.-ai.md)                                                                                                                          | Vignesh Perumal                   |
+|    2 | [Facilitating Iterative Multi-physics Analysis of Fusion Components with Catbird](abstracts/helen-facilitating.md)                                                                               | Helen Brooks                      |
+|    3 | [CAD_to_OpenMC - an easy to use tool converting CAD-design to neutronics-ready geometry](abstracts/erik-cad_to_openmc.md)                                                                        | Erik Bergbäck Knudsen             |
+|    4 | [openSPDM: open-source, FAIR management of simulation data-sets](abstracts/mark-openspdm.md)                                                                                                     | Mark Norris                       |
+|    5 | [A Complete Open Source Workflow for CAD Based Reactor Neutronics with Unstructured Mesh Tallying](abstracts/jake-a.md)                                                                          | Jake Harter                       |
+|    6 | [JADE v4, a more robust and expandable architecture for neutronics V&V](abstracts/davide-jade.md)                                                                                                | Davide Laghi                      |
+|    7 | [Multiphysics Open Source Workflow for Conceptual Design of Inertial Fusion Reactors](abstracts/alexandre-multiphysics.md)                                                                       | Alexandre Sureda Croguennoc       |
+|    8 | [Verification, Validation, and Demonstration of the MOOSE-based Tritium Migration Analysis Program, Version 8 (TMAP8) Application for Fusion Systems.](abstracts/pierre-clément-verification.md) | Pierre-Clément Simon              |
+|    9 | [Modelling of deuterium release from tungsten co-deposited films induced by laser heating](abstracts/vladimir-modelling.md)                                                                      | Vladimir Kulagin                  |
+|   10 | [Quantifying uncertainty in fusion materials with MatFlow, an open-source computational workflow manager for materials science](abstracts/adam-quantifying.md)                                   | Adam Plowman                      |
+|   11 | [Hydrogen Inventory Simulations for PFCs (HISP) in ITER](abstracts/kaelyn-hydrogen.md)                                                                                                           | Kaelyn Dunnell                    |
+|   12 | [SYSTEM MODELING AND OPTIMIZATION OF TOKAMAK TRITIUM FUEL CYCLE](abstracts/sergey-system.md)                                                                                                     | Sergey Ananev                     |
+|   13 | [pyforce: Python Framework for data-driven model Order Reduction of multi-physiCs problEms](abstracts/stefano-pyforce.md)                                                                        | Stefano Riva                      |
+|   14 | [Enhancing Fusion Efficiency of Tokamak through Electromagnetic Field Manipulation](abstracts/moharam-enhancing.md)                                                                              | Moharam Abdelkhalek Ahmed Mohamed |
+|   15 | [Surrogate Modelling of Classical and Quantum Electrodynamic Laser Plasma Simulations at Intensities Above 10^22 W/cm^2](abstracts/joel-surrogate.md)                                            | Joel Adams                        |
+|   16 | [NESO-Particles: A Performance Portable Particle Framework For The Fusion Use Case](abstracts/will-neso.md)                                                                                      | Will Saunders                     |
+|   17 | [Plasma Operation Contours (POPCON) with cfspopcon](abstracts/devon-plasma.md)                                                                                                                   | Christoph Hasse                   |
+|   18 | [Pyrokinetics - A python library to standardise gyrokinetic analysis](abstracts/bhavin-pyrokinetics.md)                                                                                          | Bhavin S Patel                    |
+|   19 | [ReMKiT1D - Designing a novel framework for reactive multifluid and kinetic model development for the tokamak Scrape-Off Layer](abstracts/stefan-remkit1d.md)                                    | Stefan Mijin                      |
+|   20 | [Using automatic differentiation and neural networks for IFE to develop novel theory, expand simulation capabilities, and analyze experimental data](abstracts/jonathan-using.md)                | Jonathan Brodrick                 |
+|   21 | [MGKDB: an open-source MongoDB for nuclear fusion simulations](abstracts/venkitesh-mgkdb.md)                                                                                                     | Venkitesh Ayyar                   |
+|   22 | [ASCOT5: Forging the hammer for your nails](abstracts/konsta-ascot5.md)                                                                                                                          | Konsta Särkimäki                  |
+|   23 | [Jax-GS: A differentiable free-boundary Grad-Shafranov equilibrium solver for CPUs and GPUs ](abstracts/ubaid-jax.md)                                                                            | Ubaid Ali Qadri                   |
+|   24 | [TMExtractor： A software toolkit to extract Tearing Modes features](abstracts/luo-tmextractor：.md)                                                                                             | Luo Runyu                         |
+|   25 | [Developing a State-Oriented Plasma Control System](abstracts/alexander-developing.md)                                                                                                           | Evgeny                            |
+|   26 | [DisruptionPy: an open-source Python library for disruption study.](abstracts/y-disruptionpy.md)                                                                                                 | William Wei                       |
+|   27 | [An open-source python package for atomic kinetics studies in tokamak plasmas](abstracts/dominic-an.md)                                                                                          | Dominic Power                     |
+|   28 | [Deep Learning Surrogate Models with OpenSource simulators apply to the IFMIF-DONES facility.](abstracts/guillermo-deep.md)                                                                      | Guillermo Rodríguez Llorente      |
+|   29 | [NeSST - Neutron Scattered Spectra Tool](abstracts/aidan-nesst.md)                                                                                                                               | Aidan Crilly                      |
+|   30 | [Integrating OpenMC and PUMIPic to enable GPU Acceleration of Unstructured Mesh Tallies for Monte Carlo Transport Simulations](abstracts/fuad-integrating.md)                                    | Fuad Hasan                        |
+|   31 | [FUSE: an open-source framework for tokamak power plant design and operations](abstracts/orso-fuse.md)                                                                                           | Orso Meneghini                    |
+|   32 | [AtOMC: A Port of OpenMC for Atomic transport and Plasma Interaction ](abstracts/george-atomc.md)                                                                                                | George Wilkie                     |
+|   33 | [A package for differentiable evaluation of fusion rate coefficients](abstracts/j.-a.md)                                                                                                         | Jacob Schwartz                    |
+|   34 | [Fusion Data Lake: An IAEA proposal for international data sharing for AI/ML applications in fusion energy research](abstracts/daljeet-fusion.md)                                                | Daljeet Singh Gahle               |
+|   35 | [The OpenMC Ecosystem](abstracts/patrick-the.md)                                                                                                                                                 | Patrick C Shriwise                |
+|   36 | [An Updated Framework For Synthetic Diagnostics Using Energetic-particle Orbits in Tokamaks](abstracts/henrik-an.md)                                                                             | Henrik Järleblad                  |
+|   37 | [Hypnos: parametric geometry preparation for fusion-relevant applications](abstracts/siddharth-hypnos.md)                                                                                        | Siddharth Mungale                 |
+|   38 | [XMARTe - A graphical interface for designing Real Time Control Applications with MARTe2](abstracts/edward-xmarte.md)                                                                            | Edward Jones                      |
+|   39 | [TRIOMA: an open source application for fast outer fuel cycle tritium transport analysis](abstracts/gabriele-trioma.md)                                                                          | Gabriele Ferrero                  |
+|   40 | [A fast electromagnetics library with Rust and Python](abstracts/james-a.md)                                                                                                                     | James Logan                       |
+|   41 | [WEST Ion Cyclotron Antenna Electrical Model Digital Twin](abstracts/julien-west.md)                                                                                                             | Julien Hillairet                  |
+|   42 | [Implementing Toroidal Harmonic Flux Constraints in Bluemira](abstracts/clair-implementing.md)                                                                                                   | Clair Mould                       |
+|   43 | [Automated Testing and Continuous Integration for the KORC Codebase](abstracts/ian-automated.md)                                                                                                 | Ian Gibbs                         |
+|   44 | [ITER Fusion Reactor Blanket Optimization for Tritium Breeding using OpenMC](abstracts/husni-iter.md)                                                                                            | Husni Naufal Zuhdi                |
+|   45 | [pyvale: A sensor simulation tool for measurement uncertainty assessment and optimising validation experiments for engineering components. ](abstracts/lloyd-pyvale.md)                          | Lloyd Fletcher                    |
+|   46 | [Open-source framework for infrared thermography exploitation in fusion](abstracts/léo-open.md)                                                                                                  | Dubus                             |
+|   47 | [An automated pipeline from powerplant concept to parametric neutronics model in Bluemira](abstracts/oliver-an.md)                                                                               | Oliver Funk                       |
+|   48 | [Building a new multiphysics workflow in MOOSE: application to tritium migration, trapping and advection in TMAP8](abstracts/guillaume-building.md)                                              | Guillaume Giudicelli              |
+|   49 | [Open-source MHD modelling of turbulent flow in a molten salt breeding blanket](abstracts/m.-open.md)                                                                                            | Marco Caravello                   |
+|   50 | [Automated Stellarator Design Using Open-Source Magnet Codes and AI Optimization](abstracts/sophie-automated.md)                                                                                 | Sophie Sharpe                     |
+|   51 | [Accelerating Fusion Materials Development Through Multi-Scale Simulations and Surrogate Modeling](abstracts/noe-accelerating.md)                                                                | Noe Adepoju                       |
+|   52 | [Automation of Multi-Physics Simulations: Coupling OpenFOAM and OpenMC for Fusion Application](abstracts/abinash-automation.md)                                                                  | Abinash Manikandan                |
+|   53 | [Methodological Advancements in Open-Source Fusion Energy Simulations using OpenMC](abstracts/luis-methodological.md)                                                                            | Luis Garcia                       |
+|   54 | [Workflow Automation for Fusion Power Plant Design using Galaxy Workflows](abstracts/dom-workflow.md)                                                                                            | Dominic Longhorn                  |
+|   55 | [Multi-Objective Design Optimization for Fusion Energy Systems](abstracts/omer-multi.md)                                                                                                         | Omer Muhammad                     |
+|   56 | [Developing an Open-Source Framework for Fusion Power Plant Cost Estimation](abstracts/sam-developing.md)                                                                                        | Samuel Ward                       |
+|   57 | [Collaborative Cost Modeling for Fusion Power Plants Using Open-Source Tools ](abstracts/alex-collaborative.md)                                                                                  | Alex Higginbottom                 |
+|   58 | [IPS: an open-source framework for (loosely) coupled multiphsyics simulations](abstracts/david-ips.md)                                                                                           | David Bernholdt                   |
+|   59 | [FyTok: An Integrated Modeling Simulator for Tokamak](abstracts/zhi-fytok.md)                                                                                                                    | Zhi YU                            |
+|   60 | [An Open-Source Workflow for Multi-Physics Analysis of Tritium Breeder Blankets](abstracts/alexandre-an.md)                                                                                      | Juan Diego Iberico Leonardo       |
+|   61 | [magnetoHDFoam:  a novel open-source OpenFOAM library for magnetohydrodynamics](abstracts/matteo-magnetohdfoam.md)                                                                               | Matteo Lo Verso                   |
+|   62 | [Xolotl: a cluster dynamics tool for material evolution under irradiation](abstracts/sophie-xolotl.md)                                                                                           | Sophie Blondel                    |
