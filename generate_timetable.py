@@ -11,6 +11,9 @@ PLENARY_TALK_DURATION_SEC = PLENARY_TALK_DURATION_MIN * 60
 TALK_DURATION_MIN = 20
 TALK_DURATION_SEC = TALK_DURATION_MIN * 60
 
+# Initialize a poster counter
+poster_id_counter = 0
+
 type_to_duration = {
     "plenary": PLENARY_TALK_DURATION_SEC,
     "oral": TALK_DURATION_SEC,
@@ -534,10 +537,13 @@ def main():
     df_poster_1 = df_poster[df_poster["slot_id"] == "poster_1"]
     df_poster_2 = df_poster[df_poster["slot_id"] == "poster_2"]
 
-    # Function to create markdown table
     def create_markdown_table(df_poster):
+        global poster_id_counter  # Explicitly use the global counter
         data = []
-        for index, (_, item) in enumerate(df_poster.iterrows(), start=1):
+
+        for _, item in df_poster.iterrows():
+            poster_id_counter += 1  # Increment the counter for unique ID
+
             # Extract last name and first word of title
             last_name = item["List of authors and affiliation"].split(",")[0].split()[0]
             first_word_title = item["Title"].replace("-", " ").split()[0]
@@ -566,12 +572,13 @@ def main():
                 pass
             data.append(
                 {
-                    "ID": index,
+                    "ID": f"POS-{poster_id_counter}",  # Assign unique ID
                     "Title": title,
                     "Presenter": presenter,
                     "Affilaition": institution_of_first_author,
                 }
             )
+
         df_posters_md = pd.DataFrame(data)
         posters_md = df_posters_md.to_markdown(index=False)
 
