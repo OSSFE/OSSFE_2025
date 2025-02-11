@@ -15,7 +15,10 @@ authors:
       - Ioffe Institute of Russian Academy of Sciences
   - name: Vitaliy Efimov
     affiliations:
-      - National Research Nuclear University MEPhI, Yury Gasparyan, National Research Nuclear University MEPhI
+      - National Research Nuclear University MEPhI
+  - name: Yury Gasparyan
+    affiliations:
+      - National Research Nuclear University MEPhI
 license: CC-BY-4.0
 exports:
   - format: pdf
