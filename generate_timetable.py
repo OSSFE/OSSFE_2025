@@ -284,7 +284,7 @@ def session_to_time(session_id: str):
             end=datetime.datetime(2025, 3, 18, 13, 50),
             room="Talk room 2",
             type="oral",
-            chair="TBC",
+            chair="Nathan Cummings, UKAEA",
         )
     elif session_id == "S_E":
         return TimeSlot(
