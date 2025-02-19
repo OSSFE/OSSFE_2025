@@ -11,9 +11,6 @@ PLENARY_TALK_DURATION_SEC = PLENARY_TALK_DURATION_MIN * 60
 TALK_DURATION_MIN = 20
 TALK_DURATION_SEC = TALK_DURATION_MIN * 60
 
-# Initialize a poster counter
-poster_id_counter = 0
-
 type_to_duration = {
     "plenary": PLENARY_TALK_DURATION_SEC,
     "oral": TALK_DURATION_SEC,
@@ -320,6 +317,7 @@ def main():
         "Recommendation",
         "Decision",
         "slot_id",
+        "poster_id",
     ]
 
     df = pd.read_csv("abstracts.csv", usecols=columns_to_keep)
@@ -539,12 +537,14 @@ def main():
     df_poster_1 = df_poster[df_poster["slot_id"] == "poster_1"]
     df_poster_2 = df_poster[df_poster["slot_id"] == "poster_2"]
 
+    # sort by poster_id
+    df_poster_1 = df_poster_1.sort_values(by=["poster_id"])
+    df_poster_2 = df_poster_2.sort_values(by=["poster_id"])
+
     def create_markdown_table(df_poster):
-        global poster_id_counter  # Explicitly use the global counter
         data = []
 
         for _, item in df_poster.iterrows():
-            poster_id_counter += 1  # Increment the counter for unique ID
 
             # Extract last name and first word of title
             last_name = item["List of authors and affiliation"].split(",")[0].split()[0]
@@ -562,6 +562,7 @@ def main():
             title = f'[{item["Title"]}](abstracts/{filename})'
             presenter = item["Name"]
             institution_of_first_author = ""
+            poster_id = item["poster_id"]
             try:
                 author_affiliation_list = item["List of authors and affiliation"].split(
                     ";"
@@ -574,7 +575,7 @@ def main():
                 pass
             data.append(
                 {
-                    "ID": f"POS-{poster_id_counter}",  # Assign unique ID
+                    "ID": f"{poster_id}",  # Assign unique ID
                     "Title": title,
                     "Presenter": presenter,
                     "Affilaition": institution_of_first_author,
