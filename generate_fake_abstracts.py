@@ -122,6 +122,7 @@ def main(argv: Sequence[str] | None = None) -> int:
                 "Recommendation": decision,
                 "Decision": decision,
                 "slot_id": slot_id,
+                "poster_id": f"POS-{fake.random_int(1, 1000)}",
             }
             writer.writerow(data)
 
