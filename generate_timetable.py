@@ -487,7 +487,8 @@ def main():
     # create item for panel session
     S_panel_time_slot = session_to_time("S_Panel")
     presenters = [
-        "Martin Yagi",
+        "[Paul Wilson](bios/wilson.md)",
+        "[Martin Yagi](bios/yagi.md)",
         "David Bernhodlt",
         "Matt Vernicchia",
         "Aiden Fowler",
