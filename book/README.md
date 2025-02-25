@@ -117,12 +117,13 @@ Room: Talk room 1
 *Chair*: Jonathan Shimwell, Proxima Fusion
 
 A panel session will be held with the following members:
-| Presenter                     | Affiliation                                         |
-|:------------------------------|:----------------------------------------------------|
-| [Paul Wilson](bios/wilson.md) | [First Light Fusion](https://firstlightfusion.com/) |
-| [Martin Yagi](bios/yagi.md)   | [ORNL](https://www.ornl.gov/)                       |
-| David Bernhodlt               | [CFS](https://cfs.energy/)                          |
-| Matt Vernicchia               | [MIT](https://www.mit.edu/)                         |
+| Presenter                     | Affiliation                                              |
+|:------------------------------|:---------------------------------------------------------|
+| [Paul Wilson](bios/wilson.md) | [University of Wisconsin-Madison](https://www.wisc.edu/) |
+| [Martin Yagi](bios/yagi.md)   | [First Light Fusion](https://firstlightfusion.com/)      |
+| David Bernhodlt               | [ORNL](https://www.ornl.gov/)                            |
+| Matt Vernicchia               | [CFS](https://cfs.energy/)                               |
+| Aiden Fowler                  | [MIT](https://www.mit.edu/)                              |
 
 
 ## Session P2: 11:20 - 11:50 (EST)

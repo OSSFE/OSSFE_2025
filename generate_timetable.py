@@ -494,11 +494,13 @@ def main():
         "Aiden Fowler",
     ]
     affiliations = [
+        "[University of Wisconsin-Madison](https://www.wisc.edu/)",
         "[First Light Fusion](https://firstlightfusion.com/)",
         "[ORNL](https://www.ornl.gov/)",
         "[CFS](https://cfs.energy/)",
         "[MIT](https://www.mit.edu/)",
     ]
+    assert len(presenters) == len(affiliations), "Number of presenters and affiliations must be equal"
     panel_data = []
     for presenter, affiliation in zip(presenters, affiliations):
         panel_data.append({"Presenter": presenter, "Affiliation": affiliation})
