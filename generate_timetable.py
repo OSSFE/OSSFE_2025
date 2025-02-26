@@ -491,7 +491,7 @@ def main():
         "[Martin Yagi](bios/yagi.md)",
         "David Bernhodlt",
         "Matt Vernicchia",
-        "Aiden Fowler",
+        "[Aiden Fowler](bios/fowler.md)",
     ]
     affiliations = [
         "[University of Wisconsin-Madison](https://www.wisc.edu/)",
