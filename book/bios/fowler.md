@@ -1,6 +1,6 @@
 ---
 title: 'Aidan Fowler'
-image: '../assets/aidan_fowler.jpg'
+image: '../assets/aidan_fowler.jpeg'
 ---
 
 ![Aidan Fowler](../assets/aidan_fowler.jpeg)

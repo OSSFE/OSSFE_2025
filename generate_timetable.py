@@ -490,7 +490,7 @@ def main():
         "[Paul Wilson](bios/wilson.md)",
         "[Martin Yagi](bios/yagi.md)",
         "David Bernhodlt",
-        "Matt Vernicchia",
+        "[Matt Vernacchia](bios/vernacchia.md)",
         "[Aiden Fowler](bios/fowler.md)",
     ]
     affiliations = [
