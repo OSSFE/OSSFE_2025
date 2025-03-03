@@ -121,7 +121,7 @@ A panel session will be held with the following members:
 |:--------------------------------------|:---------------------------------------------------------|
 | [Paul Wilson](bios/wilson.md)         | [University of Wisconsin-Madison](https://www.wisc.edu/) |
 | [Martin Yagi](bios/yagi.md)           | [First Light Fusion](https://firstlightfusion.com/)      |
-| David Bernhodlt                       | [ORNL](https://www.ornl.gov/)                            |
+| [David Bernhodlt](bios/bernholdt.md)  | [ORNL](https://www.ornl.gov/)                            |
 | [Matt Vernacchia](bios/vernacchia.md) | [CFS](https://cfs.energy/)                               |
 | [Aiden Fowler](bios/fowler.md)        | [MIT](https://www.mit.edu/)                              |
 

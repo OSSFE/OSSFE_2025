@@ -489,7 +489,7 @@ def main():
     presenters = [
         "[Paul Wilson](bios/wilson.md)",
         "[Martin Yagi](bios/yagi.md)",
-        "David Bernhodlt",
+        "[David Bernhodlt](bios/bernholdt.md)",
         "[Matt Vernacchia](bios/vernacchia.md)",
         "[Aiden Fowler](bios/fowler.md)",
     ]
