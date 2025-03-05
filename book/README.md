@@ -48,7 +48,7 @@ Take the opportunity to make yourself tea or coffee and network with other atten
 
 Room: Talk room 1
 
-*Chair*: TBC
+*Chair*: Patrick Shriwise, ANL
 
 Number of presentations: 3
 
@@ -201,7 +201,7 @@ Number of presentations: 3
 
 Room: Talk room 2
 
-*Chair*: TBC
+*Chair*: Patrick Shriwise, ANL
 
 Number of presentations: 3
 
