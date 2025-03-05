@@ -224,7 +224,7 @@ def session_to_time(session_id: str):
             end=datetime(2025, 3, 18, 9, 30, tzinfo=edt),
             room="Talk room 1",
             type="oral",
-            chair="TBC",
+            chair="Patrick Shriwise, ANL",
         )
     elif session_id == "S_B":
         return TimeSlot(
@@ -300,7 +300,7 @@ def session_to_time(session_id: str):
             end=datetime(2025, 3, 18, 15, 10, tzinfo=edt),
             room="Talk room 2",
             type="oral",
-            chair="TBC",
+            chair="Patrick Shriwise, ANL",
         )
 
     raise ValueError(f"Unknown session {session_id}")
