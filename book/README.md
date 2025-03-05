@@ -29,7 +29,7 @@ Presenter: Remi Delaporte-Mathurin
 
 Room: Talk room 1
 
-*Chair*: TBC
+*Chair*: Remi Delaporte-Mathurin, MIT
 
 Number of presentations: 2
 
@@ -63,7 +63,7 @@ Number of presentations: 3
 
 Room: Talk room 2
 
-*Chair*: TBC
+*Chair*: Ethan Peterson, MIT
 
 Number of presentations: 3
 
@@ -130,7 +130,7 @@ A panel session will be held with the following members:
 
 Room: Talk room 1
 
-*Chair*: TBC
+*Chair*: Remi Delaporte-Mathurin, MIT
 
 Number of presentations: 1
 
@@ -151,7 +151,7 @@ The Gather Town will remain open for networking during the break!
 
 Room: Talk room 1
 
-*Chair*: TBC
+*Chair*: James Dark, MIT
 
 Number of presentations: 3
 
@@ -186,7 +186,7 @@ Take the opportunity to make yourself tea or coffee and network with other atten
 
 Room: Talk room 1
 
-*Chair*: TBC
+*Chair*: James Dark, MIT
 
 Number of presentations: 3
 
