@@ -1,9 +1,12 @@
 from typing import NamedTuple
 from textwrap import dedent
 import pandas as pd
-import datetime
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
+
+# Define EDT as UTC-4 (fixed offset, does not adjust for DST)
+edt = timezone(timedelta(hours=-4), name="EDT")
 
 PLENARY_TALK_DURATION_MIN = 30
 PLENARY_TALK_DURATION_SEC = PLENARY_TALK_DURATION_MIN * 60
@@ -162,8 +165,8 @@ class TimeSlot:
     types : plenary, oral
     """
 
-    start: datetime.datetime
-    end: datetime.datetime
+    start: datetime
+    end: datetime
     room: str
     type: str
     chair: str
@@ -187,114 +190,114 @@ class TimeSlot:
     def __str__(self):
         start_minute = str(self.start.minute).zfill(2)
         end_minute = str(self.end.minute).zfill(2)
-        return f"{self.start.hour}:{start_minute} - {self.end.hour}:{end_minute} (EST)"
+        return f"{self.start.hour}:{start_minute} - {self.end.hour}:{end_minute} ({self.end.tzinfo})"
 
 
 def session_to_time(session_id: str):
     if session_id == "S_Opening":
         return TimeSlot(
-            start=datetime.datetime(2025, 3, 18, 7, 00),
-            end=datetime.datetime(2025, 3, 18, 7, 10),
+            start=datetime(2025, 3, 18, 7, 00, tzinfo=edt),
+            end=datetime(2025, 3, 18, 7, 10, tzinfo=edt),
             room="Talk room 1",
             type="opening",
             chair="TBC",
         )
     elif session_id == "S_Closing":
         return TimeSlot(
-            start=datetime.datetime(2025, 3, 18, 15, 10),
-            end=datetime.datetime(2025, 3, 18, 15, 20),
+            start=datetime(2025, 3, 18, 15, 10, tzinfo=edt),
+            end=datetime(2025, 3, 18, 15, 20, tzinfo=edt),
             room="Talk room 1",
             type="closing",
             chair="TBC",
         )
     elif session_id == "S_P1":
         return TimeSlot(
-            start=datetime.datetime(2025, 3, 18, 7, 10),
-            end=datetime.datetime(2025, 3, 18, 8, 10),
+            start=datetime(2025, 3, 18, 7, 10, tzinfo=edt),
+            end=datetime(2025, 3, 18, 8, 10, tzinfo=edt),
             room="Talk room 1",
             type="plenary",
             chair="TBC",
         )
     elif session_id == "S_A":
         return TimeSlot(
-            start=datetime.datetime(2025, 3, 18, 8, 30),
-            end=datetime.datetime(2025, 3, 18, 9, 30),
+            start=datetime(2025, 3, 18, 8, 30, tzinfo=edt),
+            end=datetime(2025, 3, 18, 9, 30, tzinfo=edt),
             room="Talk room 1",
             type="oral",
             chair="TBC",
         )
     elif session_id == "S_B":
         return TimeSlot(
-            start=datetime.datetime(2025, 3, 18, 8, 30),
-            end=datetime.datetime(2025, 3, 18, 9, 30),
+            start=datetime(2025, 3, 18, 8, 30, tzinfo=edt),
+            end=datetime(2025, 3, 18, 9, 30, tzinfo=edt),
             room="Talk room 2",
             type="oral",
             chair="TBC",
         )
     elif session_id == "S_poster_1":
         return TimeSlot(
-            start=datetime.datetime(2025, 3, 18, 9, 30),
-            end=datetime.datetime(2025, 3, 18, 10, 40),
+            start=datetime(2025, 3, 18, 9, 30, tzinfo=edt),
+            end=datetime(2025, 3, 18, 10, 40, tzinfo=edt),
             room="Poster room 1",
         )
     elif session_id == "S_poster_2":
         return TimeSlot(
-            start=datetime.datetime(2025, 3, 18, 9, 30),
-            end=datetime.datetime(2025, 3, 18, 10, 40),
+            start=datetime(2025, 3, 18, 9, 30, tzinfo=edt),
+            end=datetime(2025, 3, 18, 10, 40, tzinfo=edt),
             room="Poster room 2",
         )
     elif session_id == "S_demos":
         return TimeSlot(
-            start=datetime.datetime(2025, 3, 18, 9, 30),
-            end=datetime.datetime(2025, 3, 18, 10, 40),
+            start=datetime(2025, 3, 18, 9, 30, tzinfo=edt),
+            end=datetime(2025, 3, 18, 10, 40, tzinfo=edt),
             room="Breakout room",
             type="poster",
             chair="TBC",
         )
     elif session_id == "S_Panel":
         return TimeSlot(
-            start=datetime.datetime(2025, 3, 18, 10, 40),
-            end=datetime.datetime(2025, 3, 18, 11, 20),
+            start=datetime(2025, 3, 18, 10, 40, tzinfo=edt),
+            end=datetime(2025, 3, 18, 11, 20, tzinfo=edt),
             room="Talk room 1",
             type="panel",
             chair="Jonathan Shimwell, Proxima Fusion",
         )
     elif session_id == "S_P2":
         return TimeSlot(
-            start=datetime.datetime(2025, 3, 18, 11, 20),
-            end=datetime.datetime(2025, 3, 18, 11, 50),
+            start=datetime(2025, 3, 18, 11, 20, tzinfo=edt),
+            end=datetime(2025, 3, 18, 11, 50, tzinfo=edt),
             room="Talk room 1",
             type="plenary",
             chair="TBC",
         )
     elif session_id == "S_C":
         return TimeSlot(
-            start=datetime.datetime(2025, 3, 18, 12, 50),
-            end=datetime.datetime(2025, 3, 18, 13, 50),
+            start=datetime(2025, 3, 18, 12, 50, tzinfo=edt),
+            end=datetime(2025, 3, 18, 13, 50, tzinfo=edt),
             room="Talk room 1",
             type="oral",
             chair="TBC",
         )
     elif session_id == "S_D":
         return TimeSlot(
-            start=datetime.datetime(2025, 3, 18, 12, 50),
-            end=datetime.datetime(2025, 3, 18, 13, 50),
+            start=datetime(2025, 3, 18, 12, 50, tzinfo=edt),
+            end=datetime(2025, 3, 18, 13, 50, tzinfo=edt),
             room="Talk room 2",
             type="oral",
             chair="Nathan Cummings, UKAEA",
         )
     elif session_id == "S_E":
         return TimeSlot(
-            start=datetime.datetime(2025, 3, 18, 14, 10),
-            end=datetime.datetime(2025, 3, 18, 15, 10),
+            start=datetime(2025, 3, 18, 14, 10, tzinfo=edt),
+            end=datetime(2025, 3, 18, 15, 10, tzinfo=edt),
             room="Talk room 1",
             type="oral",
             chair="TBC",
         )
     elif session_id == "S_F":
         return TimeSlot(
-            start=datetime.datetime(2025, 3, 18, 14, 10),
-            end=datetime.datetime(2025, 3, 18, 15, 10),
+            start=datetime(2025, 3, 18, 14, 10, tzinfo=edt),
+            end=datetime(2025, 3, 18, 15, 10, tzinfo=edt),
             room="Talk room 2",
             type="oral",
             chair="TBC",
@@ -517,20 +520,20 @@ def main():
 
     # create items for breaks
     break_1_time_slot = TimeSlot(
-        start=datetime.datetime(2025, 3, 18, 8, 10),
-        end=datetime.datetime(2025, 3, 18, 8, 30),
+        start=datetime(2025, 3, 18, 8, 10, tzinfo=edt),
+        end=datetime(2025, 3, 18, 8, 30, tzinfo=edt),
     )
     break_2_time_slot = TimeSlot(
-        start=datetime.datetime(2025, 3, 18, 13, 50),
-        end=datetime.datetime(2025, 3, 18, 14, 10),
+        start=datetime(2025, 3, 18, 13, 50, tzinfo=edt),
+        end=datetime(2025, 3, 18, 14, 10, tzinfo=edt),
     )
     tables.insert(2, break_template.format(time_slot=break_1_time_slot))
     tables.insert(11, break_template.format(time_slot=break_2_time_slot))
 
     # create item for lunch
     lunch_time_slot = TimeSlot(
-        start=datetime.datetime(2025, 3, 18, 11, 50),
-        end=datetime.datetime(2025, 3, 18, 12, 50),
+        start=datetime(2025, 3, 18, 11, 50, tzinfo=edt),
+        end=datetime(2025, 3, 18, 12, 50, tzinfo=edt),
     )
     tables.insert(9, lunch_template.format(time_slot=lunch_time_slot))
 

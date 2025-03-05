@@ -4,7 +4,7 @@ title: "List of posters"
 
 Here you will find the posters for the OSSFE 2025 conference
 
-The poster session will take place at 9:30 - 10:40 (EST)
+The poster session will take place at 9:30 - 10:40 (EDT)
 
 In Poster room 1 (Abstract ID's POS-1-31):
 | ID     | Title                                                                                                                                                                             | Presenter                    | Affilaition                                                                           |
