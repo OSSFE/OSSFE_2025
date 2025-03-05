@@ -18,14 +18,14 @@ exports:
 Here you will find the schedule and abstracts for the OSSFE 2025 conference
 
 # Schedule
-## 🎉 Welcome statement by the organising committee: 7:00 - 7:10 (EST)
+## 🎉 Welcome statement by the organising committee: 7:00 - 7:10 (EDT)
 
 Room: Talk room 1
 
 Presenter: Remi Delaporte-Mathurin
 
 
-## Session P1: 7:10 - 8:10 (EST)
+## Session P1: 7:10 - 8:10 (EDT)
 
 Room: Talk room 1
 
@@ -39,12 +39,12 @@ Number of presentations: 2
 | P2   | [Open-sourcing IMAS: status, opportunities and challenges](abstracts/olivier-open.md)  | Olivier Hoenen   | ITER Organization   |
 
 
-## ☕ Break: 8:10 - 8:30 (EST)
+## ☕ Break: 8:10 - 8:30 (EDT)
 
 Take the opportunity to make yourself tea or coffee and network with other attendees in the lobby!
 
 
-## Session A: 8:30 - 9:30 (EST)
+## Session A: 8:30 - 9:30 (EDT)
 
 Room: Talk room 1
 
@@ -59,7 +59,7 @@ Number of presentations: 3
 | A3   | [Code developments at the Swiss Plasma Center and Open Science](abstracts/olivier-code.md)               | Olivier Sauter  | Swiss Plasma Center (SPC), EPFL, Lausanne, Switzerland |
 
 
-## Session B: 8:30 - 9:30 (EST)
+## Session B: 8:30 - 9:30 (EDT)
 
 Room: Talk room 2
 
@@ -74,7 +74,7 @@ Number of presentations: 3
 | B3   | [Gyselalib++: A GPU-Ready Library for Gyrokinetic Plasma Simulations](abstracts/emily-gyselalib++.md) | Emily Bourne    | EPFL Switzerland                          |
 
 
-## 🖼️  Poster Session: 9:30 - 10:40 (EST)
+## 🖼️  Poster Session: 9:30 - 10:40 (EDT)
 
 The poster session will be split between two rooms with:
 
@@ -89,7 +89,7 @@ Room: Poster room 2
 A full list of the posters and their abstracts can be found in the [List of posters](list_of_posters.md)
 
 
-## 🛠️ Tutorial Session: 9:30 - 10:40 (EST)
+## 🛠️ Tutorial Session: 9:30 - 10:40 (EDT)
 
 Room: Breakout room
 
@@ -110,7 +110,7 @@ A series of tutorials will be available to attend for the following packages:
 | T11  | [FAIR data management for physics and engineering simulation with open-source and commercial codes relevant to Fusion](abstracts/mark-fair.md) | Mark Norris        | openSPDM Ltd                                                      |
 
 
-## 🗣️ Panel Session: 10:40 - 11:20 (EST)
+## 🗣️ Panel Session: 10:40 - 11:20 (EDT)
 
 Room: Talk room 1
 
@@ -126,7 +126,7 @@ A panel session will be held with the following members:
 | [Aiden Fowler](bios/fowler.md)        | [MIT](https://www.mit.edu/)                              |
 
 
-## Session P2: 11:20 - 11:50 (EST)
+## Session P2: 11:20 - 11:50 (EDT)
 
 Room: Talk room 1
 
@@ -139,7 +139,7 @@ Number of presentations: 1
 | P3   | [The PlasmaPy project](abstracts/nick-the.md) | Nick Murphy | Center for Astrophysics - Harvard & Smithsonian |
 
 
-## 🍽️ Lunch break: 11:50 - 12:50 (EST)
+## 🍽️ Lunch break: 11:50 - 12:50 (EDT)
 
 Or dinner break for Europe! Or breakfast for the West Coast!
 
@@ -147,7 +147,7 @@ The Gather Town will remain open for networking during the break!
 
 
 
-## Session C: 12:50 - 13:50 (EST)
+## Session C: 12:50 - 13:50 (EDT)
 
 Room: Talk room 1
 
@@ -162,7 +162,7 @@ Number of presentations: 3
 | C3   | [Struphy - Solving plasma physics PDEs within the Python ecosystem](abstracts/stefan-struphy.md) | Stefan Possanner | Max Planck Institute for Plasma Physics, Germany |
 
 
-## Session D: 12:50 - 13:50 (EST)
+## Session D: 12:50 - 13:50 (EDT)
 
 Room: Talk room 2
 
@@ -177,12 +177,12 @@ Number of presentations: 3
 | D3   | [Simulating diverse fusion concepts with the open-source Particle-In-Cell code WarpX](abstracts/remi-simulating.md)                | Remi Lehe               | Lawrence Berkeley National Laboratory |
 
 
-## ☕ Break: 13:50 - 14:10 (EST)
+## ☕ Break: 13:50 - 14:10 (EDT)
 
 Take the opportunity to make yourself tea or coffee and network with other attendees in the lobby!
 
 
-## Session E: 14:10 - 15:10 (EST)
+## Session E: 14:10 - 15:10 (EDT)
 
 Room: Talk room 1
 
@@ -197,7 +197,7 @@ Number of presentations: 3
 | E3   | [Unifying the Open-Source Nuclear Landscape: The NukeHub Vision](abstracts/ahnaf-unifying.md)                     | Ahnaf Tahmid Chowdhury | NukeHub                                                                                                                |
 
 
-## Session F: 14:10 - 15:10 (EST)
+## Session F: 14:10 - 15:10 (EDT)
 
 Room: Talk room 2
 
@@ -212,7 +212,7 @@ Number of presentations: 3
 | F3   | [TORAX: A Fast and Differentiable Tokamak Transport Simulator in JAX](abstracts/jonathan-torax.md)                                          | Jonathan Citrin      | Google Deepmind           |
 
 
-## 🏆 Awards ceremony and closing remarks: 15:10 - 15:20 (EST)
+## 🏆 Awards ceremony and closing remarks: 15:10 - 15:20 (EDT)
 
 Room: Talk room 1
 
