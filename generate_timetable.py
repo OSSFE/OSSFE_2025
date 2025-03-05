@@ -200,7 +200,6 @@ def session_to_time(session_id: str):
             end=datetime(2025, 3, 18, 7, 10, tzinfo=edt),
             room="Talk room 1",
             type="opening",
-            chair="TBC",
         )
     elif session_id == "S_Closing":
         return TimeSlot(
@@ -208,7 +207,6 @@ def session_to_time(session_id: str):
             end=datetime(2025, 3, 18, 15, 20, tzinfo=edt),
             room="Talk room 1",
             type="closing",
-            chair="TBC",
         )
     elif session_id == "S_P1":
         return TimeSlot(
@@ -216,7 +214,7 @@ def session_to_time(session_id: str):
             end=datetime(2025, 3, 18, 8, 10, tzinfo=edt),
             room="Talk room 1",
             type="plenary",
-            chair="TBC",
+            chair="Remi Delaporte-Mathurin, MIT",
         )
     elif session_id == "S_A":
         return TimeSlot(
@@ -232,7 +230,7 @@ def session_to_time(session_id: str):
             end=datetime(2025, 3, 18, 9, 30, tzinfo=edt),
             room="Talk room 2",
             type="oral",
-            chair="TBC",
+            chair="Ethan Peterson, MIT",
         )
     elif session_id == "S_poster_1":
         return TimeSlot(
@@ -251,8 +249,6 @@ def session_to_time(session_id: str):
             start=datetime(2025, 3, 18, 9, 30, tzinfo=edt),
             end=datetime(2025, 3, 18, 10, 40, tzinfo=edt),
             room="Breakout room",
-            type="poster",
-            chair="TBC",
         )
     elif session_id == "S_Panel":
         return TimeSlot(
@@ -268,7 +264,7 @@ def session_to_time(session_id: str):
             end=datetime(2025, 3, 18, 11, 50, tzinfo=edt),
             room="Talk room 1",
             type="plenary",
-            chair="TBC",
+            chair="Remi Delaporte-Mathurin, MIT",
         )
     elif session_id == "S_C":
         return TimeSlot(
@@ -276,7 +272,7 @@ def session_to_time(session_id: str):
             end=datetime(2025, 3, 18, 13, 50, tzinfo=edt),
             room="Talk room 1",
             type="oral",
-            chair="TBC",
+            chair="James Dark, MIT",
         )
     elif session_id == "S_D":
         return TimeSlot(
@@ -292,7 +288,7 @@ def session_to_time(session_id: str):
             end=datetime(2025, 3, 18, 15, 10, tzinfo=edt),
             room="Talk room 1",
             type="oral",
-            chair="TBC",
+            chair="James Dark, MIT",
         )
     elif session_id == "S_F":
         return TimeSlot(
