@@ -12,7 +12,9 @@ authors:
       - Research & Technological Innovation Department, Eni S.p.A., 20097 San Donato Milanese (MI), Italy
   - name: F. Podenzani
     affiliations:
-      - Research & Technological Innovation Department, Eni S.p.A., 20097 San Donato Milanese (MI), Italy, and R. Zanino, NEMO group, Dipartimento Energia, Politecnico di Torino, 10129 Torino, Italy
+      - Research & Technological Innovation Department, Eni S.p.A., 20097 San Donato Milanese (MI), Italy
+  - name: R. Zanino
+    affiliations: NEMO group, Dipartimento Energia, Politecnico di Torino, 10129 Torino, Italy
 license: CC-BY-4.0
 exports:
   - format: pdf
