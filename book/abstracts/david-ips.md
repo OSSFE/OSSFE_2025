@@ -1,12 +1,12 @@
 ---
-title: 'IPS: an open-source framework for (loosely) coupled multiphsyics simulations'
+title: 'IPS: an open-source framework for (loosely) coupled multiphysics simulations'
 authors:
   - name: David E. Bernholdt
     affiliations:
       - Oak Ridge National Laboratory
-  - name: Wael R
+  - name: Wael R Elwasif
     affiliations:
-      - Elwasif, Oak Ridge National Laboratory
+      - Oak Ridge National Laboratory
 license: CC-BY-4.0
 exports:
   - format: pdf
