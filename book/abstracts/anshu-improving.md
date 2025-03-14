@@ -1,12 +1,12 @@
 ---
 title: 'Improving Reproducibility Through Better Software Practices'
 authors:
-  - name: David E. Bernholdt
-    affiliations:
-      - Oak Ridge National Laboratory
   - name: Anshu Dubey
     affiliations:
       - Argonne National Laboratory
+  - name: David E. Bernholdt
+    affiliations:
+      - Oak Ridge National Laboratory
   - name: Gregory R. Watson
     affiliations:
       - Oak Ridge National Laboratory
