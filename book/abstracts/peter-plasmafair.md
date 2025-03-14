@@ -22,7 +22,6 @@ We provide longer-term support for some projects, such as [Pyrokinetics](https:/
 
 We're also continually involved in the wider open-source community, contributing bugfixes, performance improvements, and new features to projects such as netCDF, [FAIRDataPipeline](https://www.fairdatapipeline.org), and [fortranformat](https://github.com/brendanarnold/py-fortranformat). Our latest community tool is [fortitude](https://github.com/PlasmaFAIR/fortitude), a very fast Fortran linter.
 
-
 # Repository
 https://plasmafair.github.io
 
