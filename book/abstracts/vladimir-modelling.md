@@ -12,7 +12,7 @@ authors:
       - Ioffe Institute of Russian Academy of Sciences
   - name: Igor Gabis
     affiliations:
-      - Ioffe Institute of Russian Academy of Sciences
+      - St Petersburg University
   - name: Vitaliy Efimov
     affiliations:
       - National Research Nuclear University MEPhI
