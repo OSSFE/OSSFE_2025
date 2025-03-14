@@ -23,4 +23,3 @@ This tutorial explains:
 - Information Resources available
 This tutorial is also an introduction to a two day course on Digital Physics and Engineering for Modelling & Simulation
 
-

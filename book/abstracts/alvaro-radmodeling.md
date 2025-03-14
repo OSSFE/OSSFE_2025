@@ -22,7 +22,6 @@ Among the functionalities present in RadModeling there is:
 - Generation of CAD plots identical to those obtained with the MCNP plotter to have a 1:1 pixel comparison.
 - Automatic conversion of toroidal elbows in pipes to a set of cylinders.
 
-
 # Repository
 https://github.com/Fusion4Energy/RadModeling
 

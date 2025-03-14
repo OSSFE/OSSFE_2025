@@ -34,7 +34,6 @@ To address these kinds of challenges, a great number of scripts was produced dur
 
 F4Enix also provides a comprehensive and up-to-date documentation that describes the installation, usage, and API of the package. The documentation is hosted online using Read the Docs, a service that builds and serves the documentation whenever the code is updated. Finally, F4Enix is automatically built and uploaded to the PyPi index every time a new version is tagged, making it available through a simple pip install.
 
-
 # Repository
 https://github.com/Fusion4Energy/F4Enix
 

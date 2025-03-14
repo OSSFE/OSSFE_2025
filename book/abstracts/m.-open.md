@@ -14,7 +14,8 @@ authors:
     affiliations:
       - Research & Technological Innovation Department, Eni S.p.A., 20097 San Donato Milanese (MI), Italy
   - name: R. Zanino
-    affiliations: NEMO group, Dipartimento Energia, Politecnico di Torino, 10129 Torino, Italy
+    affiliations:
+      - NEMO group, Dipartimento Energia, Politecnico di Torino, 10129 Torino, Italy
 license: CC-BY-4.0
 exports:
   - format: pdf

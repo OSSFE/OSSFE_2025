@@ -102,12 +102,11 @@ A series of tutorials will be available to attend for the following packages:
 | T3   | [Improving Reproducibility Through Better Software Practices](abstracts/david-improving.md)                                                    | David Bernholdt    | Oak Ridge National Laboratory                                     |
 | T4   | [Fusion Neutronics Workshop](abstracts/j.-fusion.md)                                                                                           | Jonathan Shimwell  | Proxima Fusion                                                    |
 | T5   | [RadModeling](abstracts/alvaro-radmodeling.md)                                                                                                 | Alvaro Cubi        | Fusion for Energy                                                 |
-| T6   | [Thermavip: an open source framework for multi-sensor data acquisition, processing and visualization](abstracts/victor-thermavip.md)           | Victor Moncada     | CEA                                                               |
-| T7   | [Using WarpX, a general purpose particle-in-cell code  ](abstracts/arianna-using.md)                                                           | Arianna Formenti   | Lawrence Berkeley National Laboratory                             |
-| T8   | [Accelerating Plasma Physics Simulations with Pyccel: A PyGyro Case Study.](abstracts/jalal-accelerating.md)                                   | Jalal Maaouni      | The UM6P Vanguard Center, Morocco                                 |
-| T9   | [OFELIA: Openmc-FEnicsx for muLtiphysics tutorIAl](abstracts/lorenzo-ofelia.md)                                                                | Stefano Riva       | Politecnico di Milano                                             |
-| T10  | [How Software Quality Assurance Standards Can Drive Industry Adoption of Open-Source Codes in Fusion Energy](abstracts/casey-how.md)           | Casey Icenhour     | Idaho National Laboratory                                         |
-| T11  | [FAIR data management for physics and engineering simulation with open-source and commercial codes relevant to Fusion](abstracts/mark-fair.md) | Mark Norris        | openSPDM Ltd                                                      |
+| T6   | [Using WarpX, a general purpose particle-in-cell code  ](abstracts/arianna-using.md)                                                           | Arianna Formenti   | Lawrence Berkeley National Laboratory                             |
+| T7   | [Accelerating Plasma Physics Simulations with Pyccel: A PyGyro Case Study.](abstracts/jalal-accelerating.md)                                   | Jalal Maaouni      | The UM6P Vanguard Center, Morocco                                 |
+| T8   | [How Software Quality Assurance Standards Can Drive Industry Adoption of Open-Source Codes in Fusion Energy](abstracts/casey-how.md)           | Casey Icenhour     | Idaho National Laboratory                                         |
+| T9   | [FAIR data management for physics and engineering simulation with open-source and commercial codes relevant to Fusion](abstracts/mark-fair.md) | Mark Norris        | openSPDM Ltd                                                      |
+| T10  | [OFELIA: Openmc-FEnicsx for muLtiphysics tutorIAl](abstracts/lorenzo-ofelia.md)                                                                | Stefano Riva       | Politecnico di Milano                                             |
 
 
 ## 🗣️ Panel Session: 10:40 - 11:20 (EDT)
