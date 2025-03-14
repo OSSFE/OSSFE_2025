@@ -7,9 +7,6 @@ authors:
   - name: David E. Bernholdt
     affiliations:
       - Oak Ridge National Laboratory
-  - name: Gregory R. Watson
-    affiliations:
-      - Oak Ridge National Laboratory
 license: CC-BY-4.0
 exports:
   - format: pdf
