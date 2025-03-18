@@ -204,11 +204,11 @@ Room: Talk room 2
 
 Number of presentations: 3
 
-| ID   | Title                                                                                                                                       | Presenter            | Institution               |
-|:-----|:--------------------------------------------------------------------------------------------------------------------------------------------|:---------------------|:--------------------------|
-| F1   | [Modeling Fusion Systems With MOOSE-based Capabilities: FENIX (Fusion ENergy Integrated multiphys-X)](abstracts/pierre-clément-modeling.md) | Pierre-Clément Simon | Idaho National Laboratory |
-| F2   | [The Open FUSION Toolkit: An open-source suite of fusion modeling tools for engineering, analysis, and education](abstracts/c.-the.md)      | Christopher Hansen   | Columbia University       |
-| F3   | [TORAX: A Fast and Differentiable Tokamak Transport Simulator in JAX](abstracts/jonathan-torax.md)                                          | Jonathan Citrin      | Google Deepmind           |
+| ID   | Title                                                                                                                                  | Presenter            | Institution               |
+|:-----|:---------------------------------------------------------------------------------------------------------------------------------------|:---------------------|:--------------------------|
+| F1   | [Modeling Magnetic Confinement Fusion Energy Systems with MOOSE-based Capabilities](abstracts/pierre-clément-modeling.md)              | Pierre-Clément Simon | Idaho National Laboratory |
+| F2   | [The Open FUSION Toolkit: An open-source suite of fusion modeling tools for engineering, analysis, and education](abstracts/c.-the.md) | Christopher Hansen   | Columbia University       |
+| F3   | [TORAX: A Fast and Differentiable Tokamak Transport Simulator in JAX](abstracts/jonathan-torax.md)                                     | Jonathan Citrin      | Google Deepmind           |
 
 
 ## 🏆 Awards ceremony and closing remarks: 15:10 - 15:20 (EDT)
