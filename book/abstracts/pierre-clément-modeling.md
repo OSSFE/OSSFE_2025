@@ -1,5 +1,5 @@
 ---
-title: 'Modeling Fusion Systems With MOOSE-based Capabilities: FENIX (Fusion ENergy Integrated multiphys-X)'
+title: 'Modeling Magnetic Confinement Fusion Energy Systems with MOOSE-based Capabilities'
 authors:
   - name: Pierre-Clément A. Simon
     affiliations:
