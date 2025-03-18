@@ -305,7 +305,7 @@ def session_to_time(session_id: str):
 def main():
 
     columns_to_keep = [
-        # "Abstract ID",
+        "Abstract ID",
         "Name",
         "Email",
         "Topic",
