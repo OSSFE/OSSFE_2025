@@ -18,6 +18,7 @@ site:
   template: book-theme
   options:
     logo: assets/OSSFE_logo.png
+    favicon: assets/OSSFE_logo.png
   actions:
     - title: OSSFE website
       url: https://ossfe.github.io/
