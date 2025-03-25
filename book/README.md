@@ -15,9 +15,18 @@ exports:
     template: ../template
 ---
 
-Here you will find the schedule and abstracts for the OSSFE 2025 conference
+# Youtube recordings
+To find all the recordings from the conference please go to [OSSFE-conf@YouTube](https://www.youtube.com/@OSSFE-conf).
+
+Click the video below to start the first recorded talk.
+
+:::{iframe} https://www.youtube.com/watch?v=T40j9SAZJ78&list=PLJ8a1YJxx2xaWwbuqoHIHUeI_xCITB6Ql
+:width: 100%
+OSSFE 2025 YouTube Playlist
+:::
 
 # Schedule
+Here you will find the schedule and abstracts for the OSSFE 2025 conference
 ## 🎉 Welcome statement by the organising committee: 7:00 - 7:10 (EDT)
 
 Room: Talk room 1
