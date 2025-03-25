@@ -1,5 +1,5 @@
 ---
-title: "OSSFE conference 2025 - March 18th"
+title: "Program"
 authors:
   - name: James Dark
     affiliations:

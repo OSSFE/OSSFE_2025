@@ -8,7 +8,6 @@ project:
   authors: []
   # github: https://github.com/OSSFE/OSSFE_2025
   resources:
-    - README.md
     - abstracts
     - bios
   bibliography: []
