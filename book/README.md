@@ -16,7 +16,7 @@ exports:
 ---
 
 # Youtube recordings
-To find all the recordings from the conference please go to [OSSFE-conf@YouTube](https://www.youtube.com/@OSSFE-conf).
+To find all the recordings from the OSSFE 2025 conference please go to [OSSFE-conf@YouTube](https://www.youtube.com/@OSSFE-conf).
 
 Click the video below to start the first recorded talk.
 :::{iframe} https://www.youtube.com/watch?v=T40j9SAZJ78&list=PLJ8a1YJxx2xaWwbuqoHIHUeI_xCITB6Ql
