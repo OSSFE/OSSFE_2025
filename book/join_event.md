@@ -7,7 +7,7 @@ exports:
 ---
 
 
-# Join the Even
+# Join the Event
 Please visit our Gather Town event landing page to join the event: [Gather Town Event](https://app.gather.town/events/TUHZmJy7THyTSP8i-wnq)
 
 If you registered for the event, you should be able to access the event using the email address you used to register. Don't hesitate to try it out before the event starts!
